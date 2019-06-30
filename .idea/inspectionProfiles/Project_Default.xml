@@ -1,0 +1,57 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="CssUnknownProperty" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myCustomPropertiesEnabled" value="true" />
+      <option name="myIgnoreVendorSpecificProperties" value="false" />
+      <option name="myCustomPropertiesList">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="align" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="5">
+            <item index="0" class="java.lang.String" itemvalue="async" />
+            <item index="1" class="java.lang.String" itemvalue="data-toggle" />
+            <item index="2" class="java.lang.String" itemvalue="allow" />
+            <item index="3" class="java.lang.String" itemvalue="allowfullscreen" />
+            <item index="4" class="java.lang.String" itemvalue="data-parent" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="18">
+            <item index="0" class="java.lang.String" itemvalue="nobr" />
+            <item index="1" class="java.lang.String" itemvalue="noembed" />
+            <item index="2" class="java.lang.String" itemvalue="comment" />
+            <item index="3" class="java.lang.String" itemvalue="noscript" />
+            <item index="4" class="java.lang.String" itemvalue="embed" />
+            <item index="5" class="java.lang.String" itemvalue="script" />
+            <item index="6" class="java.lang.String" itemvalue="main" />
+            <item index="7" class="java.lang.String" itemvalue="picture" />
+            <item index="8" class="java.lang.String" itemvalue="source" />
+            <item index="9" class="java.lang.String" itemvalue="section" />
+            <item index="10" class="java.lang.String" itemvalue="brr" />
+            <item index="11" class="java.lang.String" itemvalue="dt" />
+            <item index="12" class="java.lang.String" itemvalue="li" />
+            <item index="13" class="java.lang.String" itemvalue="b10" />
+            <item index="14" class="java.lang.String" itemvalue="b5" />
+            <item index="15" class="java.lang.String" itemvalue="input-work" />
+            <item index="16" class="java.lang.String" itemvalue="figure" />
+            <item index="17" class="java.lang.String" itemvalue="b25" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+  </profile>
+</component>
