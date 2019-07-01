@@ -258,9 +258,10 @@
     <section id="sec-research">
 
         <!--dropdown buttons-->
-        <div style="text-align: center">
+        <div style="text-align: center; position: relative" id="sec-content">
             <div class="dropdown">
-                <button class="dropbtn" title="under development">Contents</button>
+                <button class="dropbtn"><span
+                        class="fa fa-list-ul"></span> Contents</button>
                 <div class="dropdown-content">
                     <a href="#work-progress">Work in Progress</a>
                     <a href="#blog-list">List of Blogs</a>
@@ -270,7 +271,8 @@
         </div>
 
         <div>
-            <h2 class="title-grey" id="work-progress">Work in Progress</h2>
+            <h2 class="title-grey" id="work-progress" style="text-align: center">Work in Progress</h2>
+            <hr class="mid-half">
             <p>List of projects on which I am currently working on.</p>
 
             <b10></b10>
@@ -283,8 +285,7 @@
                 In this work, we present robust implementation of finite element approximation for nonlocal fracture
                 models. Numerical results are provided for linear continuous finite
                 element approximation to verify the convergence rate. Special care is taken to compute
-                the nonlocal force at a material point accurately and easy to implement method is
-                presented to compute nonlocal forces accurately.
+                the nonlocal force at a material point accurately. Numerical results are compared with experimental results.
             </p>
 
             <b10></b10>
@@ -298,6 +299,20 @@
                 We show that the model is well posed and solution exists in \(L^2\). In the limit of vanishing
                 nonlocality, we obtain the \(\Gamma\)-limit of peridynamic energy.
             </p>
+
+            <b10></b10>
+            <li class="work-title">
+                Fracture as an emergent phenomena: The relation of nonlocal cohesive models to classic dynamic fracture
+                models. Prashant K. Jha and Robert Lipton. Estimated time to
+                complete: September-December 2019.
+            </li>
+            <b5></b5>
+            <p>
+                We show that regularized nonlinear peridynamic model converges to classical fracture mechanics in the
+                limit nonlocal length scale goes to zero. Limiting displacement field is shown to satisfy the
+                elastodynamics equation away from crack, and zero traction condition on crack line. Numerical results
+                are provided in support of the theoretical arguments.
+            </p>
         </div>
 
         <!-- ++++++++++++++++++++++++++++++++++++ -->
@@ -307,79 +322,211 @@
         <b10></b10>
         <div>
 
-            <h2 class="title-grey">Showcase of Research Work</h2>
+<!--            <h2 class="title-grey">Showcase of Research Work</h2>-->
 
             <!--list of blogs-->
-            <div style="text-align: center">
-                <hr class="mid-half">
-                <h3 id="blog-list" class="work-title"><span class="fa fa-pencil"></span> List of Blogs</h3>
-                <p><a class="work-list" href="#work1" title="click to jump to details">Peridynamics: Brief
-                    introduction</a></p>
-                <p><a class="work-list" href="#work2" title="click to jump to details">Numerical analysis of finite
-                    difference approximation of
-                    bond-based models</a></p>
-                <p><a class="work-list" href="#work3" title="click to jump to details">Numerical results to verify the
-                    convergence rate</a></p>
-                <p><a class="work-list" href="#work4" title="click to jump to details">Quadrature based finite element
-                    approximation</a></p>
-                <p><a class="work-list" href="#work5" title="click to jump to details">Numerical analysis of finite
-                    element approximation and existence of solutions in Sobolev space</a></p>
-                <p><a class="work-list" href="#work6" title="click to jump to details">Free damage with propagation:
-                    Damage model with memory</a></p>
-                <hr class="mid-half">
+            <div>
+                <div style="text-align: center">
+                    <h3 id="blog-list" class="work-title"><span class="fa fa-pencil"></span> Showcase of Research Work
+                    </h3>
+                    <hr class="mid-half">
+                    <p><a class="work-list" href="#work1" title="click to jump to details">Peridynamics: Brief
+                        introduction</a></p>
+                    <p><a class="work-list" href="#work2" title="click to jump to details">Numerical analysis of finite
+                        difference approximation of bond-based peridynamics models</a></p>
+                    <p><a class="work-list" href="#work3" title="click to jump to details">Numerical results to verify
+                        the
+                        convergence rate</a></p>
+                    <p><a class="work-list" href="#work4" title="click to jump to details">Quadrature based finite
+                        element
+                        approximation</a></p>
+                    <p><a class="work-list" href="#work5" title="click to jump to details">Numerical analysis of finite
+                        element approximation and existence of solutions in Sobolev space</a></p>
+                    <p><a class="work-list" href="#work6" title="click to jump to details">Free damage with propagation:
+                        Damage model with memory</a></p>
+                </div>
+            </div>
+            <hr>
+
+            <b25></b25>
+            <div id="work-notat">
+                <div>
+                    <p class="work-title-2" style="text-align: center">
+                        Nomenclature
+                    </p>
+                    <b15></b15>
+                </div>
+
+                <div class="table-style">
+                    <table>
+                        <col width="30%">
+                        <col width="70%">
+                        <tr>
+                            <td class="table-title">Symbol</td>
+                            <td class="table-title">Description</td>
+                        </tr>
+                        <tr>
+                            <td>\(D\)</td>
+                            <td>Material domain</td>
+                        </tr>
+                        <tr>
+                            <td>\(d = 1,2,3\)</td>
+                            <td>Dimension</td>
+                        </tr>
+                        <tr>
+                            <td>\([0,T]\)</td>
+                            <td>Time domain where \( T > 0\)</td>
+                        </tr>
+                        <tr>
+                            <td>\(\epsilon \)</td>
+                            <td>Nonlocal length scale, horizon</td>
+                        </tr>
+                        <tr>
+                            <td>\(x,y\)</td>
+                            <td>Typical material points (in reference configuration)</td>
+                        </tr>
+                        <tr>
+                            <td>\(u\)</td>
+                            <td>Displacement field</td>
+                        </tr>
+                        <tr>
+                            <td>\(\dot{u}, \partial_t u\)</td>
+                            <td>Both denotes time derivative of displacement, i.e. velocity</td>
+                        </tr>
+                        <tr>
+                            <td>\(\rho\)</td>
+                            <td>Density</td>
+                        </tr>
+                        <tr>
+                            <td>\(S, S(y,x)\)</td>
+                            <td>Linearized bond strain</td>
+                        </tr>
+                        <tr>
+                            <td>\(B_\epsilon(x)\)</td>
+                            <td>Ball of radius \(\epsilon \) centered at \(x\) in dimension \(d\)</td>
+                        </tr>
+                        <tr>
+                            <td>\(|B_\epsilon(x)|\)</td>
+                            <td>Volume (area in 2-d, length in 1-d) of ball</td>
+                        </tr>
+                        <tr>
+                            <td>\(\partial D\)</td>
+                            <td>Boundary of domain \(D\)</td>
+                        </tr>
+                        <tr>
+                            <td>\(dist(x,\partial D)\)</td>
+                            <td>Distance of point \(x\) from boundary of domain \(D\)</td>
+                        </tr>
+                        <tr>
+                            <td>\(-\nabla PD^\epsilon(u)(x) \)</td>
+                            <td>Peridynamics force at point \(x\)</td>
+                        </tr>
+                        <tr>
+                            <td>\(f\)</td>
+                            <td>Smooth, concave and positive function used in nonlinear peridynamic
+                                model. Example: \( f(r) = C(1- \exp[-\beta r]) \)</td>
+                        </tr>
+                        <tr>
+                            <td>\(J^\epsilon(r)\)</td>
+                            <td>Influence function which is zero outside for \( r\geq \epsilon\). Example: \(
+                                J^\epsilon(r) =1 \) and \(J^\epsilon(r) = 1 - \frac{r}{\epsilon} \)
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>\(\omega\)</td>
+                            <td>Boundary function which takes value 1 for points in \(D\) at least \(\epsilon\)
+                                away and zero on the boundary</td>
+                        </tr>
+                        <tr>
+                            <td>\(W, W(S, y-x)\)</td>
+                            <td>Bond energy density given by \(\frac{J^\epsilon(|y-x|)}{\epsilon|y-x|} f(|y-x|S^2)
+                                \)</td>
+                        </tr>
+                    </table>
+                </div>
             </div>
 
             <!-- Introduction to peridynamics theory -->
             <b10></b10>
+            <hr>
             <div id="work1">
-                <li class="work-title-2">
-                    Peridynamics: Brief introduction
-                </li>
-                <b5></b5>
+                <div>
+                    <p class="work-title-2" style="text-align: center">
+                        Peridynamics: Brief introduction
+                    </p>
+                    <b15></b15>
+                </div>
                 <p>
-                    Let \(D\) be the material domain and \(d=1,2,3\) be the dimension. Time domain is \([0,T]\). Let
+                    Let \(D\) be the material domain, \(d=1,2,3\) be the dimension, and \([0,T]\) is time domain. Let
                     \(\epsilon\) be the size of horizon which controls the nonlocal interaction of a material point with
-                    its
-                    neighboring material points. If \(u : D\to \mathbf{R}^d\) is the displacement and \(x,y \in D\) two
-                    material points, then we define linearized strain of the bond between \(y\) and \(x\) as
+                    its neighboring material points. If \(u : D\to \mathbf{R}^d\) is a displacement field and \(x,y \in
+                    D\) are two material points, then the stretch of the bond between two material points can be
+                    defined as
+                    $$
+                    s(y,x;u) = \frac{|u(y) + y - u(x) - x|}{|y-x|}.
+                    $$
+                    Assuming that the displacement is very small compared to material domain, we can linearize above
+                    equation and get linearized strain of the bond
                     $$
                     S(y,x;u) = \frac{u(y) - u(x)}{|y-x|} \cdot \frac{y-x}{|y-x|}.
                     $$
                     Let \(-\nabla PD^\epsilon(u)(x)\) denote the peridynamics force at point \(x\) corresponding to
-                    displacement field \(u\). We can write down the equation of evolution of displacement field \(u:
-                    [0,T]\times D \to \mathbf{R}^d\) as follows
+                    displacement field \(u\). If it was linear elastic material, the force at point \(x\) would be
+                    given by \(-\nabla\cdot\nabla \sigma(x) \). With peridynamic force \(-\nabla
+                    PD^\epsilon(u)(x)\), the evolution equation for displacement field \(u:
+                    [0,T]\times D \to \mathbf{R}^d\) is given by
                     $$
                     \rho \ddot{u}(t,x) = -\nabla PD^\epsilon(u(t))(x) + b(t,x)
                     $$
                     where \(u(t)\) denotes the function over \(D\) at time \(t\), \(\rho\) is the density, and \(b\) is
-                    the
-                    body force. Equation is complemented by initial condition \(u(0,x) = u_0(x)\) and \(\dot{u}(0,x) =
-                    v_0(x)\). Boundary condition \(u=0\) is specified over nonlocal boundary \(D_c:= \{ x\in D:
-                    \text{dist}(x,\partial D) \leq \epsilon \}\).
+                    the body force. Equation is complemented by the initial conditions \(u(0,x) = u_0(x)\) and
+                    \(\dot{u}(0,x) = v_0(x)\) and boundary condition \(u=0\) over nonlocal boundary
+                    \(D_c:= \{ x\in D: \text{dist}(x,\partial D) \leq \epsilon \}\).
                 <p>
 
+                <p>
+                    Linear bond-based peridynamics force is of the form
+                    $$
+                    -\nabla PD^\epsilon(u)(x) = \frac{2}{|B_\epsilon(x)|} \int_{B_\epsilon(x)} \hat{f}(y-x, u(y) - u(x))
+                    \frac{y-x}{|y-x|} dy,
+                    $$
+                    where \( \hat{f}(y-x, u(y) - u(x)) \) is the scalar bond force between point \(x,y\). Note that the
+                    force between bond is always along the bond vector \(\frac{y-x}{|y-x|}\). Bond force \(\hat{f}\) is
+                    a function of vector \( y -x\) and \( u(y) - u(x) \). PMB (prototypical microelastic brittle)
+                    material, introduced in <a
+                        href="https://www.sciencedirect.com/science/article/pii/S0022509699000290">Silling 2000</a>,
+                    considers force \(\hat{f} \) of the form
+                    $$
+                    \hat{f}(\xi, \eta) = \mu(s) \frac{c}{\epsilon |B_\epsilon(0)|} s,
+                    $$
+                    where \( \xi = y-x, \eta = u(y) - u(x), s = S(y,x;u) \). Function \( \mu(s) \) is the bond-breaking
+                    function. If strain exceeds critical value \( s_0\), \( \mu(s) = 0 \), otherwise \(\mu(s) = 1 \).
+                This is the most commonly used force in Peridynamics.
+                </p>
             </div>
 
             <!-- finite difference approximation -->
             <b10></b10>
+            <hr>
             <div id="work2">
-                <li class="work-title-2">
-                    Numerical analysis of finite difference approximation of bond-based models
-                </li>
-                <b5></b5>
+                <div>
+                    <p class="work-title-2" style="text-align: center">
+                        Numerical analysis of finite difference approximation of bond-based peridynamics models
+                    </p>
+                    <b15></b15>
+                </div>
                 <p>
-                    We consider bond-based model proposed in <b><a
-                        href="https://link.springer.com/article/10.1007/s10659-013-9463-0">Lipton 2014</a></b> and <b><a
-                        href="https://link.springer.com/article/10.1007/s10659-015-9564-z">Lipton 2016</a></b>.
-                    Peridynamics
-                    force is of the form
+                    We consider bond-based model proposed in <a
+                        href="https://link.springer.com/article/10.1007/s10659-013-9463-0">Lipton 2014</a> and <a
+                        href="https://link.springer.com/article/10.1007/s10659-015-9564-z">Lipton 2016</a>.
+                    Peridynamics force is of the form
                     $$
                     -\nabla PD^\epsilon(u)(x) = \frac{2}{|B_\epsilon(x)|} \int_{B_\epsilon(x)} \partial_S
                     W^\epsilon(S(u),
                     y-x) \frac{y-x}{|y-x|} dy,
                     $$
-                    where \(B_\epsilon(x)\) is the ball of radius \(\epsilon\). Potential \(W^\epsilon(S,y-x)\) as a
-                    function of bond-strain \(S\) and bond vector \(y-x\) is given by
+                    where \(B_\epsilon(x)\) is the ball of radius \(\epsilon\). Potential \(W^\epsilon(S,y-x)\) is a
+                    function of bond-strain \(S\) and bond vector \(y-x\) and is given by
                     $$
                     W^\epsilon(S,y-x) = \frac{1}{\epsilon |y-x|} J^\epsilon(|y-x|) f(|y-x|S^2),
                     $$
@@ -401,12 +548,15 @@
                     f'(|y-x|S(y,x;u)^2) S(y,x;u) \frac{y-x}{|y-x|} dy.
                     $$
                     For existence in regular spaces like H&oumllder space and Hilbert spaces, we also need to introduce
-                    another function \(\omega(x): D\cup D_c \to \mathbf{R}\) in potential \(W^\epsilon\). This function
+                    another function \(\omega(x): D \to \mathbf{R}\) in potential \(W^\epsilon\). This function
                     takes value \(1\) in the interior of domain \(D\) and smoothly decays from \(1\) to \(0\) as we
                     approach
-                    boundary \(\partial D\) from interior. It takes value \(0\) outside \(D\). To keep presentation
-                    simple,
-                    we omit this fact and consider simpler form of peridynamic potential and force.
+                    boundary \(\partial D\) from interior. It takes value \(0\) outside \(D\). See <a
+                        href="https://doi.org/10.1137/17M1112236">Jha and Lipton 2018a</a>
+                    and <a
+                        href="https://arxiv.org/abs/1710.07661">Jha and Lipton 2018b</a> for more details. To keep
+                    presentation simple, we omit this fact and consider peridynamic potential and force without
+                    boundary function \( \omega \).
                 </p>
 
                 <div class="panel-group" id="hp2">
@@ -420,10 +570,9 @@
                         <div id="finite_difference_expand" class="panel-collapse collapse">
                             <div class="panel-body">
                                 <p>
-                                    The model is nonlinear and is regularized version of prototypical micro-elastic bond
-                                    material (PMB). See below where we show force response of a bond for given strain
-                                    for
-                                    the nonlinear model as well as PMB material.
+                                    The model is nonlinear and is regularized version of prototypical micro-elastic
+                                    brittle material (PMB). See below where we show force response of a bond for
+                                    given strain for the nonlinear model as well as PMB material.
                                 </p>
 
                                 <figure>
@@ -442,15 +591,11 @@
 
                                 <p>
                                     We consider H&oumllder space for numerical analysis. This choice of space is
-                                    suitable
-                                    for two reasons: one, it admits solution with discontinuity, and two, for nonlocal
+                                    suitable for two reasons: one, it admits solution with discontinuity, and two, for nonlocal
                                     models it makes the estimation of errors easier. We first show existence of
-                                    solutions
-                                    (<b><a href="https://epubs.siam.org/doi/10.1137/17M1112236">Jha and Lipton 2017a</a></b>)
-                                    in H&oumllder space \(C^{0,\gamma}(D;\mathbf{R}^d)\), where \(D\) is the material
-                                    domain, \(d\) is the dimension, \(\gamma\) is the H&oumllder exponent taking values
-                                    in
-                                    \((0,1]\).
+                                    solutions (<a href="https://epubs.siam.org/doi/10.1137/17M1112236">Jha and Lipton
+                                2018a</a>) in H&oumllder space \(C^{0,\gamma}(D;\mathbf{R}^d)\), where \(\gamma\) is the
+                                H&oumllder exponent taking values in \((0,1]\).
                                 </p>
 
                                 <div class="theorem" text='Existence of solution'>
@@ -465,7 +610,7 @@
                                 </div>
 
                                 <p>
-                                    We can write finite difference approximation as follows
+                                    We can write the finite difference approximation as follows
                                     $$
                                     \frac{\hat{u}^{k+1}_i - \hat{u}^k_i}{\Delta t} = \hat{v}^{k+1}_i
                                     $$
@@ -476,16 +621,14 @@
                                     + b^k_i ,
                                     $$
                                     where \(u^k_i, v^k_i\) is the approximate solution at time \(t^k = k\Delta t\) and
-                                    \(x_i
-                                    = ih \in D\). \(\Delta t\) is the size of time step and \(h\) is the mesh size.
-                                    \(D_h =
-                                    D\cap h\mathbf{Z}\) denotes the uniform discretization of domain. We denote
-                                    piecewise
-                                    constant extension of discrete set \(\{u^k_i\}_i\) as \(u^k_h\) and is given by
+                                    \(x_i = ih \in D\). \(\Delta t\) is the size of time step and \(h\) is the mesh size.
+                                    \(D_h = D\cap h\mathbf{Z}\) denotes the uniform discretization of domain. We denote
+                                    the piecewise constant extension of discrete set \(\{u^k_i\}_i\) as \(u^k_h\). It
+                                    is defined as
                                     $$
                                     u^k_h(x) = \sum_{i, x_i \in D} u^k_i \chi_{U_i}(x),
                                     $$
-                                    where \(U_i\) is the unit cell associated to node \(i\) and \(chi_{A}\) is the
+                                    where \(U_i\) is the unit cell associated to node \(i\) and \(\chi_{A}\) is the
                                     characteristics function which returns value \(1\) for points inside set \(A\) and
                                     \(0\)
                                     otherwise.
@@ -531,45 +674,34 @@
 
             <!-- finite difference approximation: numerical verification -->
             <b10></b10>
+            <hr>
             <div id="work3">
-                <li class="work-title-2">
-                    Numerical results to verify the convergence rate
-                </li>
-                <b5></b5>
+                <div>
+                    <p class="work-title-2" style="text-align: center">
+                        Numerical results to verify the convergence rate
+                    </p>
+                    <b15></b15>
+                </div>
                 <p>
-                    In upcoming paper, we discuss the implementation of finite difference approximation of peridynamics
-                    model using HPX framework. We also provide the numerical results and show convergence rate of
-                    approximation. Before we present few results, let us discuss the calculation of convergence rate
-                    without
-                    the exact solutions. This has also been discussed in <b><a
-                        href="http://onlinelibrary.wiley.com/doi/10.1002/nme.5791/full">Jha and Lipton 2017b</a></b>.
+                    We discuss the implementation of finite difference approximation of peridynamics
+                    model using HPX framework in <a href="https://arxiv.org/abs/1806.06917">Diehl et al 2018</a>.
+                    Before presenting results, we describe the estimation of convergence rate
+                    without the exact solution.
                     Consider three mesh sizes \(\{h_1,h_2,h_3\}\) with \(r = h_1/h_2 = h_2/h_3 > 1\). Let \(u_{h_i}\)
-                    for
-                    \(i=1,2,3\) be the approximate solution corresponding to three mesh sizes and let \(u_{exact}\) be
-                    the
-                    exact solution (possibly not known). Assuming that error behaves like \(||u_h - u_{exact}||_{L^2}
-                    \leq C
-                    h^\alpha\) where \(\alpha\) is the rate of convergence, we have
+                    for \(i=1,2,3\) be the approximate solution corresponding to three mesh sizes and let
+                    \(u_{exact}\) be the exact solution (possibly not known). We suppose for \( h' < h \) that \(
+                    \underline{C} h^\alpha \leq ||u_h - u_{h'}||_{L^2} = \bar{C} h^\alpha \) with \( \underline{C} \leq
+                    \bar{C} \) and \( \alpha > 0\). A straight forward calculation gives
                     $$
-                    ||u_{h_1} - u_{h_2}||_{L^2} \leq ||u_{h_1} - u_{exact}||_{L^2} + ||u_{exact} - u_{h_2}||_{L^2} \leq
-                    C(1+r^\alpha) h_2^\alpha.
+                    \alpha \leq \frac{\log(||u_{h_1} - u_{h_2}||_{L^2}) - \log(||u_{h_2} - u_{h_3}||_{L^2}) +
+                    \log(\bar{C}) - \log(\underline{C})}{\log(r)}
                     $$
-                    After taking logarithm of above, we find
+                    so an upper bound on the convergence rate is at least as big as
                     $$
-                    \log (||u_{h_1} - u_{h_2}||_{L^2}) \leq \bar{C} + \alpha \log (h_2),
+                    b = \frac{\log(||u_{h_1} - u_{h_2}||_{L^2}) - \log(||u_{h_2} - u_{h_3}||_{L^2})}{\log(r)}.
                     $$
-                    where \(\bar{C} = \log(C) + \log (1+ r^\alpha) \). Similar expression can be derived for \(||u_{h_2}
-                    -
-                    u_{h_3}||_{L^2}\), i.e.
-                    $$
-                    \log (||u_{h_2} - u_{h_3}||_{L^2}) \leq \bar{C} + \alpha \log (h_3),
-                    $$
-                    Eliminating \(\bar{C} \), we find that the rate of convergence \(\alpha\) is bounded below by
-                    $$
-                    \frac{\log(||u_{h_1} - u_{h_2}||_{L^2}) - \log(||u_{h_2} - u_{h_3}||_{L^2})}{\log(r)}.
-                    $$
-                    Therefore, using above formula, we can compute the lower bound on rate of convergence without any
-                    knowledge of exact solution.
+                    \( b\) provides an estimate for rate of convergence \( \alpha \). Once we have results \( u_1,
+                    u_2, u_3\) for three mesh sizes, we can compute \( b\).
                 </p>
 
                 <div class="panel-group" id="hp3">
@@ -609,11 +741,8 @@
                                 </p>
                                 <p>
                                     Below is the plot of lower bound on rate of convergence at different times up to
-                                    time
-                                    \(T = 2.0\). We compare the results from theorem and find that convergence rate is
-                                    mostly above \(1\) for most of the time. Fluctuations are expected as this is
-                                    dynamics
-                                    result.
+                                    time \(T = 2.0\). It is a dynamics problem so we see some fluctuation in the rate
+                                    plot, however, we note that rate is mostly above theoretical value of \( 1\).
                                 </p>
 
                                 <figure>
@@ -632,20 +761,19 @@
 
             <!-- quadrature based finite element approximation -->
             <b10></b10>
+            <hr>
             <div id="work4">
-                <li class="work-title-2">
-                    Quadrature based finite element approximation
-                </li>
-                <b5></b5>
+                <div>
+                    <p class="work-title-2" style="text-align: center">
+                        Quadrature based finite element approximation
+                    </p>
+                    <b15></b15>
+                </div>
                 <p>
                     In <b><a href="http://onlinelibrary.wiley.com/doi/10.1002/nme.5791/full">Jha and Lipton
-                    2017b</a></b>,
-                    we analyze quadrature based finite element approximation in one dimension. We present numerical
-                    results
-                    to verify the convergence rate. Before we discuss the numerical approximation, we present the result
-                    which shows that in the limit of size of horizon going to zero, the solution of peridynamics
-                    equation
-                    converges to the solution of elastodynamics equation.
+                    2018</a></b>, we analyzed the quadrature based finite element approximation in one dimension. We
+                    present some of the key results of the work here. We first show that in the limit \( \epsilon \to
+                    0\), the solution of peridynamics equation converges to the solution of elastodynamics equation.
                 </p>
 
                 <div class="panel-group" id="hp4">
@@ -658,9 +786,12 @@
                         </div>
                         <div id="quadrature_based_fe_expand" class="panel-collapse collapse">
                             <div class="panel-body">
-                                <p class="work-title">
-                                    1. Convergence of peridynamics solution in the limit size of horizon going to zero
-                                </p>
+                                <div style="text-align: center">
+                                    <p class="work-title">
+                                        1. Convergence of peridynamics solution in the limit size of horizon going to
+                                        zero
+                                    </p>
+                                </div>
 
                                 <p>
                                     Recall that \(-\nabla PD^\epsilon(u)(x)\) denotes the peridynamic force. Let
@@ -740,10 +871,11 @@
                                     time \(t \in [0,T]\).
                                 </div>
 
-                                <p class="work-title">
-                                    2. Numerical scheme
-                                </p>
-
+                                <div style="text-align: center">
+                                    <p class="work-title">
+                                        2. Numerical scheme
+                                    </p>
+                                </div>
                                 <p>
                                     Let \(h\) be the size of mesh, \(\Delta t\) be the size of time steps, \(D_h = D\cap
                                     h\mathbf{Z}\) and \(D_{c,h} = D_c \cap h\mathbf{Z}\) be the discretization of
@@ -832,10 +964,11 @@
                                     \(D_c\).
                                 </p>
 
-                                <p class="work-title">
-                                    3. Convergence of numerical scheme
-                                </p>
-
+                                <div style="text-align: center">
+                                    <p class="work-title">
+                                        3. Convergence of numerical scheme
+                                    </p>
+                                </div>
                                 <p>
                                     We have following results which estimate the difference between exact peridynamics
                                     force
@@ -873,10 +1006,11 @@
                                     $$
                                 </div>
 
-                                <p class="work-title">
-                                    4. Stability of central difference approximation and CFL condition
-                                </p>
-
+                                <div style="text-align: center">
+                                    <p class="work-title">
+                                        4. Stability of central difference approximation and CFL condition
+                                    </p>
+                                </div>
                                 <p>
                                     For linearized peridynamics, we can show using the properties of matrix \(A\) the
                                     stability of central difference scheme and also obtain the explicit CFL condition
@@ -892,10 +1026,11 @@
                                     Recall that \(\mathbb{C}\) is given by \(f'(0) \int_{-1}^{1} J(|z|) |z|dz \).
                                 </div>
 
-                                <p class="work-title">
-                                    5. Numerical results
-                                </p>
-
+                                <div style="text-align: center">
+                                    <p class="work-title">
+                                        5. Numerical results
+                                    </p>
+                                </div>
                                 <p>
                                     Let domain is \(D=(0,1)\), size of horizon \(\epsilon = 0.01\), time domain
                                     \([0,0.5]\),
@@ -979,11 +1114,14 @@
 
             <!-- finite element analysis -->
             <b10></b10>
+            <hr>
             <div id="work5">
-                <li class="work-title-2">
-                    Numerical analysis of finite element approximation and existence of solutions in Sobolev space
-                </li>
-                <b5></b5>
+                <div>
+                    <p class="work-title-2" style="text-align: center">
+                        Numerical analysis of finite element approximation and existence of solutions in Sobolev space
+                    </p>
+                    <b15></b15>
+                </div>
                 <p>
                     In <b><a href="https://arxiv.org/abs/1710.07661">Jha and Lipton 2017c</a></b>, we analyze finite
                     element
@@ -1002,10 +1140,11 @@
                         </div>
                         <div id="finite_element_expand" class="panel-collapse collapse">
                             <div class="panel-body">
-                                <p class="work-title">
-                                    1. Existence of solution in \(H^2(D;\mathbf{R}^d)\cap L^\infty(D;\mathbf{R}^d)\)
-                                </p>
-
+                                <div style="text-align: center">
+                                    <p class="work-title">
+                                        1. Existence of solution in \(H^2(D;\mathbf{R}^d)\cap L^\infty(D;\mathbf{R}^d)\)
+                                    </p>
+                                </div>
                                 <p>
                                     We prove Lipschitz bound on peridynamics force, see <b><a
                                         href="https://arxiv.org/abs/1710.07661">[Theorem 3.1, Jha and Lipton 2017c]</a></b>
@@ -1031,10 +1170,11 @@
                                     Lipschitz continuous in time for \(t\in I_0\).
                                 </div>
 
-                                <p class="work-title">
-                                    2. Finite element approximation
-                                </p>
-
+                                <div style="text-align: center">
+                                    <p class="work-title">
+                                        2. Finite element approximation
+                                    </p>
+                                </div>
                                 <p>
                                     Let \(V_h\) be the approximation of \(H^2_0(D;\mathbf{R}^d)\) associated to the
                                     linear
@@ -1068,10 +1208,11 @@
                                     force \(b(t^k)\).
                                 </p>
 
-                                <p class="work-title">
-                                    2.1 Stability of central difference approximation of linearized peridynamics
-                                </p>
-
+                                <div style="text-align: center">
+                                    <p class="work-title">
+                                        2.1 Stability of central difference approximation of linearized peridynamics
+                                    </p>
+                                </div>
                                 <p>
                                     We define linearized peridynamics force \(-\nabla PD^\epsilon_l(u)\) by replacing
                                     nonlinear term \(f'(|y-x|S(u)^2)\) with \(f'(0)\). It is given by
@@ -1117,10 +1258,11 @@
                                     $$
                                 </div>
 
-                                <p class="work-title">
-                                    2.2 Convergence of approximation
-                                </p>
-
+                                <div style="text-align: center">
+                                    <p class="work-title">
+                                        2.2 Convergence of approximation
+                                    </p>
+                                </div>
                                 <p>
                                     We have following result which shows order of \(\Delta t + h^2/\epsilon^2\)
                                     convergence.
@@ -1156,11 +1298,14 @@
 
             <!-- Damage model with history -->
             <b10></b10>
+            <hr>
             <div id="work6">
-                <li class="work-title-2">
-                    Free damage with propagation: Damage model with memory
-                </li>
-                <b5></b5>
+                <div>
+                    <p class="work-title-2" style="text-align: center">
+                        Free damage with propagation: Damage model with memory
+                    </p>
+                    <b15></b15>
+                </div>
                 <p>
                     In <b><a href="https://link.springer.com/article/10.1007/s10659-018-9672-7">Lipton et al
                     2017d</a></b>,
@@ -1246,10 +1391,11 @@
                         </div>
                         <div id="damage_expand" class="panel-collapse collapse">
                             <div class="panel-body">
-                                <p class="work-title">
-                                    1. Shear loading
-                                </p>
-
+                                <div style="text-align: center">
+                                    <p class="work-title">
+                                        1. Shear loading
+                                    </p>
+                                </div>
                                 <p>
                                     We consider generic values of various parameters in the model and apply shear
                                     loading to
@@ -1283,10 +1429,11 @@
                                             style="border:1px solid #CCC; border-width:1px; margin-bottom:10px; max-width: 100%;"></iframe>
                                 </p>
 
-                                <p class="work-title">
-                                    2. Bending loading
-                                </p>
-
+                                <div style="text-align: center">
+                                    <p class="work-title">
+                                        2. Bending loading
+                                    </p>
+                                </div>
                                 <p>
                                     We apply three-point and four-point bending load on beam of length \(1\) and width
                                     \(0.15\). Beam is supported at two points in bottom. In case of three-point loading,
@@ -1418,8 +1565,8 @@
                 Numerical convergence of finite difference approximations for state based peridynamic fracture models.
                 Prashant K. Jha and Robert Lipton. Computer Methods in Applied Mechanics and Engineering, 1 July 2019,
                 351(1), 184 - 225, <a
-                    href="https://doi.org/10.1007/s10659-018-9672-7">DOI</a>. <a
-                    href="files/pubs/JElasticity_free_damage_propagation.pdf">Print pdf</a>.
+                    href="https://doi.org/10.1016/j.cma.2019.03.024">DOI</a>. <a
+                    href="files/pubs/CMAME_finite_difference_state_based.pdf">Print pdf</a>.
             </p>
 
             <p class="work-title-3">

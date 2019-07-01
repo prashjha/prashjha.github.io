@@ -22,7 +22,7 @@ html, body {
 }
 
 body {
-  font: 15px/1 'Helvetica', sans-serif;
+  font: 15px/1 'Open Sans', sans-serif;
   /*color: #555;*/
   /*background: radial-gradient(circle, red, yellow, green) url("../images/bgs/bg.png");*/
     background: #fbf7ff url("../images/bgs/bg.png");
@@ -82,6 +82,51 @@ b25 {
   content: " " !important;
   display: block !important;
   margin:25px;
+}
+
+
+a:hover {
+    color: blue;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:hover {
+    color: red;
+    background-color: lightgrey;
+}
+
+.table-style {
+    overflow-y:auto;
+    height: 250px;
+    color: #5a6465;
+    font-weight: bold;
+    /*font-family: "Courier New", Courier, monospace;*/
+    font-size: 120%;
+}
+
+.table-title {
+    color: #5a6465;
+    font-weight: normal;
+    /*font-family: "Courier New", Courier, monospace;*/
+    font-size: 150%;
+}
+
+.table-entry {
+    color: #5a6465;
+    font-weight: bold;
+    /*font-family: "Courier New", Courier, monospace;*/
+    font-size: 120%;
 }
 
 main {
@@ -222,12 +267,6 @@ input:checked + label {
     font-family: Georgia, serif;
     /*font-weight: bold;*/
     font-size: 18px;
-}
-
-a:hover {
-    color: blue;
-    cursor: pointer;
-    text-decoration: none;
 }
 
 /* horizontal ruler */
@@ -392,11 +431,15 @@ social-small {
 
 /* Dropdown buttons */
 .dropbtn {
-    /*background-color: #4CAF50;*/
-    /*color: white;*/
-    /*padding: 16px;*/
-    font-size: 16px;
-    border: none;
+    background-color: transparent;
+    color: #c37669ff;
+    padding-top: 10px;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-bottom: 10px;
+    font-size: 150%;
+    font-weight: 600;
+    border: 1px solid transparent;
 }
 
 /* The container <div> - needed to position the dropdown content */
@@ -408,29 +451,34 @@ social-small {
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
     display: none;
-    position: absolute;
+    position: relative;
     background-color: #f1f1f1;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0 20px 50px 10px rgba(0,0,0,0.2);
     z-index: 1;
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
     color: black;
-    padding: 12px 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-decoration: none;
     display: block;
+    font-family: "Courier New", Courier, monospace;
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {background-color: white;
+    color: #669295;
+    font-weight: bold;
+}
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {display: block; background-color: blanchedalmond;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropbtn {background-color: transparent; color: blue;}
 
 /* For timeline */
 
