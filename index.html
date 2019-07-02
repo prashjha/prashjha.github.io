@@ -235,6 +235,7 @@
             class="fa fa-home"></span></a> <a href="#sec-home" style="color: #c37669ff">Home</a>
       </div>
     </div>
+    <hr>
 
     <!--social media-->
     <div class="social">
@@ -1432,9 +1433,10 @@
                 <p style="clear: both;">
 
                 <p>
-                  <iframe src="https://drive.google.com/file/d/1Q4-w2ehilGmH7MzYIUj9WHZdvSsweUm7/preview"
-                          width="100%" height="60%"
-                          style="border:1px solid #CCC; border-width:1px; margin-bottom:10px; max-width: 100%;"></iframe>
+                  <iframe height="60%"
+                          src="https://drive.google.com/file/d/1Q4-w2ehilGmH7MzYIUj9WHZdvSsweUm7/preview"
+                          style="border: 1px solid #CCC;margin-bottom:10px; max-width: 100%;"
+                          width="100%"></iframe>
                 </p>
 
                 <div style="text-align: center">
@@ -1478,13 +1480,13 @@
                 <p>
                   <iframe src="https://drive.google.com/file/d/1cOU06AylP1PO_xPZKzNXERqF_KVY2RqV/preview"
                           width="100%" height="40%"
-                          style="border:1px solid #CCC; border-width:1px; margin-bottom:10px; max-width: 100%;"></iframe>
+                          style="border: 1px solid #CCC;margin-bottom:10px; max-width: 100%;"></iframe>
                 </p>
 
                 <p>
                   <iframe src="https://drive.google.com/file/d/1AEI_uSF0Fa039Bpq29ylG-swS02MLaLP/preview"
                           width="100%" height="40%"
-                          style="border:1px solid #CCC; border-width:1px; margin-bottom:10px; max-width: 100%;"></iframe>
+                          style="border: 1px solid #CCC;margin-bottom:10px; max-width: 100%;"></iframe>
                 </p>
 
               </div>
@@ -1492,20 +1494,37 @@
           </div>
         </div>
 
-        <div align="center">
-          <div class="social-small">
-            <a href="#blog-list" class="link pencil" target="_parent"><span
-                class="fa fa-pencil"></span></a>
-            <a href="#blog-list" title="click to go back to list" style="color: #3B5998">Blog list</a>
-
-            <a href="#sec-research" class="link puzzle" target="_parent"><span
-                class="fa fa-puzzle-piece"></span></a>
-            <a href="#sec-research" title="click to go to top" style="color: #3B5998">Top</a>
-          </div>
-        </div>
       </div>
     </div>
 
+    <!-- ++++++++++++++++++++++++++++++++++++ -->
+    <!-- Showcase of work -->
+    <!-- ++++++++++++++++++++++++++++++++++++ -->
+    <hr>
+    <b10></b10>
+    <div>
+      <div>
+        <div style="text-align: center">
+          <h3 id="sim-results" class="work-title">
+            C++ Implementation and Simulation Results (Coming Soon)
+          </h3>
+        </div>
+      </div>
+      <hr>
+    </div>
+
+
+    <div align="center">
+      <div class="social-small">
+        <a href="#blog-list" class="link pencil" target="_parent"><span
+            class="fa fa-pencil"></span></a>
+        <a href="#blog-list" title="click to go back to list" style="color: #3B5998">Blog list</a>
+
+        <a href="#sec-research" class="link puzzle" target="_parent"><span
+            class="fa fa-puzzle-piece"></span></a>
+        <a href="#sec-research" title="click to go to top" style="color: #3B5998">Top</a>
+      </div>
+    </div>
     <hr>
 
     <!--social media-->
@@ -2023,9 +2042,9 @@
 
 <script type="text/javascript">
     $(function () {
-        var $gallery = $('.gallery a').simpleLightbox();
+      const $gallery = $('.gallery a').simpleLightbox();
 
-        $gallery.on('show.simplelightbox', function () {
+      $gallery.on('show.simplelightbox', function () {
             console.log('Requested for showing');
         })
             .on('shown.simplelightbox', function () {
