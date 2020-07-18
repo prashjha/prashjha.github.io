@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Robert P Lipton | Prashant K. Jha</title>
+    <link>https://prashjha.github.io/author/robert-p-lipton/</link>
+      <atom:link href="https://prashjha.github.io/author/robert-p-lipton/index.xml" rel="self" type="application/rss+xml" />
+    <description>Robert P Lipton</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Prashant K. Jha</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://prashjha.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Robert P Lipton</title>
+      <link>https://prashjha.github.io/author/robert-p-lipton/</link>
+    </image>
+    
+    <item>
+      <title>Plane elastodynamic solutions for running cracks as the limit of double well nonlocal dynamics</title>
+      <link>https://prashjha.github.io/publication/lipton-2020-plane/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/lipton-2020-plane/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Complex fracture nucleation and evolution with nonlocal elastodynamics</title>
+      <link>https://prashjha.github.io/publication/lipton-2019-complex/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/lipton-2019-complex/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Prashant K Jha | Prashant K. Jha</title>
+    <link>https://prashjha.github.io/author/prashant-k-jha/</link>
+      <atom:link href="https://prashjha.github.io/author/prashant-k-jha/index.xml" rel="self" type="application/rss+xml" />
+    <description>Prashant K Jha</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Prashant K. Jha</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://prashjha.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Prashant K Jha</title>
+      <link>https://prashjha.github.io/author/prashant-k-jha/</link>
+    </image>
+    
+    <item>
+      <title>Analysis of a new multispecies tumor growth model coupling 3D phase-fields with a 1D vascular network</title>
+      <link>https://prashjha.github.io/publication/fritz-2020-analysis/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/fritz-2020-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Finite element convergence for state-based peridynamic fracture models</title>
+      <link>https://prashjha.github.io/publication/jha-2020-finite/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/jha-2020-finite/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Oden Institute REPORT 20-10</title>
+      <link>https://prashjha.github.io/publication/oden-2020-oden/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/oden-2020-oden/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Plane elastodynamic solutions for running cracks as the limit of double well nonlocal dynamics</title>
+      <link>https://prashjha.github.io/publication/lipton-2020-plane/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/lipton-2020-plane/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Complex fracture nucleation and evolution with nonlocal elastodynamics</title>
+      <link>https://prashjha.github.io/publication/lipton-2019-complex/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/lipton-2019-complex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Numerical convergence of finite difference approximations for state based peridynamic fracture models</title>
+      <link>https://prashjha.github.io/publication/jha-2019-numerical/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/jha-2019-numerical/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Implementation of Peridynamics utilizing HPX--the C&#43;&#43; standard library for parallelism and concurrency</title>
+      <link>https://prashjha.github.io/publication/diehl-2018-perihpx/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/diehl-2018-perihpx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Numerical analysis of nonlocal fracture models in Holder space</title>
+      <link>https://prashjha.github.io/publication/jha-2018-numerical/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/jha-2018-numerical/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Numerical convergence of nonlinear nonlocal continuum models to local elastodynamics</title>
+      <link>https://prashjha.github.io/publication/jha-2018-numerical-2/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/jha-2018-numerical-2/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

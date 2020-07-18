@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>General | Prashant K. Jha</title>
+    <link>https://prashjha.github.io/category/general/</link>
+      <atom:link href="https://prashjha.github.io/category/general/index.xml" rel="self" type="application/rss+xml" />
+    <description>General</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Prashant K. Jha</copyright><lastBuildDate>Fri, 17 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://prashjha.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>General</title>
+      <link>https://prashjha.github.io/category/general/</link>
+    </image>
+    
+    <item>
+      <title>Sample</title>
+      <link>https://prashjha.github.io/post/sample/</link>
+      <pubDate>Fri, 17 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/post/sample/</guid>
+      <description>&lt;p&gt;Learning to write a blog using markdown!!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

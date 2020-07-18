@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Talks | Prashant K. Jha</title>
+    <link>https://prashjha.github.io/talk/</link>
+      <atom:link href="https://prashjha.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent &amp; Upcoming Talks</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Prashant K. Jha</copyright><lastBuildDate>Tue, 30 Jul 2019 10:40:00 +0000</lastBuildDate>
+    <image>
+      <url>https://prashjha.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>https://prashjha.github.io/talk/</link>
+    </image>
+    
+    <item>
+      <title>Numerical fracture experiments using nonlinear nonlocal models</title>
+      <link>https://prashjha.github.io/talk/conference-usnccm-15-2019/</link>
+      <pubDate>Tue, 30 Jul 2019 10:40:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/talk/conference-usnccm-15-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Convergence results for finite element and finite difference approximation of nonlocal fracture</title>
+      <link>https://prashjha.github.io/talk/conference-iciam-2019/</link>
+      <pubDate>Wed, 17 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/talk/conference-iciam-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Free damage propagation with memory</title>
+      <link>https://prashjha.github.io/talk/conference-wccm-13-2018/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/talk/conference-wccm-13-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Well-posedness of nonlocal fracture models and apriori error estimates of numerical approximations</title>
+      <link>https://prashjha.github.io/talk/seminar-iisc-2018/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/talk/seminar-iisc-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Finite element approximation of nonlocal fracture models</title>
+      <link>https://prashjha.github.io/talk/seminar-lsu-2018/</link>
+      <pubDate>Mon, 19 Mar 2018 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/talk/seminar-lsu-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Numerical Analysis of Nonlocal Fracture Models</title>
+      <link>https://prashjha.github.io/talk/conference-usnccm-14-2017/</link>
+      <pubDate>Wed, 19 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/talk/conference-usnccm-14-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Numerical Analysis of Nonlocal Fracture Models</title>
+      <link>https://prashjha.github.io/talk/seminar-umn-2017-2/</link>
+      <pubDate>Tue, 04 Apr 2017 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/talk/seminar-umn-2017-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Coarse Graining of Electric Field Interactions with Materials</title>
+      <link>https://prashjha.github.io/talk/seminar-umn-2017/</link>
+      <pubDate>Tue, 21 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/talk/seminar-umn-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Coarse Graining of Electric Field Interactions with Materials</title>
+      <link>https://prashjha.github.io/talk/seminar-iitm-2016/</link>
+      <pubDate>Mon, 22 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/talk/seminar-iitm-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Coarse Graining of Electric Field Interactions with Materials</title>
+      <link>https://prashjha.github.io/talk/seminar-iisc-2016/</link>
+      <pubDate>Fri, 19 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/talk/seminar-iisc-2016/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

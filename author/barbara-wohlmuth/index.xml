@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Barbara Wohlmuth | Prashant K. Jha</title>
+    <link>https://prashjha.github.io/author/barbara-wohlmuth/</link>
+      <atom:link href="https://prashjha.github.io/author/barbara-wohlmuth/index.xml" rel="self" type="application/rss+xml" />
+    <description>Barbara Wohlmuth</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Prashant K. Jha</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://prashjha.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Barbara Wohlmuth</title>
+      <link>https://prashjha.github.io/author/barbara-wohlmuth/</link>
+    </image>
+    
+    <item>
+      <title>Analysis of a new multispecies tumor growth model coupling 3D phase-fields with a 1D vascular network</title>
+      <link>https://prashjha.github.io/publication/fritz-2020-analysis/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/fritz-2020-analysis/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
