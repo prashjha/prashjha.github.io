@@ -5,7 +5,7 @@
     <link>https://prashjha.github.io/</link>
       <atom:link href="https://prashjha.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Prashant K. Jha</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 [Prashant K. Jha](https://prashjha.github.io/)</copyright><lastBuildDate>Fri, 17 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 [Prashant K. Jha](https://prashjha.github.io/)</copyright><lastBuildDate>Sat, 18 Jul 2020 00:00:00 -0500</lastBuildDate>
     <image>
       <url>https://prashjha.github.io/images/logo_hu1c9a7bdcb0202df981fee96563257bac_112200_300x300_fit_lanczos_2.png</url>
       <title>Prashant K. Jha</title>
@@ -13,19 +13,28 @@
     </image>
     
     <item>
-      <title>Sample</title>
-      <link>https://prashjha.github.io/post/sample/</link>
-      <pubDate>Fri, 17 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>https://prashjha.github.io/post/sample/</guid>
-      <description>&lt;p&gt;Learning to write a blog using markdown!!&lt;/p&gt;
+      <title>Fracture in Solids: Application of Peridynamics</title>
+      <link>https://prashjha.github.io/project/fracture-mechanics/</link>
+      <pubDate>Sat, 18 Jul 2020 00:00:00 -0500</pubDate>
+      <guid>https://prashjha.github.io/project/fracture-mechanics/</guid>
+      <description>&lt;p&gt;Study and apply Peridynamics to model the fracture in solid media&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Modeling Tumor Growhth</title>
+      <link>https://prashjha.github.io/project/tumor-modeling/</link>
+      <pubDate>Sat, 18 Jul 2020 00:00:00 -0500</pubDate>
+      <guid>https://prashjha.github.io/project/tumor-modeling/</guid>
+      <description>&lt;p&gt;Develop model of tumor growth, angiogenesis, drug therapy, and metastasis&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Sample</title>
-      <link>https://prashjha.github.io/project/sample/</link>
+      <link>https://prashjha.github.io/post/sample/</link>
       <pubDate>Fri, 17 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>https://prashjha.github.io/project/sample/</guid>
+      <guid>https://prashjha.github.io/post/sample/</guid>
       <description>&lt;p&gt;Learning to write a blog using markdown!!&lt;/p&gt;
 </description>
     </item>
@@ -64,6 +73,14 @@
     
     <item>
       <title>Numerical fracture experiments using nonlinear nonlocal models</title>
+      <link>https://prashjha.github.io/talk/seminar-oden-2019/</link>
+      <pubDate>Tue, 20 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/talk/seminar-oden-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Numerical fracture experiments using nonlinear nonlocal models</title>
       <link>https://prashjha.github.io/talk/conference-usnccm-15-2019/</link>
       <pubDate>Tue, 30 Jul 2019 10:40:00 +0000</pubDate>
       <guid>https://prashjha.github.io/talk/conference-usnccm-15-2019/</guid>
@@ -75,6 +92,14 @@
       <link>https://prashjha.github.io/talk/conference-iciam-2019/</link>
       <pubDate>Wed, 17 Jul 2019 00:00:00 +0000</pubDate>
       <guid>https://prashjha.github.io/talk/conference-iciam-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modelling fracture in solids using nonlocal interaction: A brief overview of Peridynamics</title>
+      <link>https://prashjha.github.io/talk/seminar-iitd-2019/</link>
+      <pubDate>Fri, 12 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/talk/seminar-iitd-2019/</guid>
       <description></description>
     </item>
     
@@ -91,6 +116,14 @@
       <link>https://prashjha.github.io/publication/jha-2019-numerical/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://prashjha.github.io/publication/jha-2019-numerical/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Convergence results for finite element and finite difference approximation of nonlocal fracture models</title>
+      <link>https://prashjha.github.io/talk/conference-siam-la-tx-2018/</link>
+      <pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/talk/conference-siam-la-tx-2018/</guid>
       <description></description>
     </item>
     

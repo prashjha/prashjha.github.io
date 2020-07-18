@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tumor-model | Prashant K. Jha</title>
+    <link>https://prashjha.github.io/tag/tumor-model/</link>
+      <atom:link href="https://prashjha.github.io/tag/tumor-model/index.xml" rel="self" type="application/rss+xml" />
+    <description>tumor-model</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 [Prashant K. Jha](https://prashjha.github.io/)</copyright><lastBuildDate>Sat, 18 Jul 2020 00:00:00 -0500</lastBuildDate>
+    <image>
+      <url>https://prashjha.github.io/images/logo_hu1c9a7bdcb0202df981fee96563257bac_112200_300x300_fit_lanczos_2.png</url>
+      <title>tumor-model</title>
+      <link>https://prashjha.github.io/tag/tumor-model/</link>
+    </image>
+    
+    <item>
+      <title>Fracture in Solids: Application of Peridynamics</title>
+      <link>https://prashjha.github.io/project/fracture-mechanics/</link>
+      <pubDate>Sat, 18 Jul 2020 00:00:00 -0500</pubDate>
+      <guid>https://prashjha.github.io/project/fracture-mechanics/</guid>
+      <description>&lt;p&gt;Study and apply Peridynamics to model the fracture in solid media&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Modeling Tumor Growhth</title>
+      <link>https://prashjha.github.io/project/tumor-modeling/</link>
+      <pubDate>Sat, 18 Jul 2020 00:00:00 -0500</pubDate>
+      <guid>https://prashjha.github.io/project/tumor-modeling/</guid>
+      <description>&lt;p&gt;Develop model of tumor growth, angiogenesis, drug therapy, and metastasis&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
