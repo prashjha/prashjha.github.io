@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>computational | Prashant K. Jha</title>
-    <link>https://prashjha.github.io/tag/computational/</link>
-      <atom:link href="https://prashjha.github.io/tag/computational/index.xml" rel="self" type="application/rss+xml" />
-    <description>computational</description>
+    <title>COVID-19 | Prashant K. Jha</title>
+    <link>https://prashjha.github.io/tag/covid-19/</link>
+      <atom:link href="https://prashjha.github.io/tag/covid-19/index.xml" rel="self" type="application/rss+xml" />
+    <description>COVID-19</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 [Prashant K. Jha](https://prashjha.github.io/)</copyright><lastBuildDate>Sun, 02 Aug 2020 00:00:00 -0500</lastBuildDate>
     <image>
       <url>https://prashjha.github.io/images/logo_hu1c9a7bdcb0202df981fee96563257bac_112200_300x300_fit_lanczos_2.png</url>
-      <title>computational</title>
-      <link>https://prashjha.github.io/tag/computational/</link>
+      <title>COVID-19</title>
+      <link>https://prashjha.github.io/tag/covid-19/</link>
     </image>
     
     <item>
@@ -74,24 +74,6 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Fracture in Solids: Application of Peridynamics</title>
-      <link>https://prashjha.github.io/project/fracture-mechanics/</link>
-      <pubDate>Sat, 18 Jul 2020 00:00:00 -0500</pubDate>
-      <guid>https://prashjha.github.io/project/fracture-mechanics/</guid>
-      <description>&lt;p&gt;Study and apply Peridynamics to model the fracture in solid media&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Modeling Tumor Growhth</title>
-      <link>https://prashjha.github.io/project/tumor-modeling/</link>
-      <pubDate>Sat, 18 Jul 2020 00:00:00 -0500</pubDate>
-      <guid>https://prashjha.github.io/project/tumor-modeling/</guid>
-      <description>&lt;p&gt;Develop model of tumor growth, angiogenesis, drug therapy, and metastasis&lt;/p&gt;
 </description>
     </item>
     

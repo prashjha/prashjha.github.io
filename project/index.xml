@@ -5,12 +5,77 @@
     <link>https://prashjha.github.io/project/</link>
       <atom:link href="https://prashjha.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 [Prashant K. Jha](https://prashjha.github.io/)</copyright><lastBuildDate>Sat, 18 Jul 2020 00:00:00 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 [Prashant K. Jha](https://prashjha.github.io/)</copyright><lastBuildDate>Sun, 02 Aug 2020 00:00:00 -0500</lastBuildDate>
     <image>
       <url>https://prashjha.github.io/images/logo_hu1c9a7bdcb0202df981fee96563257bac_112200_300x300_fit_lanczos_2.png</url>
       <title>Projects</title>
       <link>https://prashjha.github.io/project/</link>
     </image>
+    
+    <item>
+      <title>Modeling COVID-19 epidemic spread and Bayesian based model inference and selection</title>
+      <link>https://prashjha.github.io/project/covid-19/</link>
+      <pubDate>Sun, 02 Aug 2020 00:00:00 -0500</pubDate>
+      <guid>https://prashjha.github.io/project/covid-19/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;We model the spread of COVID-19 infection in Texas using PDE based SEIRD model. The model describes the evolution of spatially changing susceptible, exposed, infectitious, recovered, and deceased fraction of population. The model is discretized using finite element approximation and implicit Euler scheme. At each time step, we perform fixed point iteration to solve the coupled equations, see paper for more details. The solver is implemented using 
+&lt;a href=&#34;https://fenicsproject.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FEniCS&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To infer for the model parameters and to check the validity of the model, we employ the Bayesian inference in OPAL (Occam Plausibility Algorithm), see 
+&lt;a href=&#34;https://onlinelibrary.wiley.com/doi/abs/10.1002/9781119176817.ecm2101&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Oden et al 2017&lt;/a&gt; and 
+&lt;a href=&#34;https://doi.org/10.1017/S096249291800003X&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Oden 2018&lt;/a&gt;. The model parameters are inferred using the total number of infected and deceased cases in Texas. The results show that the model is invalid for the prediction of the infected cases and is &lt;em&gt;Not Invalid&lt;/em&gt; for the prediction of the deceased cases.&lt;/p&gt;
+&lt;p&gt;For Bayesian inference, 
+&lt;a href=&#34;https://hippylib.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;hIPPYlib&lt;/a&gt; library is used. In particular, the preconditioned Crank-Nicolson (pCN) algorithm in hIPPYlib is utilized for generating samples of posterior.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;See our paper on COVID-19 modeling and model inference appeared in &lt;strong&gt;Computational Mechanics&lt;/strong&gt; journal: 
+&lt;a href=&#34;https://doi.org/10.1007/s00466-020-01889-z&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper link&lt;/a&gt; and 
+&lt;a href=&#34;https://prashjha.github.io/publication/jha-2020-seird/Jha-2020-seird.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;pdf link&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Codes are publicly available in 
+&lt;a href=&#34;https://github.com/prashjha/BayesForSEIRD&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;This work is in collaboration with Lianghao Cao and Dr. J. Tinsley Oden at the University of Texas at Austin&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
+&lt;h3 id=&#34;validation-results&#34;&gt;Validation results&lt;/h3&gt;
+&lt;p&gt;The model was found to be invalid for the prediction of the total infected cases, however, is found to be adequate for the prediction of the total deceased cases.&lt;/p&gt;
+&lt;h3 id=&#34;prediction-results&#34;&gt;Prediction results&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;By September 1, we predict to see about &lt;strong&gt;7003&lt;/strong&gt; fatalities and &lt;strong&gt;301658&lt;/strong&gt; infected cases. Uncertainties, in terms of the standard deviation of the QoI distribution, in deceased and infected cases are about &lt;strong&gt;102&lt;/strong&gt; and &lt;strong&gt;5786&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;These calculations are based on the COVID-19 data upto 30 June 2020. It is now clear that the model has underestimated the deceased cases even though it was found to be valid. This motivates us to look further into the model. It is also possible that the upward trend of deceased cases was not strong in the data.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Prediction results for total infected and deceased cases in Texas starting from 1 July till 1 September 2020&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;Plots/prediction_Texas_state.png&#34; alt=&#34;&#34; title=&#34;Prediction of cases in Texas in time period 1 July 2020 - 1 September 2020&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Projection of cases in top five districts. Predition period is 1 July 2020 - 1 September 2020&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;Plots/prediction_top_districts.png&#34; alt=&#34;&#34; title=&#34;Prediction of cases in top five districts of Texas&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Projection of total cases in 25 districts on August 15 (left) and September 1 (right). Red corresponds to the deceased cases and grey corresponds to the infected cases&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;15 August 2020&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;1 September 2020&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;Plots/map_plot_cases_in_district_2020-08-15.png&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;img src=&#34;Plots/map_plot_cases_in_district_2020-09-01.png&#34; alt=&#34;&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
     
     <item>
       <title>Fracture in Solids: Application of Peridynamics</title>
