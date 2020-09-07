@@ -5,12 +5,28 @@
     <link>https://prashjha.github.io/talk/</link>
       <atom:link href="https://prashjha.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Talks</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 [Prashant K. Jha](https://prashjha.github.io/)</copyright><lastBuildDate>Tue, 20 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 [Prashant K. Jha](https://prashjha.github.io/)</copyright><lastBuildDate>Fri, 09 Oct 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://prashjha.github.io/images/logo_hu1c9a7bdcb0202df981fee96563257bac_112200_300x300_fit_lanczos_2.png</url>
       <title>Talks</title>
       <link>https://prashjha.github.io/talk/</link>
     </image>
+    
+    <item>
+      <title>A mechanistic tumor growth model for HP MRI</title>
+      <link>https://prashjha.github.io/talk/seminar-cmu-2020/</link>
+      <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/talk/seminar-cmu-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A mechanistic tumor growth model for HP MRI</title>
+      <link>https://prashjha.github.io/talk/seminar-utaustin-2020/</link>
+      <pubDate>Wed, 16 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/talk/seminar-utaustin-2020/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Numerical fracture experiments using nonlinear nonlocal models</title>
