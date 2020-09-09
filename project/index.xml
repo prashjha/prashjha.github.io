@@ -5,12 +5,39 @@
     <link>https://prashjha.github.io/project/</link>
       <atom:link href="https://prashjha.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 [Prashant K. Jha](https://prashjha.github.io/)</copyright><lastBuildDate>Sun, 02 Aug 2020 00:00:00 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 [Prashant K. Jha](https://prashjha.github.io/)</copyright><lastBuildDate>Tue, 08 Sep 2020 00:00:00 -0500</lastBuildDate>
     <image>
       <url>https://prashjha.github.io/images/logo_hu1c9a7bdcb0202df981fee96563257bac_112200_300x300_fit_lanczos_2.png</url>
       <title>Projects</title>
       <link>https://prashjha.github.io/project/</link>
     </image>
+    
+    <item>
+      <title>Computational methods for nonlocal models</title>
+      <link>https://prashjha.github.io/project/computational-peridynamics/</link>
+      <pubDate>Tue, 08 Sep 2020 00:00:00 -0500</pubDate>
+      <guid>https://prashjha.github.io/project/computational-peridynamics/</guid>
+      <description>&lt;p&gt;Develop efficient and parallel computational methods for class of nonlocal models such as Peridynamics and nonlocal diffusion equations&lt;/p&gt;
+&lt;h1 id=&#34;activity&#34;&gt;Activity&lt;/h1&gt;
+&lt;h2 id=&#34;google-summer-of-code-2020&#34;&gt;Google Summer of Code 2020&lt;/h2&gt;
+&lt;p&gt;Towards development of massively parallel computational library for peridynamics and other class of nonlocal models, together with P. Diehl, we prepared a computational problem where the goal was to develop a massively parallel library for simple 2D nonlocal heat equation. See the rough description of the problem 
+&lt;a href=&#34;description.pdf&#34;&gt;here&lt;/a&gt;. This project was selected as one of the many projects sponsered by Google in Google Summer of Code and was assigned to student P. Gayu (IIT Madras). Pranav&amp;rsquo;s work is open source and can be found 
+&lt;a href=&#34;https://github.com/nonlocalmodels/nonlocalheatequation&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;nlmech-library&#34;&gt;NLMech library&lt;/h2&gt;
+&lt;p&gt;With P. Diehl, we have launched our peridynamics code 
+&lt;a href=&#34;https://github.com/nonlocalmodels/NLMech&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NLMech&lt;/a&gt; that utilizes 
+&lt;a href=&#34;https://github.com/STEllAR-GROUP/hpx&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HPX&lt;/a&gt; library for efficient multi-threading computation. We aim to make NLMech library more user friendly and easily extensible in coming days. Our future goals are to&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;develop fully parallel library following some of the key ideas and algorithms froom work on 
+&lt;a href=&#34;https://summerofcode.withgoogle.com/projects/#6693763189047296&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Summer of Code 2020&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;implement Quasistatic discretization&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Modeling COVID-19 epidemic spread and Bayesian based model inference and selection</title>
@@ -78,20 +105,51 @@
     </item>
     
     <item>
-      <title>Fracture in Solids: Application of Peridynamics</title>
+      <title>Analysis and application of peridynamics</title>
       <link>https://prashjha.github.io/project/fracture-mechanics/</link>
       <pubDate>Sat, 18 Jul 2020 00:00:00 -0500</pubDate>
       <guid>https://prashjha.github.io/project/fracture-mechanics/</guid>
-      <description>&lt;p&gt;Study and apply Peridynamics to model the fracture in solid media&lt;/p&gt;
+      <description>&lt;h1 id=&#34;activity&#34;&gt;Activity&lt;/h1&gt;
+&lt;h2 id=&#34;kinetic-relations-and-local-energy-balance-for-lefm-from-a-nonlocal-peridynamic-model&#34;&gt;Kinetic relations and local energy balance for LEFM from a nonlocal peridynamic model&lt;/h2&gt;
+&lt;p&gt;In this work, we carefully looked at the peridynamic energy associated to process zone and recover the kinetic relation for crack tip velocity for simple mode-I crack problem. It is based on more theoretical work, see 
+&lt;a href=&#34;https://arxiv.org/abs/2001.00313&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;arXiv preprint&lt;/a&gt;. This is a joint work with Dr. Lipton.&lt;/p&gt;
+&lt;p&gt;Article recently published in International Journal of Fracture, see more 
+&lt;a href=&#34;https://link.springer.com/article/10.1007/s10704-020-00480-0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;details&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;a-priori-error-analysis-and-well-posedness-of-nonlinear-peridynamic-models&#34;&gt;A priori error analysis and well-posedness of nonlinear peridynamic models&lt;/h2&gt;
+&lt;p&gt;At Louisiana State University, I had spent good amount of time working on a-priori error estimates for finite-difference and finite-element discretization of and well-posedness of nonlinear peridynamic models. This was under the guidance of my adviser Dr. Lipton. On this topic we have published several journal articles and few book chapters, see 
+&lt;a href=&#34;https://prashjha.github.io/publication/&#34;&gt;publication page&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;model-development&#34;&gt;Model development&lt;/h2&gt;
+&lt;p&gt;In this 
+&lt;a href=&#34;https://prashjha.github.io/publication/lipton-2018-free/&#34;&gt;paper&lt;/a&gt;, we proposed a bond-based peridynamic model with memory effect. Material subjected to cyclic loading with each cycle deforming the material beyond some critical strain would lose stiffness. The proposed model incorporates this effect at the level pairwise interaction. Numerical results demonstrate this effect.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Modeling Tumor Growhth</title>
+      <title>Modeling tumor growth, angiogenesis, drug-therapy, metastasis</title>
       <link>https://prashjha.github.io/project/tumor-modeling/</link>
       <pubDate>Sat, 18 Jul 2020 00:00:00 -0500</pubDate>
       <guid>https://prashjha.github.io/project/tumor-modeling/</guid>
-      <description>&lt;p&gt;Develop model of tumor growth, angiogenesis, drug therapy, and metastasis&lt;/p&gt;
+      <description>&lt;h1 id=&#34;activity&#34;&gt;Activity&lt;/h1&gt;
+&lt;h2 id=&#34;analysis-of-a-new-multispecies-tumor-growth-model-coupling-3d-phase-fields-with-a-1d-vascular-network&#34;&gt;Analysis of a new multispecies tumor growth model coupling 3D phase-fields with a 1D vascular network&lt;/h2&gt;
+&lt;p&gt;This is a joint work with Dr. J. T. Oden at UT Austin and colleagues at Technical University of Munich. In this work, we study the 3D-1D model of tumor growth that couples the flow and transport of nutrient in the vessel network with the transport of nutrient and tumor evolution in the tissue domain. In particular, we looked at the problem of well-posedness of resulting highly coupled multi-dimension nonlinear model. See the 
+&lt;a href=&#34;https://prashjha.github.io/publication/fritz-2020-analysis/&#34;&gt;preprint&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;modeling-and-simulation-of-vascular-tumors-embedded-in-dynamically-evolving-capillary-networks&#34;&gt;Modeling and simulation of vascular tumors embedded in dynamically evolving capillary networks&lt;/h2&gt;
+&lt;p&gt;This work takes the work in paper above to one step further. In this work, we add the angiogenesis effect to the model. Angiogenesis is a phenomena through which nutrient starved tumor cells release special molecules collectively called TAF (Tumor Angiogenesis Factor) which co-opt the blood vessels in the vicinity to grow towards the tumor colony and supply nutrient. This work is under preparation and soon preprint will be available.&lt;/p&gt;
+&lt;h2 id=&#34;3d1d-model-of-drug-therapy-and-metastasis&#34;&gt;3D1D model of drug therapy and metastasis&lt;/h2&gt;
+&lt;p&gt;In this work, we propse a 3D-1D model for drug therapy and metastasis. This work is in early stage.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Signal recovery from the imaging data</title>
+      <link>https://prashjha.github.io/project/signal-recovery-tumor-modeling/</link>
+      <pubDate>Sat, 18 Jul 2020 00:00:00 -0500</pubDate>
+      <guid>https://prashjha.github.io/project/signal-recovery-tumor-modeling/</guid>
+      <description>&lt;p&gt;Developement of models of tumor growth, angiogenesis, and drug therapy and recovery of model parameters from the imaging data&lt;/p&gt;
+&lt;h1 id=&#34;activity&#34;&gt;Activity&lt;/h1&gt;
+&lt;h2 id=&#34;a-mechanistic-tumor-growth-model-for-hp-mri&#34;&gt;A mechanistic tumor growth model for HP MRI&lt;/h2&gt;
+&lt;p&gt;Objective of this project is to propose a PDE based model for recovery of signals from the HP MR imaging data. At present, ODE based compartmental models are considered.&lt;/p&gt;
+&lt;p&gt;Recently, Oden Institute, MD Anderson Cancer Center, and TACC signed an MOU to advance the cancer research. This project was selected as one of the 5 pilot projects under the joint initiative and will be effective from 09/01/2020 - 08/31/2021.&lt;/p&gt;
 </description>
     </item>
     

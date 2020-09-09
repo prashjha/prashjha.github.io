@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>computational oncology | Prashant K. Jha</title>
+    <link>https://prashjha.github.io/tag/computational-oncology/</link>
+      <atom:link href="https://prashjha.github.io/tag/computational-oncology/index.xml" rel="self" type="application/rss+xml" />
+    <description>computational oncology</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 [Prashant K. Jha](https://prashjha.github.io/)</copyright><lastBuildDate>Sat, 18 Jul 2020 00:00:00 -0500</lastBuildDate>
+    <image>
+      <url>https://prashjha.github.io/images/logo_hu1c9a7bdcb0202df981fee96563257bac_112200_300x300_fit_lanczos_2.png</url>
+      <title>computational oncology</title>
+      <link>https://prashjha.github.io/tag/computational-oncology/</link>
+    </image>
+    
+    <item>
+      <title>Modeling tumor growth, angiogenesis, drug-therapy, metastasis</title>
+      <link>https://prashjha.github.io/project/tumor-modeling/</link>
+      <pubDate>Sat, 18 Jul 2020 00:00:00 -0500</pubDate>
+      <guid>https://prashjha.github.io/project/tumor-modeling/</guid>
+      <description>&lt;h1 id=&#34;activity&#34;&gt;Activity&lt;/h1&gt;
+&lt;h2 id=&#34;analysis-of-a-new-multispecies-tumor-growth-model-coupling-3d-phase-fields-with-a-1d-vascular-network&#34;&gt;Analysis of a new multispecies tumor growth model coupling 3D phase-fields with a 1D vascular network&lt;/h2&gt;
+&lt;p&gt;This is a joint work with Dr. J. T. Oden at UT Austin and colleagues at Technical University of Munich. In this work, we study the 3D-1D model of tumor growth that couples the flow and transport of nutrient in the vessel network with the transport of nutrient and tumor evolution in the tissue domain. In particular, we looked at the problem of well-posedness of resulting highly coupled multi-dimension nonlinear model. See the 
+&lt;a href=&#34;https://prashjha.github.io/publication/fritz-2020-analysis/&#34;&gt;preprint&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;modeling-and-simulation-of-vascular-tumors-embedded-in-dynamically-evolving-capillary-networks&#34;&gt;Modeling and simulation of vascular tumors embedded in dynamically evolving capillary networks&lt;/h2&gt;
+&lt;p&gt;This work takes the work in paper above to one step further. In this work, we add the angiogenesis effect to the model. Angiogenesis is a phenomena through which nutrient starved tumor cells release special molecules collectively called TAF (Tumor Angiogenesis Factor) which co-opt the blood vessels in the vicinity to grow towards the tumor colony and supply nutrient. This work is under preparation and soon preprint will be available.&lt;/p&gt;
+&lt;h2 id=&#34;3d1d-model-of-drug-therapy-and-metastasis&#34;&gt;3D1D model of drug therapy and metastasis&lt;/h2&gt;
+&lt;p&gt;In this work, we propse a 3D-1D model for drug therapy and metastasis. This work is in early stage.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
