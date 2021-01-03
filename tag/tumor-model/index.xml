@@ -17,27 +17,158 @@
       <link>https://prashjha.github.io/project/tumor-modeling/</link>
       <pubDate>Sat, 18 Jul 2020 00:00:00 -0500</pubDate>
       <guid>https://prashjha.github.io/project/tumor-modeling/</guid>
-      <description>&lt;h1 id=&#34;activity&#34;&gt;Activity&lt;/h1&gt;
-&lt;h2 id=&#34;analysis-of-a-new-multispecies-tumor-growth-model-coupling-3d-phase-fields-with-a-1d-vascular-network&#34;&gt;Analysis of a new multispecies tumor growth model coupling 3D phase-fields with a 1D vascular network&lt;/h2&gt;
-&lt;p&gt;This is a joint work with Dr. J. T. Oden at UT Austin and colleagues at Technical University of Munich. In this work, we study the 3D-1D model of tumor growth that couples the flow and transport of nutrient in the vessel network with the transport of nutrient and tumor evolution in the tissue domain. In particular, we looked at the problem of well-posedness of resulting highly coupled multi-dimension nonlinear model. See the 
-&lt;a href=&#34;https://prashjha.github.io/publication/fritz-2020-analysis/&#34;&gt;preprint&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;modeling-and-simulation-of-vascular-tumors-embedded-in-dynamically-evolving-capillary-networks&#34;&gt;Modeling and simulation of vascular tumors embedded in dynamically evolving capillary networks&lt;/h2&gt;
-&lt;p&gt;This work takes the work in paper above to one step further. In this work, we add the angiogenesis effect to the model. Angiogenesis is a phenomena through which nutrient starved tumor cells release special molecules collectively called TAF (Tumor Angiogenesis Factor) which co-opt the blood vessels in the vicinity to grow towards the tumor colony and supply nutrient. This work is under preparation and soon preprint will be available.&lt;/p&gt;
-&lt;h2 id=&#34;3d1d-model-of-drug-therapy-and-metastasis&#34;&gt;3D1D model of drug therapy and metastasis&lt;/h2&gt;
-&lt;p&gt;In this work, we propse a 3D-1D model for drug therapy and metastasis. This work is in early stage.&lt;/p&gt;
+      <description>&lt;h1 id=&#34;activities&#34;&gt;Activities&lt;/h1&gt;
+&lt;h2 id=&#34;1-analysis-of-a-new-multispecies-tumor-growth-model-coupling-3d-phase-fields-with-a-1d-vascular-network&#34;&gt;1. Analysis of a new multispecies tumor growth model coupling 3D phase-fields with a 1D vascular network&lt;/h2&gt;
+&lt;p&gt;This is joint work with Dr. J. T. Oden at UT Austin and colleagues at the Technical University of Munich. In this work, we study the 3D-1D model of tumor growth that couples the flow and transport of nutrients in the vessel network with nutrient and tumor evolution in the tissue domain. In particular, we looked at the problem of the resulting highly coupled multi-dimension nonlinear model&amp;rsquo;s well-posedness. See the 
+&lt;a href=&#34;https://prashjha.github.io/publication/fritz-2020-analysis/&#34;&gt;preprint: arXiv:2006.10477&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Figure 1 below shows progression of tumor towards nutrient rich artery on the right. In top row, the contour $\phi_T = 0.8$ plot of total tumor (sum of prolific, hypoxic, and necrotic) species volume fraction is shown. In bottom row, tumor sub-species, necrotic $\phi_N = 0.4$ (black), hypoxic $\phi_H = 0.45$ (orange), and prolific $\phi_P = 0.5$ (green), are shown. Figure is taken from 
+&lt;a href=&#34;https://prashjha.github.io/publication/fritz-2020-analysis/&#34;&gt;preprint: arXiv:2006.10477&lt;/a&gt;.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;img src=&#34;files/paper1-two-vessels.png&#34; alt=&#34;&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;em&gt;Figure 1: Tumor growth towards nutrient rich artery&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;2-modeling-and-simulation-of-vascular-tumors-embedded-in-dynamically-evolving-capillary-networks&#34;&gt;2. Modeling and simulation of vascular tumors embedded in dynamically evolving capillary networks&lt;/h2&gt;
+&lt;p&gt;This work takes the work in the paper above one step further. In this work, we add the angiogenesis effect to the model. Angiogenesis is a phenomenon through which nutrient-starved tumor cells release unique molecules collectively called TAF (Tumor Angiogenesis Factor), which co-opt the blood vessels in the vicinity to grow towards the tumor colony and supply nutrients. This work is under preparation, and soon preprint will be available.&lt;/p&gt;
+&lt;p&gt;Figure 2 demonstrates the angiogenesis effect and simultaneous tumor growth. Figure 3 shows the quantity of interests such as total tumor $\phi_T$, prolific $\phi_P$, hypoxic $\phi_H$, and necrotic $\phi_N$ masses with or without angiogenesis. Since angiogenesis is stochastic, we run the simulation multiple times to capture the variation in QoIs. Figures 2 and 3 are from &lt;em&gt;in preparation&lt;/em&gt; work.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;img src=&#34;files/paper2-angio.png&#34; alt=&#34;&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;em&gt;Figure 2: Network growth for two-vessels and complex network settings&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;img src=&#34;files/paper2-two-vessels-QoIstats.png&#34; alt=&#34;&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;em&gt;Figure 3: Effect of angiogenesis on tumor associated quantity of interests&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;3-application-and-extension-of-the-3d-1d-model-of-tumor-growth&#34;&gt;3. Application and extension of the 3D-1D model of tumor growth&lt;/h2&gt;
+&lt;p&gt;Next, we are interested in developing a tumor growth model to predict treatment responses and metastasis. For both of these problems, it is necessary to model the coupled flow in tissue and vasculature. We are extending the model to include the flow of drugs in vessels and tissue and its effect on tumor growth.&lt;/p&gt;
+&lt;p&gt;While our work so far has been concerned with algorithmic development and abstract simulations that highlight the key capabilities of the model, we are also interested in the model&amp;rsquo;s calibration using MRI data. Towards this, we are working with experts at the 
+&lt;a href=&#34;https://cco.oden.utexas.edu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Center for Computational Oncology&lt;/a&gt; for the application of the multi-dimensional model to breast cancer. The vasculature, flow parameters, initial tumor region in our model will be based on MRI data.&lt;/p&gt;
+&lt;p&gt;It is known that the vessels formed as a result of angiogenesis are leaky and weak; the mechanical forces in the tissue microenvironment plays are role in the modification and destruction of these vessels. The mechanical effects are also observed in the growth of the tumor. We are also interested in adding a mechanical component to the model and coupling the mechanical forces with vessels&amp;rsquo; displacement and tumor growth.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Signal recovery from the imaging data</title>
+      <title>Signal recovery from MRI</title>
       <link>https://prashjha.github.io/project/signal-recovery-tumor-modeling/</link>
       <pubDate>Sat, 18 Jul 2020 00:00:00 -0500</pubDate>
       <guid>https://prashjha.github.io/project/signal-recovery-tumor-modeling/</guid>
-      <description>&lt;p&gt;Developement of models of tumor growth, angiogenesis, and drug therapy and recovery of model parameters from the imaging data&lt;/p&gt;
-&lt;h1 id=&#34;activity&#34;&gt;Activity&lt;/h1&gt;
-&lt;h2 id=&#34;a-mechanistic-tumor-growth-model-for-hp-mri&#34;&gt;A mechanistic tumor growth model for HP MRI&lt;/h2&gt;
-&lt;p&gt;Objective of this project is to propose a PDE based model for recovery of signals from the HP MR imaging data. At present, ODE based compartmental models are considered.&lt;/p&gt;
-&lt;p&gt;Recently, Oden Institute, MD Anderson Cancer Center, and TACC signed an MOU to advance the cancer research. This project was selected as one of the 5 pilot projects under the joint initiative and will be effective from 09/01/2020 - 08/31/2021.&lt;/p&gt;
+      <description>&lt;h1 id=&#34;activities&#34;&gt;Activities&lt;/h1&gt;
+&lt;h2 id=&#34;1-a-mechanistic-tumor-growth-model-for-hp-mri&#34;&gt;1. A mechanistic tumor growth model for HP MRI&lt;/h2&gt;
+&lt;p&gt;This project aims to propose a PDE-based model for recovery of a parameter such as &lt;em&gt;pyruvate to lactate transfer rate&lt;/em&gt; from the Hyperpolarized (HP) MR imaging data. HP MRI is a state of art imaging technique and provides a means to identify the tumor regions. Pyruvate to lactate conversion naturally occurs in tissue; however, this conversion is typically more substantial in the presence of cancerous cells. HP MRI provides the intensity of pyruvate and lactate produced from polarized pyruvate. The region with high lactate indicates the presence of cancerous cells. Postprocessing of HP MRI data involves the calculation of &lt;em&gt;pyruvate to lactate transfer rate&lt;/em&gt;. Current models are based on spatially invariant compartmental models. Our objective is to propose a PDE-based model coupled with the vascular flow to describe pyruvate and lactate evolution. The vasculature will be based on real data. We believe that such a high-fidelity model will result in a more accurate recovery of parameters.&lt;/p&gt;
+&lt;p&gt;Recently, Oden Institute, MD Anderson Cancer Center, and TACC signed an MOU to advance cancer research. Our HP MRI project was selected as one of the five pilot projects under the joint initiative and will be effective from 09/01/2020 - 08/31/2021.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Study of granular media</title>
+      <link>https://prashjha.github.io/project/granular-media/</link>
+      <pubDate>Sat, 18 Jul 2020 00:00:00 -0500</pubDate>
+      <guid>https://prashjha.github.io/project/granular-media/</guid>
+      <description>&lt;h1 id=&#34;activities&#34;&gt;Activities&lt;/h1&gt;
+&lt;h2 id=&#34;1-development-of-a-high-fidelity-model-for-granular-media&#34;&gt;1. Development of a high-fidelity model for granular media&lt;/h2&gt;
+&lt;p&gt;Taking the earlier research on peridynamics for granular media forward, we have developed the Peridynamics-DEM high-fidelity model that can handle arbitrarily shaped particles and particle breakage. Traditional models based on DEM (Discrete Element Method) can not handle the particles with arbitrary shapes and deformation of individual particles. Extension of DEM based method to overcome these challenges is possible. However, it is not trivial. PeriDEM model proposed in 
+&lt;a href=&#34;https://arxiv.org/abs/2010.07218&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;preprint: arXiv:2010.07218&lt;/a&gt; uses peridynamics for deformation of individual particles. In the model, the contact forces between two particles act at the level of discretization. Because contact forces are applied to discretized nodes (within a small distance) of two particles, particles can see the local boundary; thus, the model can accurately simulate the locking effects.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;img src=&#34;files/two_p_wall_fracture_m1_all.png&#34; alt=&#34;&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;em&gt;Figure 1: Two-particle test. The top particle is given initial velocity. The plot shows the damage upon contact for different initial velocities—both particles made of the same materials. Damage above 1 indicates the onset of failure. From 
+&lt;a href=&#34;https://arxiv.org/abs/2010.07218&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;preprint: arXiv:2010.07218&lt;/a&gt;&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;img src=&#34;files/two_p_wall_fracture_m12_all.png&#34; alt=&#34;&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;em&gt;Figure 2: Same as Figure 1, but now the particle on top is stronger than the bottom particle. We see that only the bottom particle has damage above 1.&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;img src=&#34;files/compressive_test_t1_reaction_force.png&#34; alt=&#34;&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;em&gt;Figure 3: Compressive test using 25 particles of varying radius. The container&amp;rsquo;s top wall is moving downwards. Left: Plot of reaction force on the container&amp;rsquo;s top wall as a function of penetration downwards. Right: Damage on individual particles at different times. Damage on discretized nodes of particles is shown. Red indicates a node has damage one or above. From 
+&lt;a href=&#34;https://arxiv.org/abs/2010.07218&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;preprint: arXiv:2010.07218&lt;/a&gt;&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;img src=&#34;files/m1_t5.gif&#34; alt=&#34;&#34;&gt;&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;img src=&#34;files/m1_t6.gif&#34; alt=&#34;&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Two particles with same properties. $v_0 = 4$ m/s&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Two particles with same properties. $v_0 = 5$ m/s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;img src=&#34;files/m12_t5.gif&#34; alt=&#34;&#34;&gt;&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;img src=&#34;files/m12_t6.gif&#34; alt=&#34;&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Top particle stronger than bottom. $v_0 = 4$ m/s&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Top particle stronger than bottom. $v_0 = 5$ m/s&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;&lt;img src=&#34;files/t1.gif&#34; alt=&#34;&#34;&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;em&gt;Compressive test simulation&lt;/em&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 </description>
     </item>
     

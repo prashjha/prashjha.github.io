@@ -5,7 +5,7 @@
     <link>https://prashjha.github.io/author/j-tinsley-oden/</link>
       <atom:link href="https://prashjha.github.io/author/j-tinsley-oden/index.xml" rel="self" type="application/rss+xml" />
     <description>J Tinsley Oden</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 [Prashant K. Jha](https://prashjha.github.io/)</copyright><lastBuildDate>Fri, 31 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 [Prashant K. Jha](https://prashjha.github.io/)</copyright><lastBuildDate>Sat, 31 Oct 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://prashjha.github.io/images/logo_hu1c9a7bdcb0202df981fee96563257bac_112200_300x300_fit_lanczos_2.png</url>
       <title>J Tinsley Oden</title>
@@ -13,18 +13,18 @@
     </image>
     
     <item>
-      <title>Bayesian-based predictions of COVID-19 evolution in Texas using multispecies mixture-theoretic continuum models</title>
-      <link>https://prashjha.github.io/publication/jha-2020-seird/</link>
-      <pubDate>Fri, 31 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>https://prashjha.github.io/publication/jha-2020-seird/</guid>
+      <title>Analysis of a new multispecies tumor growth model coupling 3D phase-fields with a 1D vascular network</title>
+      <link>https://prashjha.github.io/publication/fritz-2020-analysis/</link>
+      <pubDate>Sat, 31 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/fritz-2020-analysis/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Analysis of a new multispecies tumor growth model coupling 3D phase-fields with a 1D vascular network</title>
-      <link>https://prashjha.github.io/publication/fritz-2020-analysis/</link>
-      <pubDate>Thu, 18 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://prashjha.github.io/publication/fritz-2020-analysis/</guid>
+      <title>Bayesian-based predictions of COVID-19 evolution in Texas using multispecies mixture-theoretic continuum models</title>
+      <link>https://prashjha.github.io/publication/jha-2020-seird/</link>
+      <pubDate>Fri, 31 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/jha-2020-seird/</guid>
       <description></description>
     </item>
     

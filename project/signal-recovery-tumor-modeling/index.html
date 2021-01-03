@@ -27,7 +27,7 @@
   
     
   
-  <meta name="description" content="Developement of models of tumor growth, angiogenesis, and drug therapy and recovery of model parameters from the imaging data">
+  <meta name="description" content="Development of models for improved signal recovery and image reconstruction, and developement and application of new methods for optimal data acquisition with uncertain model parameters">
 
   
   <link rel="alternate" hreflang="en-us" href="https://prashjha.github.io/project/signal-recovery-tumor-modeling/">
@@ -264,18 +264,19 @@
   
   
     
+    
   
   
-  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:card" content="summary">
   
   <meta property="twitter:site" content="@prashant_jha16">
   <meta property="twitter:creator" content="@prashant_jha16">
   
   <meta property="og:site_name" content="Prashant K. Jha">
   <meta property="og:url" content="https://prashjha.github.io/project/signal-recovery-tumor-modeling/">
-  <meta property="og:title" content="Signal recovery from the imaging data | Prashant K. Jha">
-  <meta property="og:description" content="Developement of models of tumor growth, angiogenesis, and drug therapy and recovery of model parameters from the imaging data"><meta property="og:image" content="https://prashjha.github.io/project/signal-recovery-tumor-modeling/featured.png">
-  <meta property="twitter:image" content="https://prashjha.github.io/project/signal-recovery-tumor-modeling/featured.png"><meta property="og:locale" content="en-us">
+  <meta property="og:title" content="Signal recovery from MRI | Prashant K. Jha">
+  <meta property="og:description" content="Development of models for improved signal recovery and image reconstruction, and developement and application of new methods for optimal data acquisition with uncertain model parameters"><meta property="og:image" content="https://prashjha.github.io/images/logo_hu1c9a7bdcb0202df981fee96563257bac_112200_300x300_fit_lanczos_2.png">
+  <meta property="twitter:image" content="https://prashjha.github.io/images/logo_hu1c9a7bdcb0202df981fee96563257bac_112200_300x300_fit_lanczos_2.png"><meta property="og:locale" content="en-us">
   
     
       <meta property="article:published_time" content="2020-07-18T00:00:00-05:00">
@@ -304,11 +305,7 @@
     "@type": "WebPage",
     "@id": "https://prashjha.github.io/project/signal-recovery-tumor-modeling/"
   },
-  "headline": "Signal recovery from the imaging data",
-  
-  "image": [
-    "https://prashjha.github.io/project/signal-recovery-tumor-modeling/featured.png"
-  ],
+  "headline": "Signal recovery from MRI",
   
   "datePublished": "2020-07-18T00:00:00-05:00",
   "dateModified": "2020-07-18T00:00:00-05:00",
@@ -326,7 +323,7 @@
       "url": "https://prashjha.github.io/images/logo_hu1c9a7bdcb0202df981fee96563257bac_112200_192x192_fit_lanczos_2.png"
     }
   },
-  "description": "Developement of models of tumor growth, angiogenesis, and drug therapy and recovery of model parameters from the imaging data"
+  "description": "Development of models for improved signal recovery and image reconstruction, and developement and application of new methods for optimal data acquisition with uncertain model parameters"
 }
 </script>
 
@@ -344,7 +341,7 @@
 
 
 
-  <title>Signal recovery from the imaging data | Prashant K. Jha</title>
+  <title>Signal recovery from MRI | Prashant K. Jha</title>
 
 </head>
 
@@ -666,26 +663,18 @@
 
 
 
-
-
-
-
-
-
-
+  
 
   
+  
+  
+<div class="article-container pt-3">
+  <h1>Signal recovery from MRI</h1>
+
+  
+
   
     
-  
-
-
-<div class="article-container pt-3">
-  <h1>Signal recovery from the imaging data</h1>
-
-  
-
-  
 
 
 <div class="article-metadata">
@@ -719,29 +708,22 @@
 
 </div>
 
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
-
-
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 865px;">
-  <div style="position: relative">
-    <img src="/project/signal-recovery-tumor-modeling/featured_hu3ce0aced31cfbb7b8df6dabef3e2e36f_576699_720x0_resize_lanczos_2.png" alt="" class="featured-image">
-    <span class="article-header-caption">Tumor growth towards nutrient supplying vessel and angiogenesis</span>
-  </div>
 </div>
 
 
@@ -749,11 +731,10 @@
   <div class="article-container">
 
     <div class="article-style">
-      <p>Developement of models of tumor growth, angiogenesis, and drug therapy and recovery of model parameters from the imaging data</p>
-<h1 id="activity">Activity</h1>
-<h2 id="a-mechanistic-tumor-growth-model-for-hp-mri">A mechanistic tumor growth model for HP MRI</h2>
-<p>Objective of this project is to propose a PDE based model for recovery of signals from the HP MR imaging data. At present, ODE based compartmental models are considered.</p>
-<p>Recently, Oden Institute, MD Anderson Cancer Center, and TACC signed an MOU to advance the cancer research. This project was selected as one of the 5 pilot projects under the joint initiative and will be effective from 09/01/2020 - 08/31/2021.</p>
+      <h1 id="activities">Activities</h1>
+<h2 id="1-a-mechanistic-tumor-growth-model-for-hp-mri">1. A mechanistic tumor growth model for HP MRI</h2>
+<p>This project aims to propose a PDE-based model for recovery of a parameter such as <em>pyruvate to lactate transfer rate</em> from the Hyperpolarized (HP) MR imaging data. HP MRI is a state of art imaging technique and provides a means to identify the tumor regions. Pyruvate to lactate conversion naturally occurs in tissue; however, this conversion is typically more substantial in the presence of cancerous cells. HP MRI provides the intensity of pyruvate and lactate produced from polarized pyruvate. The region with high lactate indicates the presence of cancerous cells. Postprocessing of HP MRI data involves the calculation of <em>pyruvate to lactate transfer rate</em>. Current models are based on spatially invariant compartmental models. Our objective is to propose a PDE-based model coupled with the vascular flow to describe pyruvate and lactate evolution. The vasculature will be based on real data. We believe that such a high-fidelity model will result in a more accurate recovery of parameters.</p>
+<p>Recently, Oden Institute, MD Anderson Cancer Center, and TACC signed an MOU to advance cancer research. Our HP MRI project was selected as one of the five pilot projects under the joint initiative and will be effective from 09/01/2020 - 08/31/2021.</p>
 
     </div>
 
@@ -789,7 +770,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://prashjha.github.io/project/signal-recovery-tumor-modeling/&amp;text=Signal%20recovery%20from%20the%20imaging%20data" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://prashjha.github.io/project/signal-recovery-tumor-modeling/&amp;text=Signal%20recovery%20from%20MRI" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -802,7 +783,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://prashjha.github.io/project/signal-recovery-tumor-modeling/&amp;t=Signal%20recovery%20from%20the%20imaging%20data" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://prashjha.github.io/project/signal-recovery-tumor-modeling/&amp;t=Signal%20recovery%20from%20MRI" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -815,7 +796,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Signal%20recovery%20from%20the%20imaging%20data&amp;body=https://prashjha.github.io/project/signal-recovery-tumor-modeling/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Signal%20recovery%20from%20MRI&amp;body=https://prashjha.github.io/project/signal-recovery-tumor-modeling/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -828,7 +809,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://prashjha.github.io/project/signal-recovery-tumor-modeling/&amp;title=Signal%20recovery%20from%20the%20imaging%20data" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://prashjha.github.io/project/signal-recovery-tumor-modeling/&amp;title=Signal%20recovery%20from%20MRI" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -841,7 +822,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Signal%20recovery%20from%20the%20imaging%20data%20https://prashjha.github.io/project/signal-recovery-tumor-modeling/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Signal%20recovery%20from%20MRI%20https://prashjha.github.io/project/signal-recovery-tumor-modeling/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -854,7 +835,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://prashjha.github.io/project/signal-recovery-tumor-modeling/&amp;title=Signal%20recovery%20from%20the%20imaging%20data" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://prashjha.github.io/project/signal-recovery-tumor-modeling/&amp;title=Signal%20recovery%20from%20MRI" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -897,7 +878,7 @@
       <div class="media-body">
         <h5 class="card-title"><a href="https://prashjha.github.io/">Prashant K. Jha</a></h5>
         <h6 class="card-subtitle">Research Associate</h6>
-        <p class="card-text">My research interests include computational modeling, continuum and fracture mechanics, computational oncology, Bayesian model inference, and neural network.</p>
+        <p class="card-text">My research is driven by the application of mathematical modeling and computational methods to present-day relevantand challenging problems. Specific areas include continuum and fracture mechanics, computational oncology, and mul-tiscale modeling.</p>
         <ul class="network-icon" aria-hidden="true">
   
     
@@ -1045,13 +1026,15 @@
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/project/covid-19/">Modeling COVID-19 epidemic spread and Bayesian based model inference and selection</a></li>
+      <li><a href="/project/covid-19/">COVID-19 modeling and Bayesian based model calibration</a></li>
       
       <li><a href="/project/computational-peridynamics/">Computational methods for nonlocal models</a></li>
       
       <li><a href="/project/fracture-mechanics/">Analysis and application of peridynamics</a></li>
       
       <li><a href="/project/tumor-modeling/">Modeling tumor growth, angiogenesis, drug-therapy, metastasis</a></li>
+      
+      <li><a href="/project/granular-media/">Study of granular media</a></li>
       
     </ul>
   </div>

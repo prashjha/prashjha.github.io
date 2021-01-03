@@ -737,10 +737,10 @@
 </div>
 
 
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 442px;">
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 518px;">
   <div style="position: relative">
-    <img src="/project/tumor-modeling/featured_hu97b82e430403019491d16f3df9d90a62_562724_720x0_resize_lanczos_2.png" alt="" class="featured-image">
-    <span class="article-header-caption">Top: Progression of tumor towards artery. Bottom: Angiogenesis and tumor growth</span>
+    <img src="/project/tumor-modeling/featured_hu99e531b909b386dc968f1f9855dbec91_1112181_720x0_resize_lanczos_2.png" alt="" class="featured-image">
+    <span class="article-header-caption">Top row: Tumor growth towards artery (<em>arXiv:2006.10477</em>). Bottom row: Angiogenesis and tumor growth (<em>in preparation</em>)</span>
   </div>
 </div>
 
@@ -749,14 +749,56 @@
   <div class="article-container">
 
     <div class="article-style">
-      <h1 id="activity">Activity</h1>
-<h2 id="analysis-of-a-new-multispecies-tumor-growth-model-coupling-3d-phase-fields-with-a-1d-vascular-network">Analysis of a new multispecies tumor growth model coupling 3D phase-fields with a 1D vascular network</h2>
-<p>This is a joint work with Dr. J. T. Oden at UT Austin and colleagues at Technical University of Munich. In this work, we study the 3D-1D model of tumor growth that couples the flow and transport of nutrient in the vessel network with the transport of nutrient and tumor evolution in the tissue domain. In particular, we looked at the problem of well-posedness of resulting highly coupled multi-dimension nonlinear model. See the 
-<a href="/publication/fritz-2020-analysis/">preprint</a>.</p>
-<h2 id="modeling-and-simulation-of-vascular-tumors-embedded-in-dynamically-evolving-capillary-networks">Modeling and simulation of vascular tumors embedded in dynamically evolving capillary networks</h2>
-<p>This work takes the work in paper above to one step further. In this work, we add the angiogenesis effect to the model. Angiogenesis is a phenomena through which nutrient starved tumor cells release special molecules collectively called TAF (Tumor Angiogenesis Factor) which co-opt the blood vessels in the vicinity to grow towards the tumor colony and supply nutrient. This work is under preparation and soon preprint will be available.</p>
-<h2 id="3d1d-model-of-drug-therapy-and-metastasis">3D1D model of drug therapy and metastasis</h2>
-<p>In this work, we propse a 3D-1D model for drug therapy and metastasis. This work is in early stage.</p>
+      <h1 id="activities">Activities</h1>
+<h2 id="1-analysis-of-a-new-multispecies-tumor-growth-model-coupling-3d-phase-fields-with-a-1d-vascular-network">1. Analysis of a new multispecies tumor growth model coupling 3D phase-fields with a 1D vascular network</h2>
+<p>This is joint work with Dr. J. T. Oden at UT Austin and colleagues at the Technical University of Munich. In this work, we study the 3D-1D model of tumor growth that couples the flow and transport of nutrients in the vessel network with nutrient and tumor evolution in the tissue domain. In particular, we looked at the problem of the resulting highly coupled multi-dimension nonlinear model&rsquo;s well-posedness. See the 
+<a href="/publication/fritz-2020-analysis/">preprint: arXiv:2006.10477</a>.</p>
+<p>Figure 1 below shows progression of tumor towards nutrient rich artery on the right. In top row, the contour $\phi_T = 0.8$ plot of total tumor (sum of prolific, hypoxic, and necrotic) species volume fraction is shown. In bottom row, tumor sub-species, necrotic $\phi_N = 0.4$ (black), hypoxic $\phi_H = 0.45$ (orange), and prolific $\phi_P = 0.5$ (green), are shown. Figure is taken from 
+<a href="/publication/fritz-2020-analysis/">preprint: arXiv:2006.10477</a>.</p>
+<table>
+<thead>
+<tr>
+<th align="center"><img src="files/paper1-two-vessels.png" alt=""></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><em>Figure 1: Tumor growth towards nutrient rich artery</em></td>
+</tr>
+</tbody>
+</table>
+<h2 id="2-modeling-and-simulation-of-vascular-tumors-embedded-in-dynamically-evolving-capillary-networks">2. Modeling and simulation of vascular tumors embedded in dynamically evolving capillary networks</h2>
+<p>This work takes the work in the paper above one step further. In this work, we add the angiogenesis effect to the model. Angiogenesis is a phenomenon through which nutrient-starved tumor cells release unique molecules collectively called TAF (Tumor Angiogenesis Factor), which co-opt the blood vessels in the vicinity to grow towards the tumor colony and supply nutrients. This work is under preparation, and soon preprint will be available.</p>
+<p>Figure 2 demonstrates the angiogenesis effect and simultaneous tumor growth. Figure 3 shows the quantity of interests such as total tumor $\phi_T$, prolific $\phi_P$, hypoxic $\phi_H$, and necrotic $\phi_N$ masses with or without angiogenesis. Since angiogenesis is stochastic, we run the simulation multiple times to capture the variation in QoIs. Figures 2 and 3 are from <em>in preparation</em> work.</p>
+<table>
+<thead>
+<tr>
+<th align="center"><img src="files/paper2-angio.png" alt=""></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><em>Figure 2: Network growth for two-vessels and complex network settings</em></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"><img src="files/paper2-two-vessels-QoIstats.png" alt=""></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><em>Figure 3: Effect of angiogenesis on tumor associated quantity of interests</em></td>
+</tr>
+</tbody>
+</table>
+<h2 id="3-application-and-extension-of-the-3d-1d-model-of-tumor-growth">3. Application and extension of the 3D-1D model of tumor growth</h2>
+<p>Next, we are interested in developing a tumor growth model to predict treatment responses and metastasis. For both of these problems, it is necessary to model the coupled flow in tissue and vasculature. We are extending the model to include the flow of drugs in vessels and tissue and its effect on tumor growth.</p>
+<p>While our work so far has been concerned with algorithmic development and abstract simulations that highlight the key capabilities of the model, we are also interested in the model&rsquo;s calibration using MRI data. Towards this, we are working with experts at the 
+<a href="https://cco.oden.utexas.edu/" target="_blank" rel="noopener">Center for Computational Oncology</a> for the application of the multi-dimensional model to breast cancer. The vasculature, flow parameters, initial tumor region in our model will be based on MRI data.</p>
+<p>It is known that the vessels formed as a result of angiogenesis are leaky and weak; the mechanical forces in the tissue microenvironment plays are role in the modification and destruction of these vessels. The mechanical effects are also observed in the growth of the tumor. We are also interested in adding a mechanical component to the model and coupling the mechanical forces with vessels&rsquo; displacement and tumor growth.</p>
 
     </div>
 
@@ -898,7 +940,7 @@
       <div class="media-body">
         <h5 class="card-title"><a href="https://prashjha.github.io/">Prashant K. Jha</a></h5>
         <h6 class="card-subtitle">Research Associate</h6>
-        <p class="card-text">My research interests include computational modeling, continuum and fracture mechanics, computational oncology, Bayesian model inference, and neural network.</p>
+        <p class="card-text">My research is driven by the application of mathematical modeling and computational methods to present-day relevantand challenging problems. Specific areas include continuum and fracture mechanics, computational oncology, and mul-tiscale modeling.</p>
         <ul class="network-icon" aria-hidden="true">
   
     
@@ -1046,7 +1088,9 @@
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/project/signal-recovery-tumor-modeling/">Signal recovery from the imaging data</a></li>
+      <li><a href="/project/granular-media/">Study of granular media</a></li>
+      
+      <li><a href="/project/signal-recovery-tumor-modeling/">Signal recovery from MRI</a></li>
       
     </ul>
   </div>

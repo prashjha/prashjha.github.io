@@ -3,28 +3,68 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://prashjha.github.io/talk/seminar-uh-2020/</loc>
-    <lastmod>2020-10-16T00:00:00+00:00</lastmod>
+    <loc>https://prashjha.github.io/publication-type/3/</loc>
+    <lastmod>2020-10-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://prashjha.github.io/publication/fritz-2020-analysis/</loc>
+    <lastmod>2020-10-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://prashjha.github.io/authors/</loc>
+    <lastmod>2020-10-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://prashjha.github.io/author/barbara-wohlmuth/</loc>
+    <lastmod>2020-10-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://prashjha.github.io/author/j-tinsley-oden/</loc>
+    <lastmod>2020-10-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://prashjha.github.io/author/marvin-fritz/</loc>
+    <lastmod>2020-10-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://prashjha.github.io/author/prashant-k-jha/</loc>
+    <lastmod>2020-10-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://prashjha.github.io/</loc>
+    <lastmod>2020-10-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://prashjha.github.io/publication_types/</loc>
+    <lastmod>2020-10-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://prashjha.github.io/publication/</loc>
+    <lastmod>2020-10-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://prashjha.github.io/author/tobias-koppl/</loc>
+    <lastmod>2020-10-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://prashjha.github.io/talk/seminar-uh-2020/</loc>
     <lastmod>2020-10-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://prashjha.github.io/talk/</loc>
     <lastmod>2020-10-16T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://prashjha.github.io/publication-type/3/</loc>
-    <lastmod>2020-10-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://prashjha.github.io/authors/</loc>
-    <lastmod>2020-10-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -38,22 +78,7 @@
   </url>
   
   <url>
-    <loc>https://prashjha.github.io/author/prashant-k-jha/</loc>
-    <lastmod>2020-10-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://prashjha.github.io/author/prathamesh-s.-desai/</loc>
-    <lastmod>2020-10-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://prashjha.github.io/publication_types/</loc>
-    <lastmod>2020-10-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://prashjha.github.io/publication/</loc>
     <lastmod>2020-10-14T00:00:00+00:00</lastmod>
   </url>
   
@@ -103,16 +128,6 @@
   </url>
   
   <url>
-    <loc>https://prashjha.github.io/publication-type/2/</loc>
-    <lastmod>2020-09-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://prashjha.github.io/publication/jha-2020-peri/</loc>
-    <lastmod>2020-09-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://prashjha.github.io/tag/bayesian/</loc>
     <lastmod>2020-08-02T00:00:00-05:00</lastmod>
   </url>
@@ -123,22 +138,22 @@
   </url>
   
   <url>
-    <loc>https://prashjha.github.io/tag/model-inference/</loc>
-    <lastmod>2020-08-02T00:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://prashjha.github.io/project/covid-19/</loc>
     <lastmod>2020-08-02T00:00:00-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://prashjha.github.io/publication/jha-2020-seird/</loc>
+    <loc>https://prashjha.github.io/tag/model-inference/</loc>
+    <lastmod>2020-08-02T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://prashjha.github.io/publication-type/2/</loc>
     <lastmod>2020-07-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://prashjha.github.io/author/j-tinsley-oden/</loc>
+    <loc>https://prashjha.github.io/publication/jha-2020-seird/</loc>
     <lastmod>2020-07-31T00:00:00+00:00</lastmod>
   </url>
   
@@ -198,6 +213,11 @@
   </url>
   
   <url>
+    <loc>https://prashjha.github.io/project/granular-media/</loc>
+    <lastmod>2020-07-18T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://prashjha.github.io/tag/tumor-model/</loc>
     <lastmod>2020-07-18T00:00:00-05:00</lastmod>
   </url>
@@ -228,23 +248,18 @@
   </url>
   
   <url>
-    <loc>https://prashjha.github.io/publication/fritz-2020-analysis/</loc>
-    <lastmod>2020-06-18T00:00:00+00:00</lastmod>
+    <loc>https://prashjha.github.io/publication/jha-2020-continuum/</loc>
+    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://prashjha.github.io/author/barbara-wohlmuth/</loc>
-    <lastmod>2020-06-18T00:00:00+00:00</lastmod>
+    <loc>https://prashjha.github.io/author/kaushik-dayal/</loc>
+    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://prashjha.github.io/author/marvin-fritz/</loc>
-    <lastmod>2020-06-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://prashjha.github.io/author/tobias-koppl/</loc>
-    <lastmod>2020-06-18T00:00:00+00:00</lastmod>
+    <loc>https://prashjha.github.io/author/timothy-breitzman/</loc>
+    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -305,6 +320,11 @@
   <url>
     <loc>https://prashjha.github.io/author/taemin-heo/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://prashjha.github.io/publication/jha-2020-peri/</loc>
+    <lastmod>2020-03-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
