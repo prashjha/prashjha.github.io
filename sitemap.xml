@@ -98,7 +98,7 @@
   </url>
   
   <url>
-    <loc>https://prashjha.github.io/tag/computational/</loc>
+    <loc>https://prashjha.github.io/tag/computational-mechanics/</loc>
     <lastmod>2020-09-08T00:00:00-05:00</lastmod>
   </url>
   
@@ -118,6 +118,11 @@
   </url>
   
   <url>
+    <loc>https://prashjha.github.io/tag/programming/</loc>
+    <lastmod>2020-09-08T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://prashjha.github.io/project/</loc>
     <lastmod>2020-09-08T00:00:00-05:00</lastmod>
   </url>
@@ -129,6 +134,11 @@
   
   <url>
     <loc>https://prashjha.github.io/tag/bayesian/</loc>
+    <lastmod>2020-08-02T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://prashjha.github.io/tag/computational/</loc>
     <lastmod>2020-08-02T00:00:00-05:00</lastmod>
   </url>
   
@@ -178,17 +188,27 @@
   </url>
   
   <url>
+    <loc>https://prashjha.github.io/tag/continuum-modeling/</loc>
+    <lastmod>2020-07-18T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://prashjha.github.io/tag/dem/</loc>
+    <lastmod>2020-07-18T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://prashjha.github.io/tag/fracture-mechanics/</loc>
     <lastmod>2020-07-18T00:00:00-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://prashjha.github.io/tag/hp-mri/</loc>
+    <loc>https://prashjha.github.io/tag/granular-media/</loc>
     <lastmod>2020-07-18T00:00:00-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://prashjha.github.io/tag/modeling/</loc>
+    <loc>https://prashjha.github.io/tag/hp-mri/</loc>
     <lastmod>2020-07-18T00:00:00-05:00</lastmod>
   </url>
   
@@ -199,6 +219,16 @@
   
   <url>
     <loc>https://prashjha.github.io/tag/mri-data/</loc>
+    <lastmod>2020-07-18T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://prashjha.github.io/tag/multiphysics-modeling/</loc>
+    <lastmod>2020-07-18T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://prashjha.github.io/tag/peridem/</loc>
     <lastmod>2020-07-18T00:00:00-05:00</lastmod>
   </url>
   

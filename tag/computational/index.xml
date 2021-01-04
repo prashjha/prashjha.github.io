@@ -5,41 +5,12 @@
     <link>https://prashjha.github.io/tag/computational/</link>
       <atom:link href="https://prashjha.github.io/tag/computational/index.xml" rel="self" type="application/rss+xml" />
     <description>computational</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 [Prashant K. Jha](https://prashjha.github.io/)</copyright><lastBuildDate>Tue, 08 Sep 2020 00:00:00 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 [Prashant K. Jha](https://prashjha.github.io/)</copyright><lastBuildDate>Sun, 02 Aug 2020 00:00:00 -0500</lastBuildDate>
     <image>
       <url>https://prashjha.github.io/images/logo_hu1c9a7bdcb0202df981fee96563257bac_112200_300x300_fit_lanczos_2.png</url>
       <title>computational</title>
       <link>https://prashjha.github.io/tag/computational/</link>
     </image>
-    
-    <item>
-      <title>Computational methods for nonlocal models</title>
-      <link>https://prashjha.github.io/project/computational-peridynamics/</link>
-      <pubDate>Tue, 08 Sep 2020 00:00:00 -0500</pubDate>
-      <guid>https://prashjha.github.io/project/computational-peridynamics/</guid>
-      <description>&lt;p&gt;Develop efficient and parallel computational methods for class of nonlocal models such as Peridynamics and nonlocal diffusion equations&lt;/p&gt;
-&lt;h1 id=&#34;activities&#34;&gt;Activities&lt;/h1&gt;
-&lt;h2 id=&#34;1-google-summer-of-code-2020&#34;&gt;1. Google Summer of Code 2020&lt;/h2&gt;
-&lt;p&gt;Towards the development of a massively parallel computational library for peridynamics and other nonlocal models, together with P. Diehl, we prepared a computational problem where the goal was to develop a massively parallel library for the simple 2D nonlocal heat equation. See the rough description of the problem 
-&lt;a href=&#34;https://github.com/nonlocalmodels/nonlocalheatequation/blob/master/description/problem_description.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. This project was selected as one of the many projects sponsored by Google in Google Summer of Code and was assigned to student P. Gadikar (IIT Madras). Pranav&amp;rsquo;s work is open source and can be seen 
-&lt;a href=&#34;https://github.com/nonlocalmodels/nonlocalheatequation&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;2-nlmech-library&#34;&gt;2. NLMech library&lt;/h2&gt;
-&lt;p&gt;We have launched peridynamics code 
-&lt;a href=&#34;https://github.com/nonlocalmodels/NLMech&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NLMech&lt;/a&gt; that utilizes 
-&lt;a href=&#34;https://github.com/STEllAR-GROUP/hpx&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HPX&lt;/a&gt; library for efficient multi-threading computation. We aim to make the NLMech library more user-friendly and easily extensible in the coming days. Our future goals are to&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;develop a fully parallel library following some of the key ideas and algorithms from work on 
-&lt;a href=&#34;https://summerofcode.withgoogle.com/projects/#6693763189047296&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Summer of Code 2020&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;implement Quasistatic discretization&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The paper with P. Diehl briefly describing the open-source library is currently under review in JOSS (Journal of Open Source Software). The review of the code and paper is open and can be seen live 
-&lt;a href=&#34;https://github.com/openjournals/joss-reviews/issues/2898&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>COVID-19 modeling and Bayesian based model calibration</title>
@@ -103,38 +74,6 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Analysis and application of peridynamics</title>
-      <link>https://prashjha.github.io/project/fracture-mechanics/</link>
-      <pubDate>Sat, 18 Jul 2020 00:00:00 -0500</pubDate>
-      <guid>https://prashjha.github.io/project/fracture-mechanics/</guid>
-      <description>&lt;h1 id=&#34;activities&#34;&gt;Activities&lt;/h1&gt;
-&lt;h2 id=&#34;1-kinetic-relations-and-local-energy-balance-for-lefm-from-a-nonlocal-peridynamic-model&#34;&gt;1. Kinetic relations and local energy balance for LEFM from a nonlocal peridynamic model&lt;/h2&gt;
-&lt;p&gt;In this work, we carefully looked at the peridynamic energy associated with the process zone. We recovered the kinetic relation for crack tip velocity for the mode-I crack problem. It is based on more theoretical work; see 
-&lt;a href=&#34;https://arxiv.org/abs/2001.00313&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;arXiv preprint&lt;/a&gt;. This is joint work with Dr. R. Lipton.&lt;/p&gt;
-&lt;p&gt;An article recently published in the International Journal of Fracture, see more 
-&lt;a href=&#34;https://link.springer.com/article/10.1007/s10704-020-00480-0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;details&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;2-a-priori-error-analysis-and-well-posedness-of-nonlinear-peridynamic-models&#34;&gt;2. A priori error analysis and well-posedness of nonlinear peridynamic models&lt;/h2&gt;
-&lt;p&gt;At Louisiana State University, I had spent a good amount of time working on &lt;em&gt;a priori&lt;/em&gt; error estimates for finite-difference and finite-element discretization of and well-posedness of nonlinear peridynamic models. This was under the guidance of my adviser Dr. R. Lipton. On this topic, we have published several journal articles and few book chapters, see 
-&lt;a href=&#34;https://prashjha.github.io/publication/&#34;&gt;publication page&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;3-model-development&#34;&gt;3. Model development&lt;/h2&gt;
-&lt;p&gt;In this 
-&lt;a href=&#34;https://prashjha.github.io/publication/lipton-2018-free/&#34;&gt;paper&lt;/a&gt;, we proposed a bond-based peridynamic model with memory effect. If the material is subjected to cyclic loading with each cycle deforming the material beyond some critical strain, it would lose stiffness. This effect is simulated using the temporal nonlocal force (material strength at current time depends on the history) in the proposed model.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Signal recovery from MRI</title>
-      <link>https://prashjha.github.io/project/signal-recovery-tumor-modeling/</link>
-      <pubDate>Sat, 18 Jul 2020 00:00:00 -0500</pubDate>
-      <guid>https://prashjha.github.io/project/signal-recovery-tumor-modeling/</guid>
-      <description>&lt;h1 id=&#34;activities&#34;&gt;Activities&lt;/h1&gt;
-&lt;h2 id=&#34;1-a-mechanistic-tumor-growth-model-for-hp-mri&#34;&gt;1. A mechanistic tumor growth model for HP MRI&lt;/h2&gt;
-&lt;p&gt;This project aims to propose a PDE-based model for recovery of a parameter such as &lt;em&gt;pyruvate to lactate transfer rate&lt;/em&gt; from the Hyperpolarized (HP) MR imaging data. HP MRI is a state of art imaging technique and provides a means to identify the tumor regions. Pyruvate to lactate conversion naturally occurs in tissue; however, this conversion is typically more substantial in the presence of cancerous cells. HP MRI provides the intensity of pyruvate and lactate produced from polarized pyruvate. The region with high lactate indicates the presence of cancerous cells. Postprocessing of HP MRI data involves the calculation of &lt;em&gt;pyruvate to lactate transfer rate&lt;/em&gt;. Current models are based on spatially invariant compartmental models. Our objective is to propose a PDE-based model coupled with the vascular flow to describe pyruvate and lactate evolution. The vasculature will be based on real data. We believe that such a high-fidelity model will result in a more accurate recovery of parameters.&lt;/p&gt;
-&lt;p&gt;Recently, Oden Institute, MD Anderson Cancer Center, and TACC signed an MOU to advance cancer research. Our HP MRI project was selected as one of the five pilot projects under the joint initiative and will be effective from 09/01/2020 - 08/31/2021.&lt;/p&gt;
 </description>
     </item>
     
