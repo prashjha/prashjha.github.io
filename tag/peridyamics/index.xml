@@ -5,12 +5,53 @@
     <link>https://prashjha.github.io/tag/peridyamics/</link>
       <atom:link href="https://prashjha.github.io/tag/peridyamics/index.xml" rel="self" type="application/rss+xml" />
     <description>peridyamics</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 [Prashant K. Jha](https://prashjha.github.io/)</copyright><lastBuildDate>Tue, 08 Sep 2020 00:00:00 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 [Prashant K. Jha](https://prashjha.github.io/)</copyright><lastBuildDate>Tue, 09 Feb 2021 00:00:10 -0600</lastBuildDate>
     <image>
       <url>https://prashjha.github.io/images/logo_hu1c9a7bdcb0202df981fee96563257bac_112200_300x300_fit_lanczos_2.png</url>
       <title>peridyamics</title>
       <link>https://prashjha.github.io/tag/peridyamics/</link>
     </image>
+    
+    <item>
+      <title>PeriDEM</title>
+      <link>https://prashjha.github.io/software/peridem/</link>
+      <pubDate>Tue, 09 Feb 2021 00:00:10 -0600</pubDate>
+      <guid>https://prashjha.github.io/software/peridem/</guid>
+      <description>&lt;h1 id=&#34;code-information&#34;&gt;Code information&lt;/h1&gt;
+&lt;p&gt;Gihub link: 
+&lt;a href=&#34;https://github.com/prashjha/PeriDEM&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PeriDEM&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Documentation: TBA&lt;/p&gt;
+&lt;p&gt;Developers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Prashant K. Jha&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Code will be released soon&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>NLMech</title>
+      <link>https://prashjha.github.io/software/nlmech/</link>
+      <pubDate>Tue, 09 Feb 2021 00:00:05 -0600</pubDate>
+      <guid>https://prashjha.github.io/software/nlmech/</guid>
+      <description>&lt;h1 id=&#34;code-information&#34;&gt;Code information&lt;/h1&gt;
+&lt;p&gt;Gihub link: 
+&lt;a href=&#34;https://github.com/nonlocalmodels/NLMech&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NLMech&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Documentation: 
+&lt;a href=&#34;https://nonlocalmodels.github.io/documentation/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NLMech documentation&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Contributors:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Prashant K. Jha&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Patrick Diehl (Louisiana State University)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Computational methods for nonlocal models</title>
