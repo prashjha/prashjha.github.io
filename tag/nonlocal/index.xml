@@ -20,14 +20,21 @@
       <description>&lt;h1 id=&#34;code-information&#34;&gt;Code information&lt;/h1&gt;
 &lt;p&gt;Github link: 
 &lt;a href=&#34;https://github.com/prashjha/PeriDEM&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PeriDEM&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Documentation: TBA&lt;/p&gt;
+&lt;p&gt;Documentation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://github.com/prashjha/PeriDEM/blob/main/README.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Readme&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://prashjha.github.io/PeriDEM/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Doxygen documentation&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;Developers:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Prashant K. Jha&lt;/li&gt;
 &lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Code will be released soon&lt;/p&gt;
-&lt;/blockquote&gt;
 </description>
     </item>
     

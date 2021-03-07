@@ -757,7 +757,7 @@
 </div>
 
 
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 400px; max-height: 427px;">
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 500px; max-height: 320px;">
   <div style="position: relative">
     <img src="/project/granular-media/featured.gif" alt="" class="featured-image">
     <span class="article-header-caption">Damage plot at different times in a compressive test. Red indicates discretized nodes with damage.</span>
@@ -772,7 +772,7 @@
       <h1 id="activities">Activities</h1>
 <h2 id="1-development-of-a-high-fidelity-model-for-granular-media">1. Development of a high-fidelity model for granular media</h2>
 <p>Taking the earlier research on peridynamics for granular media forward, we have developed the Peridynamics-DEM high-fidelity model that can handle arbitrarily shaped particles and particle breakage. Traditional models based on DEM (Discrete Element Method) can not handle the particles with arbitrary shapes and deformation of individual particles. Extension of DEM based method to overcome these challenges is possible. However, it is not trivial. PeriDEM model proposed in 
-<a href="https://arxiv.org/abs/2010.07218" target="_blank" rel="noopener">preprint: arXiv:2010.07218</a> uses peridynamics for deformation of individual particles. In the model, the contact forces between two particles act at the level of discretization. Because contact forces are applied to discretized nodes (within a small distance) of two particles, particles can see the local boundary; thus, the model can accurately simulate the locking effects.</p>
+<a href="https://doi.org/10.1016/j.jmps.2021.104376" target="_blank" rel="noopener">Jha et al 2021</a> uses peridynamics for deformation of individual particles. In the model, the contact forces between two particles act at the level of discretization. Because contact forces are applied to discretized nodes (within a small distance) of two particles, particles can see the local boundary; thus, the model can accurately simulate the locking effects.</p>
 <table>
 <thead>
 <tr>
@@ -782,7 +782,7 @@
 <tbody>
 <tr>
 <td align="center"><em>Figure 1: Two-particle test. The top particle is given initial velocity. The plot shows the damage upon contact for different initial velocities—both particles made of the same materials. Damage above 1 indicates the onset of failure. From 
-<a href="https://arxiv.org/abs/2010.07218" target="_blank" rel="noopener">preprint: arXiv:2010.07218</a></em></td>
+<a href="https://doi.org/10.1016/j.jmps.2021.104376" target="_blank" rel="noopener">Jha et al 2021</a></em></td>
 </tr>
 </tbody>
 </table>
@@ -801,13 +801,13 @@
 <table>
 <thead>
 <tr>
-<th align="center"><img src="files/compressive_test_t1_reaction_force.png" alt=""></th>
+<th align="center"><img src="files/compressive_test_reaction_force_n500.jpg" alt=""></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="center"><em>Figure 3: Compressive test using 25 particles of varying radius. The container&rsquo;s top wall is moving downwards. Left: Plot of reaction force on the container&rsquo;s top wall as a function of penetration downwards. Right: Damage on individual particles at different times. Damage on discretized nodes of particles is shown. Red indicates a node has damage one or above. From 
-<a href="https://arxiv.org/abs/2010.07218" target="_blank" rel="noopener">preprint: arXiv:2010.07218</a></em></td>
+<td align="center"><em>Figure 3: Compressive test using 502 circular and hexagon-shaped particles of varying sizes. The container&rsquo;s top wall is moving downwards. <strong>Top</strong>: Plot of reaction force on the container&rsquo;s top wall as a function of penetration downwards. <strong>Bottom</strong>: Damage on individual particles at different times. Damage on discretized nodes of particles is shown. Red indicates a node has damage one or above. From 
+<a href="https://doi.org/10.1016/j.jmps.2021.104376" target="_blank" rel="noopener">Jha et al 2021</a></em></td>
 </tr>
 </tbody>
 </table>
@@ -832,7 +832,19 @@
 <table>
 <thead>
 <tr>
-<th align="center"><img src="files/t1.gif" alt=""></th>
+<th align="center"><img src="files/two_particle_wall_concave_diff_material_diff_size.gif" alt=""></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><em>Fracture simulation with concave particles.</em></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"><img src="featured.gif" alt=""></th>
 </tr>
 </thead>
 <tbody>
