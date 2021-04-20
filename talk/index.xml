@@ -5,12 +5,56 @@
     <link>https://prashjha.github.io/talk/</link>
       <atom:link href="https://prashjha.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Talks</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 [Prashant K. Jha](https://prashjha.github.io/)</copyright><lastBuildDate>Fri, 16 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 [Prashant K. Jha](https://prashjha.github.io/)</copyright><lastBuildDate>Mon, 01 Nov 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://prashjha.github.io/images/logo_hu1c9a7bdcb0202df981fee96563257bac_112200_300x300_fit_lanczos_2.png</url>
       <title>Talks</title>
       <link>https://prashjha.github.io/talk/</link>
     </image>
+    
+    <item>
+      <title>Model selection and optimal experiment design for HP MRI experiments</title>
+      <link>https://prashjha.github.io/talk/conference-imece-2021/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/talk/conference-imece-2021/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Track: Mechanics of Solids, Structures and Fluids&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Topic 12-21: Data-Enabled Predictive Modeling, Machine Learning, and Uncertainty Quantification in Computational Mechanics&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Analysis and application of peridynamics to fracture in solids and granular media</title>
+      <link>https://prashjha.github.io/talk/conference-usnccm-16-2021/</link>
+      <pubDate>Sun, 25 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/talk/conference-usnccm-16-2021/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;This talk is in honor of Dr. J. Tinsley Oden&amp;rsquo;s monumental contributions to computational mechanics (mini-symposium 103 organized by Dr. Romesh Batra).&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Phase Field Models of the Growth of Tumors Embedded in an Evolving Vascular Network: Dynamic 1D-3D Models of Angiogenesis</title>
+      <link>https://prashjha.github.io/talk/conference-usnccm-16-2021-2/</link>
+      <pubDate>Sun, 25 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/talk/conference-usnccm-16-2021-2/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;This work will be presented by a co-author Marvin Fritz (TUM, Germany).&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Analysis and application of peridynamics to fracture in solids and granular media</title>
+      <link>https://prashjha.github.io/talk/conference-emi-pmc-2021/</link>
+      <pubDate>Tue, 25 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/talk/conference-emi-pmc-2021/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Application of peridynamics to fracture in solids and granular media</title>

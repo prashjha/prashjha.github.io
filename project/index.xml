@@ -194,10 +194,10 @@
       <guid>https://prashjha.github.io/project/tumor-modeling/</guid>
       <description>&lt;h1 id=&#34;activities&#34;&gt;Activities&lt;/h1&gt;
 &lt;h2 id=&#34;1-analysis-of-a-new-multispecies-tumor-growth-model-coupling-3d-phase-fields-with-a-1d-vascular-network&#34;&gt;1. Analysis of a new multispecies tumor growth model coupling 3D phase-fields with a 1D vascular network&lt;/h2&gt;
-&lt;p&gt;This is joint work with Dr. J. T. Oden at UT Austin and colleagues at the Technical University of Munich. In this work, we study the 3D-1D model of tumor growth that couples the flow and transport of nutrients in the vessel network with nutrient and tumor evolution in the tissue domain. In particular, we looked at the problem of the resulting highly coupled multi-dimension nonlinear model&amp;rsquo;s well-posedness. See the 
-&lt;a href=&#34;https://prashjha.github.io/publication/fritz-2020-analysis/&#34;&gt;preprint: arXiv:2006.10477&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This is joint work with Dr. J. T. Oden at UT Austin and colleagues at the Technical University of Munich. In this work, we study the 3D-1D model of tumor growth that couples the flow and transport of nutrients in the vessel network with nutrient and tumor evolution in the tissue domain. In particular, we looked at the well-posedness of the resulting highly coupled multi-dimension nonlinear model. See the 
+&lt;a href=&#34;https://prashjha.github.io/publication/fritz-2020-analysis/&#34;&gt;article&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Figure 1 below shows progression of tumor towards nutrient rich artery on the right. In top row, the contour $\phi_T = 0.8$ plot of total tumor (sum of prolific, hypoxic, and necrotic) species volume fraction is shown. In bottom row, tumor sub-species, necrotic $\phi_N = 0.4$ (black), hypoxic $\phi_H = 0.45$ (orange), and prolific $\phi_P = 0.5$ (green), are shown. Figure is taken from 
-&lt;a href=&#34;https://prashjha.github.io/publication/fritz-2020-analysis/&#34;&gt;preprint: arXiv:2006.10477&lt;/a&gt;.&lt;/p&gt;
+&lt;a href=&#34;https://prashjha.github.io/publication/fritz-2020-analysis/&#34;&gt;article&lt;/a&gt;.&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;

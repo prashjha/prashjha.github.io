@@ -5,12 +5,56 @@
     <link>https://prashjha.github.io/</link>
       <atom:link href="https://prashjha.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Prashant K. Jha</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 [Prashant K. Jha](https://prashjha.github.io/)</copyright><lastBuildDate>Tue, 09 Feb 2021 00:00:10 -0600</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 [Prashant K. Jha](https://prashjha.github.io/)</copyright><lastBuildDate>Mon, 01 Nov 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://prashjha.github.io/images/logo_hu1c9a7bdcb0202df981fee96563257bac_112200_300x300_fit_lanczos_2.png</url>
       <title>Prashant K. Jha</title>
       <link>https://prashjha.github.io/</link>
     </image>
+    
+    <item>
+      <title>Model selection and optimal experiment design for HP MRI experiments</title>
+      <link>https://prashjha.github.io/talk/conference-imece-2021/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/talk/conference-imece-2021/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Track: Mechanics of Solids, Structures and Fluids&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Topic 12-21: Data-Enabled Predictive Modeling, Machine Learning, and Uncertainty Quantification in Computational Mechanics&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Analysis and application of peridynamics to fracture in solids and granular media</title>
+      <link>https://prashjha.github.io/talk/conference-usnccm-16-2021/</link>
+      <pubDate>Sun, 25 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/talk/conference-usnccm-16-2021/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;This talk is in honor of Dr. J. Tinsley Oden&amp;rsquo;s monumental contributions to computational mechanics (mini-symposium 103 organized by Dr. Romesh Batra).&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Phase Field Models of the Growth of Tumors Embedded in an Evolving Vascular Network: Dynamic 1D-3D Models of Angiogenesis</title>
+      <link>https://prashjha.github.io/talk/conference-usnccm-16-2021-2/</link>
+      <pubDate>Sun, 25 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/talk/conference-usnccm-16-2021-2/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;This work will be presented by a co-author Marvin Fritz (TUM, Germany).&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Analysis and application of peridynamics to fracture in solids and granular media</title>
+      <link>https://prashjha.github.io/talk/conference-emi-pmc-2021/</link>
+      <pubDate>Tue, 25 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/talk/conference-emi-pmc-2021/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>PeriDEM</title>
@@ -154,10 +198,7 @@
       <link>https://prashjha.github.io/publication/fritz-2020-analysis/</link>
       <pubDate>Sat, 31 Oct 2020 00:00:00 +0000</pubDate>
       <guid>https://prashjha.github.io/publication/fritz-2020-analysis/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;Revision accepted in Non-linear Analysis: Real World Applications.&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
@@ -382,10 +423,10 @@
       <guid>https://prashjha.github.io/project/tumor-modeling/</guid>
       <description>&lt;h1 id=&#34;activities&#34;&gt;Activities&lt;/h1&gt;
 &lt;h2 id=&#34;1-analysis-of-a-new-multispecies-tumor-growth-model-coupling-3d-phase-fields-with-a-1d-vascular-network&#34;&gt;1. Analysis of a new multispecies tumor growth model coupling 3D phase-fields with a 1D vascular network&lt;/h2&gt;
-&lt;p&gt;This is joint work with Dr. J. T. Oden at UT Austin and colleagues at the Technical University of Munich. In this work, we study the 3D-1D model of tumor growth that couples the flow and transport of nutrients in the vessel network with nutrient and tumor evolution in the tissue domain. In particular, we looked at the problem of the resulting highly coupled multi-dimension nonlinear model&amp;rsquo;s well-posedness. See the 
-&lt;a href=&#34;https://prashjha.github.io/publication/fritz-2020-analysis/&#34;&gt;preprint: arXiv:2006.10477&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This is joint work with Dr. J. T. Oden at UT Austin and colleagues at the Technical University of Munich. In this work, we study the 3D-1D model of tumor growth that couples the flow and transport of nutrients in the vessel network with nutrient and tumor evolution in the tissue domain. In particular, we looked at the well-posedness of the resulting highly coupled multi-dimension nonlinear model. See the 
+&lt;a href=&#34;https://prashjha.github.io/publication/fritz-2020-analysis/&#34;&gt;article&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Figure 1 below shows progression of tumor towards nutrient rich artery on the right. In top row, the contour $\phi_T = 0.8$ plot of total tumor (sum of prolific, hypoxic, and necrotic) species volume fraction is shown. In bottom row, tumor sub-species, necrotic $\phi_N = 0.4$ (black), hypoxic $\phi_H = 0.45$ (orange), and prolific $\phi_P = 0.5$ (green), are shown. Figure is taken from 
-&lt;a href=&#34;https://prashjha.github.io/publication/fritz-2020-analysis/&#34;&gt;preprint: arXiv:2006.10477&lt;/a&gt;.&lt;/p&gt;
+&lt;a href=&#34;https://prashjha.github.io/publication/fritz-2020-analysis/&#34;&gt;article&lt;/a&gt;.&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
