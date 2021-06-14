@@ -49,11 +49,48 @@
     </item>
     
     <item>
+      <title>Angiogenesis3D1D</title>
+      <link>https://prashjha.github.io/software/angiogenesis3d1d/</link>
+      <pubDate>Mon, 14 Jun 2021 00:00:10 -0500</pubDate>
+      <guid>https://prashjha.github.io/software/angiogenesis3d1d/</guid>
+      <description>&lt;h1 id=&#34;code-information&#34;&gt;Code information&lt;/h1&gt;
+&lt;p&gt;Github link: 
+&lt;a href=&#34;https://github.com/CancerModeling/Angiogenesis3D1D&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Angiogenesis3D1D&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Documentation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://github.com/CancerModeling/Angiogenesis3D1D/blob/main/README.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Readme&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Developers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Prashant K. Jha&lt;/li&gt;
+&lt;li&gt;Tobias Koppl (Technical University of Munich)&lt;/li&gt;
+&lt;li&gt;Andreas Wagner (Technical University of Munich)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Biologically-based mathematical modeling of tumor vasculature and angiogenesis via time-resolved imaging data</title>
+      <link>https://prashjha.github.io/publication/david-2021-review/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/david-2021-review/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;To appear in &lt;strong&gt;Cancers&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Analysis and application of peridynamics to fracture in solids and granular media</title>
       <link>https://prashjha.github.io/talk/conference-emi-pmc-2021/</link>
       <pubDate>Tue, 25 May 2021 00:00:00 +0000</pubDate>
       <guid>https://prashjha.github.io/talk/conference-emi-pmc-2021/</guid>
-      <description></description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.youtube.com/watch?v=QbjoU9pPC1g&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Youtube link&lt;/a&gt; to the presentation.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
     </item>
     
     <item>
@@ -179,7 +216,10 @@
       <link>https://prashjha.github.io/publication/fritz-2021-angiogenesis/</link>
       <pubDate>Fri, 22 Jan 2021 00:00:00 +0000</pubDate>
       <guid>https://prashjha.github.io/publication/fritz-2021-angiogenesis/</guid>
-      <description></description>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;To appear in &lt;strong&gt;Computer Methods in Applied Mechanics and Engineering&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
     </item>
     
     <item>

@@ -5,12 +5,34 @@
     <link>https://prashjha.github.io/tag/angiogenesis/</link>
       <atom:link href="https://prashjha.github.io/tag/angiogenesis/index.xml" rel="self" type="application/rss+xml" />
     <description>angiogenesis</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 [Prashant K. Jha](https://prashjha.github.io/)</copyright><lastBuildDate>Sat, 18 Jul 2020 00:00:00 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 [Prashant K. Jha](https://prashjha.github.io/)</copyright><lastBuildDate>Mon, 14 Jun 2021 00:00:10 -0500</lastBuildDate>
     <image>
       <url>https://prashjha.github.io/images/logo_hu1c9a7bdcb0202df981fee96563257bac_112200_300x300_fit_lanczos_2.png</url>
       <title>angiogenesis</title>
       <link>https://prashjha.github.io/tag/angiogenesis/</link>
     </image>
+    
+    <item>
+      <title>Angiogenesis3D1D</title>
+      <link>https://prashjha.github.io/software/angiogenesis3d1d/</link>
+      <pubDate>Mon, 14 Jun 2021 00:00:10 -0500</pubDate>
+      <guid>https://prashjha.github.io/software/angiogenesis3d1d/</guid>
+      <description>&lt;h1 id=&#34;code-information&#34;&gt;Code information&lt;/h1&gt;
+&lt;p&gt;Github link: 
+&lt;a href=&#34;https://github.com/CancerModeling/Angiogenesis3D1D&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Angiogenesis3D1D&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Documentation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://github.com/CancerModeling/Angiogenesis3D1D/blob/main/README.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Readme&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Developers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Prashant K. Jha&lt;/li&gt;
+&lt;li&gt;Tobias Koppl (Technical University of Munich)&lt;/li&gt;
+&lt;li&gt;Andreas Wagner (Technical University of Munich)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Modeling tumor growth, angiogenesis, drug-therapy, metastasis</title>
