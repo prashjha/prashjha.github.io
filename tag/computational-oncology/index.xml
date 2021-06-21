@@ -59,9 +59,9 @@
 &lt;/table&gt;
 &lt;h2 id=&#34;2-modeling-and-simulation-of-vascular-tumors-embedded-in-dynamically-evolving-capillary-networks&#34;&gt;2. Modeling and simulation of vascular tumors embedded in dynamically evolving capillary networks&lt;/h2&gt;
 &lt;p&gt;This work takes the work in the paper above one step further. In this work, we add the angiogenesis effect to the model. Angiogenesis is a phenomenon through which nutrient-starved tumor cells release unique molecules collectively called TAF (Tumor Angiogenesis Factor), which co-opt the blood vessels in the vicinity to grow towards the tumor colony and supply nutrients. We recently submitted the work for review, see 
-&lt;a href=&#34;https://prashjha.github.io/publication/fritz-2021-angiogenesis/&#34;&gt;preprint: arXiv:2101.10183&lt;/a&gt;.&lt;/p&gt;
+&lt;a href=&#34;https://prashjha.github.io/publication/fritz-2021-angiogenesis/&#34;&gt;article&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Figure 2 demonstrates the angiogenesis effect and simultaneous tumor growth. Figure 3 shows the quantity of interests such as total tumor $\phi_T$, prolific $\phi_P$, hypoxic $\phi_H$, and necrotic $\phi_N$ masses with or without angiogenesis. Since angiogenesis is stochastic, we run the simulation multiple times to capture the variation in QoIs. Figures 2 and 3 and simulation videos in this section are from 
-&lt;a href=&#34;https://prashjha.github.io/publication/fritz-2021-angiogenesis/&#34;&gt;preprint: arXiv:2101.10183&lt;/a&gt;.&lt;/p&gt;
+&lt;a href=&#34;https://prashjha.github.io/publication/fritz-2021-angiogenesis/&#34;&gt;article&lt;/a&gt;.&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;

@@ -101,9 +101,8 @@
       <description>&lt;h1 id=&#34;activities&#34;&gt;Activities&lt;/h1&gt;
 &lt;h2 id=&#34;1-kinetic-relations-and-local-energy-balance-for-lefm-from-a-nonlocal-peridynamic-model&#34;&gt;1. Kinetic relations and local energy balance for LEFM from a nonlocal peridynamic model&lt;/h2&gt;
 &lt;p&gt;In this work, we carefully looked at the peridynamic energy associated with the process zone. We recovered the kinetic relation for crack tip velocity for the mode-I crack problem. It is based on more theoretical work; see 
-&lt;a href=&#34;https://arxiv.org/abs/2001.00313&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;arXiv preprint&lt;/a&gt;. This is joint work with Dr. R. Lipton.&lt;/p&gt;
-&lt;p&gt;An article recently published in the International Journal of Fracture, see more 
-&lt;a href=&#34;https://link.springer.com/article/10.1007/s10704-020-00480-0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;details&lt;/a&gt;.&lt;/p&gt;
+&lt;a href=&#34;https://prashjha.github.io/publication/lipton-2020-plane/&#34;&gt;Lipton and Jha 2021&lt;/a&gt;, 
+&lt;a href=&#34;https://prashjha.github.io/publication/jha-2020-peri/&#34;&gt;Jha and Lipton 2020&lt;/a&gt;. This is joint work with Dr. R. Lipton.&lt;/p&gt;
 &lt;p&gt;Some interesting simulations are shown next.&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -114,7 +113,7 @@
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;em&gt;Simulation of Mode-I propagation. We apply vertically outward displacement boundary conditions on the small layer in the top and bottom. Material has initial pre-crack. Simulation from 
-&lt;a href=&#34;https://link.springer.com/article/10.1007/s10704-020-00480-0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt;&lt;/em&gt;&lt;/td&gt;
+&lt;a href=&#34;https://link.springer.com/article/10.1007/s10704-020-00480-0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;article&lt;/a&gt;&lt;/em&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -128,7 +127,7 @@
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;em&gt;Inclined crack propagation. We apply diagonally outward force in small regions near the right-top and left-bottom corner. Simulation from 
-&lt;a href=&#34;https://link.springer.com/article/10.1007/s42102-019-00010-0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt;. Here red indicates a node with one or more broken bonds in its neighborhood.&lt;/em&gt;&lt;/td&gt;
+&lt;a href=&#34;https://link.springer.com/article/10.1007/s42102-019-00010-0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;article&lt;/a&gt;. Here red indicates a node with one or more broken bonds in its neighborhood.&lt;/em&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;em&gt;Crack propagation in the presence of the void. We see that void deflects the crack moving straight.&lt;/em&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -166,7 +165,7 @@
 &lt;/table&gt;
 &lt;h2 id=&#34;3-model-development&#34;&gt;3. Model development&lt;/h2&gt;
 &lt;p&gt;In this 
-&lt;a href=&#34;https://prashjha.github.io/publication/lipton-2018-free/&#34;&gt;paper&lt;/a&gt;, we proposed a bond-based peridynamic model with memory effect. If the material is subjected to cyclic loading, with each cycle deforming the material beyond some critical strain, it will continue to lose stiffness in every loading cycle. This effect is simulated using the temporal nonlocal force (material strength at a current time depends on the history) in the proposed model.&lt;/p&gt;
+&lt;a href=&#34;https://prashjha.github.io/publication/lipton-2018-free/&#34;&gt;article&lt;/a&gt;, we proposed a bond-based peridynamic model with memory effect. If the material is subjected to cyclic loading, with each cycle deforming the material beyond some critical strain, it will continue to lose stiffness in every loading cycle. This effect is simulated using the temporal nonlocal force (material strength at a current time depends on the history) in the proposed model.&lt;/p&gt;
 </description>
     </item>
     

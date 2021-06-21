@@ -49,6 +49,22 @@
     </item>
     
     <item>
+      <title>Modeling and simulation of vascular tumors embedded in evolving capillary networks</title>
+      <link>https://prashjha.github.io/publication/fritz-2021-angiogenesis/</link>
+      <pubDate>Fri, 18 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/fritz-2021-angiogenesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Biologically-based mathematical modeling of tumor vasculature and angiogenesis via time-resolved imaging data</title>
+      <link>https://prashjha.github.io/publication/david-2021-review/</link>
+      <pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/david-2021-review/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Angiogenesis3D1D</title>
       <link>https://prashjha.github.io/software/angiogenesis3d1d/</link>
       <pubDate>Mon, 14 Jun 2021 00:00:10 -0500</pubDate>
@@ -67,17 +83,6 @@
 &lt;li&gt;Tobias Koppl (Technical University of Munich)&lt;/li&gt;
 &lt;li&gt;Andreas Wagner (Technical University of Munich)&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Biologically-based mathematical modeling of tumor vasculature and angiogenesis via time-resolved imaging data</title>
-      <link>https://prashjha.github.io/publication/david-2021-review/</link>
-      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>https://prashjha.github.io/publication/david-2021-review/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;To appear in &lt;strong&gt;Cancers&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
 </description>
     </item>
     
@@ -208,17 +213,6 @@
 &lt;h1 id=&#34;notes&#34;&gt;Notes&lt;/h1&gt;
 &lt;p&gt;This is a &lt;strong&gt;Google Summer of Code 2020&lt;/strong&gt; project. In this work, we carefully looked the challenges in development of distributed solvers for nonlocal interaction based models such as nonlocal diffusion equation and peridynamics. We propose methods to efficiently handle the increased data dependency (due to large-scale interaction) and balancing the load to minimize cpu idle time. For more details, see 
 &lt;a href=&#34;https://prashjha.github.io/publication/gadikar-2021-nonlocal/&#34;&gt;arXiv preprint&lt;/a&gt;. Lead developer of the project is Pranav Gadikar.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Modeling and simulation of vascular tumors embedded in evolving capillary networks</title>
-      <link>https://prashjha.github.io/publication/fritz-2021-angiogenesis/</link>
-      <pubDate>Fri, 22 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://prashjha.github.io/publication/fritz-2021-angiogenesis/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;To appear in &lt;strong&gt;Computer Methods in Applied Mechanics and Engineering&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
 </description>
     </item>
     
@@ -387,9 +381,8 @@
       <description>&lt;h1 id=&#34;activities&#34;&gt;Activities&lt;/h1&gt;
 &lt;h2 id=&#34;1-kinetic-relations-and-local-energy-balance-for-lefm-from-a-nonlocal-peridynamic-model&#34;&gt;1. Kinetic relations and local energy balance for LEFM from a nonlocal peridynamic model&lt;/h2&gt;
 &lt;p&gt;In this work, we carefully looked at the peridynamic energy associated with the process zone. We recovered the kinetic relation for crack tip velocity for the mode-I crack problem. It is based on more theoretical work; see 
-&lt;a href=&#34;https://arxiv.org/abs/2001.00313&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;arXiv preprint&lt;/a&gt;. This is joint work with Dr. R. Lipton.&lt;/p&gt;
-&lt;p&gt;An article recently published in the International Journal of Fracture, see more 
-&lt;a href=&#34;https://link.springer.com/article/10.1007/s10704-020-00480-0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;details&lt;/a&gt;.&lt;/p&gt;
+&lt;a href=&#34;https://prashjha.github.io/publication/lipton-2020-plane/&#34;&gt;Lipton and Jha 2021&lt;/a&gt;, 
+&lt;a href=&#34;https://prashjha.github.io/publication/jha-2020-peri/&#34;&gt;Jha and Lipton 2020&lt;/a&gt;. This is joint work with Dr. R. Lipton.&lt;/p&gt;
 &lt;p&gt;Some interesting simulations are shown next.&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -400,7 +393,7 @@
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;em&gt;Simulation of Mode-I propagation. We apply vertically outward displacement boundary conditions on the small layer in the top and bottom. Material has initial pre-crack. Simulation from 
-&lt;a href=&#34;https://link.springer.com/article/10.1007/s10704-020-00480-0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt;&lt;/em&gt;&lt;/td&gt;
+&lt;a href=&#34;https://link.springer.com/article/10.1007/s10704-020-00480-0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;article&lt;/a&gt;&lt;/em&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -414,7 +407,7 @@
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;em&gt;Inclined crack propagation. We apply diagonally outward force in small regions near the right-top and left-bottom corner. Simulation from 
-&lt;a href=&#34;https://link.springer.com/article/10.1007/s42102-019-00010-0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;paper&lt;/a&gt;. Here red indicates a node with one or more broken bonds in its neighborhood.&lt;/em&gt;&lt;/td&gt;
+&lt;a href=&#34;https://link.springer.com/article/10.1007/s42102-019-00010-0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;article&lt;/a&gt;. Here red indicates a node with one or more broken bonds in its neighborhood.&lt;/em&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;em&gt;Crack propagation in the presence of the void. We see that void deflects the crack moving straight.&lt;/em&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -452,7 +445,7 @@
 &lt;/table&gt;
 &lt;h2 id=&#34;3-model-development&#34;&gt;3. Model development&lt;/h2&gt;
 &lt;p&gt;In this 
-&lt;a href=&#34;https://prashjha.github.io/publication/lipton-2018-free/&#34;&gt;paper&lt;/a&gt;, we proposed a bond-based peridynamic model with memory effect. If the material is subjected to cyclic loading, with each cycle deforming the material beyond some critical strain, it will continue to lose stiffness in every loading cycle. This effect is simulated using the temporal nonlocal force (material strength at a current time depends on the history) in the proposed model.&lt;/p&gt;
+&lt;a href=&#34;https://prashjha.github.io/publication/lipton-2018-free/&#34;&gt;article&lt;/a&gt;, we proposed a bond-based peridynamic model with memory effect. If the material is subjected to cyclic loading, with each cycle deforming the material beyond some critical strain, it will continue to lose stiffness in every loading cycle. This effect is simulated using the temporal nonlocal force (material strength at a current time depends on the history) in the proposed model.&lt;/p&gt;
 </description>
     </item>
     
@@ -481,9 +474,9 @@
 &lt;/table&gt;
 &lt;h2 id=&#34;2-modeling-and-simulation-of-vascular-tumors-embedded-in-dynamically-evolving-capillary-networks&#34;&gt;2. Modeling and simulation of vascular tumors embedded in dynamically evolving capillary networks&lt;/h2&gt;
 &lt;p&gt;This work takes the work in the paper above one step further. In this work, we add the angiogenesis effect to the model. Angiogenesis is a phenomenon through which nutrient-starved tumor cells release unique molecules collectively called TAF (Tumor Angiogenesis Factor), which co-opt the blood vessels in the vicinity to grow towards the tumor colony and supply nutrients. We recently submitted the work for review, see 
-&lt;a href=&#34;https://prashjha.github.io/publication/fritz-2021-angiogenesis/&#34;&gt;preprint: arXiv:2101.10183&lt;/a&gt;.&lt;/p&gt;
+&lt;a href=&#34;https://prashjha.github.io/publication/fritz-2021-angiogenesis/&#34;&gt;article&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Figure 2 demonstrates the angiogenesis effect and simultaneous tumor growth. Figure 3 shows the quantity of interests such as total tumor $\phi_T$, prolific $\phi_P$, hypoxic $\phi_H$, and necrotic $\phi_N$ masses with or without angiogenesis. Since angiogenesis is stochastic, we run the simulation multiple times to capture the variation in QoIs. Figures 2 and 3 and simulation videos in this section are from 
-&lt;a href=&#34;https://prashjha.github.io/publication/fritz-2021-angiogenesis/&#34;&gt;preprint: arXiv:2101.10183&lt;/a&gt;.&lt;/p&gt;
+&lt;a href=&#34;https://prashjha.github.io/publication/fritz-2021-angiogenesis/&#34;&gt;article&lt;/a&gt;.&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -745,6 +738,14 @@
     </item>
     
     <item>
+      <title>An asynchronous and task-based implementation of peridynamics utilizing HPX—the C&#43;&#43; standard library for parallelism and concurrency</title>
+      <link>https://prashjha.github.io/publication/diehl-2018-perihpx/</link>
+      <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/diehl-2018-perihpx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Convergence results for finite element and finite difference approximation of nonlocal fracture models</title>
       <link>https://prashjha.github.io/talk/conference-siam-la-tx-2018/</link>
       <pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate>
@@ -757,14 +758,6 @@
       <link>https://prashjha.github.io/talk/conference-wccm-13-2018/</link>
       <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
       <guid>https://prashjha.github.io/talk/conference-wccm-13-2018/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Implementation of Peridynamics utilizing HPX--the C&#43;&#43; standard library for parallelism and concurrency</title>
-      <link>https://prashjha.github.io/publication/diehl-2018-perihpx/</link>
-      <pubDate>Mon, 18 Jun 2018 00:00:00 +0000</pubDate>
-      <guid>https://prashjha.github.io/publication/diehl-2018-perihpx/</guid>
       <description></description>
     </item>
     
