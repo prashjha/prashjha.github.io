@@ -221,10 +221,7 @@
       <link>https://prashjha.github.io/publication/gadikar-2021-nonlocal/</link>
       <pubDate>Thu, 21 Jan 2021 00:00:00 +0000</pubDate>
       <guid>https://prashjha.github.io/publication/gadikar-2021-nonlocal/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;Conference paper accepted in PDSEC 2021.&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
@@ -276,20 +273,16 @@
 &lt;h1 id=&#34;activities&#34;&gt;Activities&lt;/h1&gt;
 &lt;h2 id=&#34;1-google-summer-of-code-2020&#34;&gt;1. Google Summer of Code 2020&lt;/h2&gt;
 &lt;p&gt;Towards the development of a massively parallel computational library for peridynamics and other nonlocal models, together with P. Diehl, we prepared a computational problem where the goal was to develop a massively parallel library for the simple 2D nonlocal heat equation. See the rough description of the 
-&lt;a href=&#34;https://github.com/nonlocalmodels/nonlocalheatequation/blob/master/description/problem_description.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;problem&lt;/a&gt;. This project was selected as one of the many projects sponsored by Google in Google Summer of Code and was assigned to student P. Gadikar (IIT Madras). Pranav&amp;rsquo;s work is open source and can be seen 
-&lt;a href=&#34;https://github.com/nonlocalmodels/nonlocalheatequation&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Recently we submitted the conference paper on &lt;strong&gt;GSoC 2020&lt;/strong&gt; work in &lt;em&gt;PDSEC 2021 (Parallel and Distributed Scientific and Engineering Computing 2021)&lt;/em&gt;. More details and the pdf will be available in this link: 
+&lt;a href=&#34;https://github.com/nonlocalmodels/nonlocalheatequation/blob/master/description/problem_description.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;problem&lt;/a&gt;. This project was sponsored by Google in Google Summer of Code 2020 and was assigned to student P. Gadikar (IIT Madras). Pranav&amp;rsquo;s work is open source and can be found 
+&lt;a href=&#34;https://github.com/nonlocalmodels/nonlocalheatequation&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. Conference paper on proposed load balancing algorithm is in this link 
 &lt;a href=&#34;https://prashjha.github.io/publication/gadikar-2021-nonlocal/&#34;&gt;GSoC 2020 conference paper&lt;/a&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
 &lt;h2 id=&#34;2-nlmech-library&#34;&gt;2. NLMech library&lt;/h2&gt;
 &lt;p&gt;We have launched peridynamics code 
 &lt;a href=&#34;https://github.com/nonlocalmodels/NLMech&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NLMech&lt;/a&gt; that utilizes 
 &lt;a href=&#34;https://github.com/STEllAR-GROUP/hpx&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HPX&lt;/a&gt; library for efficient multi-threading computation. We aim to make the NLMech library more user-friendly and easily extensible in the coming days. Our future goals are to&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;develop a fully parallel library following some of the key ideas and algorithms from work on 
-&lt;a href=&#34;https://summerofcode.withgoogle.com/projects/#6693763189047296&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Summer of Code 2020&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;develop a fully parallel library following some of the key ideas and algorithms from our GSoC 2020 work&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;implement Quasistatic discretization&lt;/p&gt;
