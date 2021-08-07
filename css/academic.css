@@ -7203,7 +7203,7 @@ ul.task-list li input[type="checkbox"] {
 /* Navigation bar text */
 .navbar-light {
   font-family: "Lato", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 1.25;
   text-rendering: optimizeLegibility; }
 
@@ -9177,10 +9177,14 @@ figure img {
 
 /* Make homepage section padding compact. */
 .home-section {
-  padding: 30px 0 30px 0; }
+  padding: 10px 0 10px 0; }
 
 .navbar {
-  height: 50px; }
+  height: 45px;
+  font-size: 0.95rem;
+  box-shadow: 0 0.125rem 0.25rem 0 rgba(74, 177, 154, 0.2); }
+  .navbar .navbar-nav {
+    font-weight: normal; }
 
 .article-container {
   max-width: 900px;
