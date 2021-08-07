@@ -5,12 +5,106 @@
     <link>https://prashjha.github.io/blog/</link>
       <atom:link href="https://prashjha.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <description>Blogs</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 [Prashant K. Jha](https://prashjha.github.io/)</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 [Prashant K. Jha](https://prashjha.github.io/)</copyright><lastBuildDate>Fri, 06 Aug 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://prashjha.github.io/images/logo_hu1c9a7bdcb0202df981fee96563257bac_112200_300x300_fit_lanczos_3.png</url>
       <title>Blogs</title>
       <link>https://prashjha.github.io/blog/</link>
     </image>
+    
+    <item>
+      <title>Modular website - Separating kernel files and static files</title>
+      <link>https://prashjha.github.io/blog/modular-website/</link>
+      <pubDate>Fri, 06 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/blog/modular-website/</guid>
+      <description>&lt;p&gt;Recording the steps I went through to setup a separate website for class &lt;strong&gt;COE 311K&lt;/strong&gt; within my own personal website.&lt;/p&gt;
+&lt;h2 id=&#34;hugo-basic-commands&#34;&gt;Hugo basic commands&lt;/h2&gt;
+&lt;p&gt;Follow 
+&lt;a href=&#34;https://gohugo.io/getting-started/quick-start/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;hugo quickstart&lt;/a&gt; tutorial to create the directory with basic website files. The key steps are&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;# create a directory named quickstart
+hugo new site quickstart
+
+# initialize git
+cd quickstart
+git init
+
+# get theme
+git submodule add &amp;lt;github theme repo&amp;gt; themes/&amp;lt;theme name&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The key steps in above tutorial is finding a right theme for the website. In my case, I selected 
+&lt;a href=&#34;https://hugo-book-demo.netlify.app/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Book theme&lt;/a&gt; which can be cloned from github from this 
+&lt;a href=&#34;https://github.com/alex-shpak/hugo-book&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Themes are added as git submodule. For example, I added &lt;strong&gt;book&lt;/strong&gt; theme as follows&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;git submodule add https://github.com/alex-shpak/hugo-book.git themes/book
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;use-example-files-from-the-theme-to-start&#34;&gt;Use example files from the theme to start&lt;/h2&gt;
+&lt;p&gt;Next step is to create a basic website. It is easier to start with the &lt;strong&gt;example&lt;/strong&gt; website from the theme you have selected.&lt;/p&gt;
+&lt;p&gt;In my case, I copied the relevant files in 
+&lt;a href=&#34;https://github.com/alex-shpak/hugo-book/tree/master/exampleSite&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;exampleSite&lt;/a&gt; to start the website. I considered&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;# clear the content directory
+rm -r content
+
+cp -a themes/book/exampleSite/content ./
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Next, I modified the &lt;code&gt;config.toml&lt;/code&gt; with only things I needed from &lt;code&gt;themes/book/exampleSite/config.toml&lt;/code&gt;. My &lt;code&gt;config.toml&lt;/code&gt; as of now has following:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;baseURL = &#39;https://prashjha.github.io/&#39;
+title = &#39;COE 311K&#39;
+theme = &#39;book&#39;
+
+[menu]
+# [[menu.after]]
+[[menu.before]]
+  name = &amp;quot;Prashant&#39;s Homepage&amp;quot;
+  url = &amp;quot;https://prashjha.github.io/&amp;quot;
+  weight = 1
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In above, we have set up the name of website and theme. I have also added a menu to my homepage.&lt;/p&gt;
+&lt;h3 id=&#34;major-modifications-to-make-this-website-suitable-for-course&#34;&gt;Major modifications to make this website suitable for course&lt;/h3&gt;
+&lt;p&gt;I then modified the files in &lt;code&gt;content/menu&lt;/code&gt;, &lt;code&gt;content/docs&lt;/code&gt;, and &lt;code&gt;content/posts&lt;/code&gt; as per my requirement. After you figure out what do you need in the website, modifying the example files are easy. In my case, I needed menus and contents for syllabus and lectures. For this I modified the &lt;code&gt;content/docs&lt;/code&gt; to create two directories; one for syllabus and other for lectures.&lt;/p&gt;
+&lt;h2 id=&#34;test-the-website&#34;&gt;Test the website&lt;/h2&gt;
+&lt;p&gt;Run&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;hugo server -D
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;and observe the website in realtime by opening the link 
+&lt;a href=&#34;http://localhost:1313/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://localhost:1313/&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Once satisfies, you can create the html files for website by running&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;hugo -F
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This command will create a &lt;code&gt;public&lt;/code&gt; directly with all the necessary html files to render the website.&lt;/p&gt;
+&lt;p&gt;Checkout the 
+&lt;a href=&#34;https://gohugo.io/getting-started/quick-start/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;hugo tutorial&lt;/a&gt;  for more details.&lt;/p&gt;
+&lt;h2 id=&#34;keeping-the-html-files-as-a-submodule&#34;&gt;Keeping the html files as a submodule&lt;/h2&gt;
+&lt;p&gt;In case you do not want to track the &lt;code&gt;html&lt;/code&gt; files in &lt;code&gt;public&lt;/code&gt; directory, you can&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Tell git to ignore &lt;code&gt;public&lt;/code&gt; directory by creating .gitignore file and adding this line&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;# Hugo
+# ignore generated files
+resources/
+# ignore html files of the website (optional if want to track public directory separately)
+public/
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;Create a github repository to host the &lt;code&gt;html&lt;/code&gt; files. Suppose &lt;quickstart-public-html&gt; is the name of the github repo. In the beginning, initialize your repo as follows&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;cd public
+git init
+git add .
+git commit -m &amp;quot;first commit&amp;quot;
+
+# add github repo to this git using
+git remote add origin  &amp;lt;REMOTE_URL&amp;gt; 
+
+# push the first commit
+git push origin master
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;Everytime &lt;code&gt;public&lt;/code&gt; directory is modified, you can update the github repo as follows&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;git add . &amp;amp;&amp;amp; git commit -m &amp;quot;your message&amp;quot; &amp;amp;&amp;amp; git push origin master
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
     
   </channel>
 </rss>

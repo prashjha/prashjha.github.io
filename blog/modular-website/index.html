@@ -27,10 +27,11 @@
   
     
   
-  <meta name="description" content="Homepage of Prashant K. Jha">
+  <meta name="description" content="Recording the steps I went through to setup a separate website for class COE 311K within my own personal website.
+Hugo basic commands Follow hugo quickstart tutorial to create the directory with basic website files.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://prashjha.github.io/blog/">
+  <link rel="alternate" hreflang="en-us" href="https://prashjha.github.io/blog/modular-website/">
 
   
 
@@ -211,14 +212,12 @@
   
 
   
-  <link rel="alternate" href="/blog/index.xml" type="application/rss+xml" title="Prashant K. Jha">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/images/icon_hueeb3f52a430818a106f272e048fc63b4_188011_32x32_fill_lanczos_center_3.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hueeb3f52a430818a106f272e048fc63b4_188011_192x192_fill_lanczos_center_3.png">
 
-  <link rel="canonical" href="https://prashjha.github.io/blog/">
+  <link rel="canonical" href="https://prashjha.github.io/blog/modular-website/">
 
   
   
@@ -237,29 +236,35 @@
   <meta property="twitter:creator" content="@prashant_jha16">
   
   <meta property="og:site_name" content="Prashant K. Jha">
-  <meta property="og:url" content="https://prashjha.github.io/blog/">
-  <meta property="og:title" content="Blogs | Prashant K. Jha">
-  <meta property="og:description" content="Homepage of Prashant K. Jha"><meta property="og:image" content="https://prashjha.github.io/images/logo_hu1c9a7bdcb0202df981fee96563257bac_112200_300x300_fit_lanczos_3.png">
+  <meta property="og:url" content="https://prashjha.github.io/blog/modular-website/">
+  <meta property="og:title" content="Modular website - Separating kernel files and static files | Prashant K. Jha">
+  <meta property="og:description" content="Recording the steps I went through to setup a separate website for class COE 311K within my own personal website.
+Hugo basic commands Follow hugo quickstart tutorial to create the directory with basic website files."><meta property="og:image" content="https://prashjha.github.io/images/logo_hu1c9a7bdcb0202df981fee96563257bac_112200_300x300_fit_lanczos_3.png">
   <meta property="twitter:image" content="https://prashjha.github.io/images/logo_hu1c9a7bdcb0202df981fee96563257bac_112200_300x300_fit_lanczos_3.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2021-08-06T00:00:00&#43;00:00">
+    
+      <meta property="article:published_time" content="2021-08-06T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2021-08-06T00:00:00&#43;00:00">
   
 
   
 
 
 
-
   
 
 
   
 
 
+  
 
 
 
-  <title>Blogs | Prashant K. Jha</title>
+
+
+  <title>Modular website - Separating kernel files and static files | Prashant K. Jha</title>
 
 </head>
 
@@ -610,58 +615,452 @@
 </nav>
 
 
-  
-
-
-
-
-
-
-
-
-
-
-
+  <article class="article">
 
   
 
+
+
+
+
+
+
+
+
+
+
+
+  
+
   
   
+  
+<div class="article-container pt-3">
+  <h1>Modular website - Separating kernel files and static files</h1>
+
+  
+
   
     
-  
-<div class="universal-wrapper pt-3">
-  <h1>Blogs</h1>
+
+
+<div class="article-metadata">
 
   
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Aug 6, 2021
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  <span class="middot-divider"></span>
+  <a href="/blog/modular-website/#disqus_thread"></a>
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   
 </div>
 
 
 
-<div class="universal-wrapper">
-  
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>Recording the steps I went through to setup a separate website for class <strong>COE 311K</strong> within my own personal website.</p>
+<h2 id="hugo-basic-commands">Hugo basic commands</h2>
+<p>Follow 
+<a href="https://gohugo.io/getting-started/quick-start/" target="_blank" rel="noopener">hugo quickstart</a> tutorial to create the directory with basic website files. The key steps are</p>
+<pre><code class="language-sh"># create a directory named quickstart
+hugo new site quickstart
+
+# initialize git
+cd quickstart
+git init
+
+# get theme
+git submodule add &lt;github theme repo&gt; themes/&lt;theme name&gt;
+</code></pre>
+<p>The key steps in above tutorial is finding a right theme for the website. In my case, I selected 
+<a href="https://hugo-book-demo.netlify.app/" target="_blank" rel="noopener">Book theme</a> which can be cloned from github from this 
+<a href="https://github.com/alex-shpak/hugo-book" target="_blank" rel="noopener">link</a>.</p>
+<p>Themes are added as git submodule. For example, I added <strong>book</strong> theme as follows</p>
+<pre><code class="language-sh">git submodule add https://github.com/alex-shpak/hugo-book.git themes/book
+</code></pre>
+<h2 id="use-example-files-from-the-theme-to-start">Use example files from the theme to start</h2>
+<p>Next step is to create a basic website. It is easier to start with the <strong>example</strong> website from the theme you have selected.</p>
+<p>In my case, I copied the relevant files in 
+<a href="https://github.com/alex-shpak/hugo-book/tree/master/exampleSite" target="_blank" rel="noopener">exampleSite</a> to start the website. I considered</p>
+<pre><code class="language-sh"># clear the content directory
+rm -r content
+
+cp -a themes/book/exampleSite/content ./
+</code></pre>
+<p>Next, I modified the <code>config.toml</code> with only things I needed from <code>themes/book/exampleSite/config.toml</code>. My <code>config.toml</code> as of now has following:</p>
+<pre><code class="language-toml">baseURL = 'https://prashjha.github.io/'
+title = 'COE 311K'
+theme = 'book'
+
+[menu]
+# [[menu.after]]
+[[menu.before]]
+  name = &quot;Prashant's Homepage&quot;
+  url = &quot;https://prashjha.github.io/&quot;
+  weight = 1
+</code></pre>
+<p>In above, we have set up the name of website and theme. I have also added a menu to my homepage.</p>
+<h3 id="major-modifications-to-make-this-website-suitable-for-course">Major modifications to make this website suitable for course</h3>
+<p>I then modified the files in <code>content/menu</code>, <code>content/docs</code>, and <code>content/posts</code> as per my requirement. After you figure out what do you need in the website, modifying the example files are easy. In my case, I needed menus and contents for syllabus and lectures. For this I modified the <code>content/docs</code> to create two directories; one for syllabus and other for lectures.</p>
+<h2 id="test-the-website">Test the website</h2>
+<p>Run</p>
+<pre><code class="language-sh">hugo server -D
+</code></pre>
+<p>and observe the website in realtime by opening the link 
+<a href="http://localhost:1313/" target="_blank" rel="noopener">http://localhost:1313/</a>.</p>
+<p>Once satisfies, you can create the html files for website by running</p>
+<pre><code class="language-sh">hugo -F
+</code></pre>
+<p>This command will create a <code>public</code> directly with all the necessary html files to render the website.</p>
+<p>Checkout the 
+<a href="https://gohugo.io/getting-started/quick-start/" target="_blank" rel="noopener">hugo tutorial</a>  for more details.</p>
+<h2 id="keeping-the-html-files-as-a-submodule">Keeping the html files as a submodule</h2>
+<p>In case you do not want to track the <code>html</code> files in <code>public</code> directory, you can</p>
+<ol>
+<li>Tell git to ignore <code>public</code> directory by creating .gitignore file and adding this line</li>
+</ol>
+<pre><code class="language-sh"># Hugo
+# ignore generated files
+resources/
+# ignore html files of the website (optional if want to track public directory separately)
+public/
+</code></pre>
+<ol start="2">
+<li>Create a github repository to host the <code>html</code> files. Suppose <quickstart-public-html> is the name of the github repo. In the beginning, initialize your repo as follows</li>
+</ol>
+<pre><code class="language-sh">cd public
+git init
+git add .
+git commit -m &quot;first commit&quot;
+
+# add github repo to this git using
+git remote add origin  &lt;REMOTE_URL&gt; 
+
+# push the first commit
+git push origin master
+</code></pre>
+<ol start="3">
+<li>Everytime <code>public</code> directory is modified, you can update the github repo as follows</li>
+</ol>
+<pre><code class="language-sh">git add . &amp;&amp; git commit -m &quot;your message&quot; &amp;&amp; git push origin master
+</code></pre>
+
+    </div>
+
+    
+
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://prashjha.github.io/blog/modular-website/&amp;text=Modular%20website%20-%20Separating%20kernel%20files%20and%20static%20files" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://prashjha.github.io/blog/modular-website/&amp;t=Modular%20website%20-%20Separating%20kernel%20files%20and%20static%20files" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Modular%20website%20-%20Separating%20kernel%20files%20and%20static%20files&amp;body=https://prashjha.github.io/blog/modular-website/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://prashjha.github.io/blog/modular-website/&amp;title=Modular%20website%20-%20Separating%20kernel%20files%20and%20static%20files" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Modular%20website%20-%20Separating%20kernel%20files%20and%20static%20files%20https://prashjha.github.io/blog/modular-website/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://prashjha.github.io/blog/modular-website/&amp;title=Modular%20website%20-%20Separating%20kernel%20files%20and%20static%20files" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
 
   
   
+
+
+
+
+
+  
     
     
     
-    <div>
-      <h2><a href="/blog/modular-website/" >Modular website - Separating kernel files and static files</a></h2>
-      <div class="article-style">
+      
+    
+    
+    
+    <div class="media author-card content-widget-hr">
+      
         
-          Recording the steps I went through to setup a separate website for class COE 311K within my own personal website.
-Hugo basic commands Follow hugo quickstart tutorial to create the directory with basic website files.
-        
+        <img class="avatar mr-3 avatar-circle" src="/author/prashant-k.-jha/avatar_hua997c6c663e505a724a96405824945d2_1158022_270x270_fill_q75_lanczos_center.jpg" alt="Prashant K. Jha">
+      
+
+      <div class="media-body">
+        <h5 class="card-title"><a href="https://prashjha.github.io/">Prashant K. Jha</a></h5>
+        <h6 class="card-subtitle">Research Associate</h6>
+        <p class="card-text">My research is driven by the application of mathematics and computational science to present-day relevant and challeng- ing problems. Specific areas of interest include mechanics of solids and granular media, computational oncology, and multiscale modeling.</p>
+        <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:pjha.sci@gmail.com" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=XvQBKlwAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/prashjha" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.researchgate.net/profile/Prashant_Jha20" target="_blank" rel="noopener">
+        <i class="fab fa-researchgate"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/prashjha/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://orcid.org/0000-0003-2158-364X" target="_blank" rel="noopener">
+        <i class="fab fa-orcid"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/files/cv.pdf" >
+        <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+</ul>
+
       </div>
     </div>
   
 
-  
 
-</div>
+
+
+
+
+
+<section id="comments">
+  
+    
+
+  
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
 
       
 
