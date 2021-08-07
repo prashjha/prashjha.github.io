@@ -29,7 +29,7 @@
     <item>
       <title>COE 311K - Engineering Computation (Fall 2021)</title>
       <link>https://prashjha.github.io/course/coe-311k/</link>
-      <pubDate>Thu, 29 Jul 2021 00:00:00 -0500</pubDate>
+      <pubDate>Thu, 29 Jul 2021 00:00:00 +0000</pubDate>
       <guid>https://prashjha.github.io/course/coe-311k/</guid>
       <description>&lt;h1 id=&#34;course-websitehttpsprashjhagithubiocoe-311k-website&#34;&gt;
 &lt;a href=&#34;https://prashjha.github.io/COE-311K-website/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Course website&lt;/strong&gt;&lt;/a&gt;&lt;/h1&gt;
@@ -77,7 +77,7 @@
     <item>
       <title>Angiogenesis3D1D</title>
       <link>https://prashjha.github.io/software/angiogenesis3d1d/</link>
-      <pubDate>Mon, 14 Jun 2021 00:00:10 -0500</pubDate>
+      <pubDate>Mon, 14 Jun 2021 00:00:10 +0000</pubDate>
       <guid>https://prashjha.github.io/software/angiogenesis3d1d/</guid>
       <description>&lt;h1 id=&#34;code-information&#34;&gt;Code information&lt;/h1&gt;
 &lt;p&gt;Github link: 
@@ -111,7 +111,7 @@
     <item>
       <title>PeriDEM</title>
       <link>https://prashjha.github.io/software/peridem/</link>
-      <pubDate>Tue, 09 Feb 2021 00:00:10 -0600</pubDate>
+      <pubDate>Tue, 09 Feb 2021 00:00:10 +0000</pubDate>
       <guid>https://prashjha.github.io/software/peridem/</guid>
       <description>&lt;h1 id=&#34;code-information&#34;&gt;Code information&lt;/h1&gt;
 &lt;p&gt;Github link: 
@@ -137,7 +137,7 @@
     <item>
       <title>NLMech</title>
       <link>https://prashjha.github.io/software/nlmech/</link>
-      <pubDate>Tue, 09 Feb 2021 00:00:05 -0600</pubDate>
+      <pubDate>Tue, 09 Feb 2021 00:00:05 +0000</pubDate>
       <guid>https://prashjha.github.io/software/nlmech/</guid>
       <description>&lt;h1 id=&#34;code-information&#34;&gt;Code information&lt;/h1&gt;
 &lt;p&gt;Github link: 
@@ -159,7 +159,7 @@
     <item>
       <title>BayesForSEIRD</title>
       <link>https://prashjha.github.io/software/bayesforseird/</link>
-      <pubDate>Tue, 09 Feb 2021 00:00:04 -0600</pubDate>
+      <pubDate>Tue, 09 Feb 2021 00:00:04 +0000</pubDate>
       <guid>https://prashjha.github.io/software/bayesforseird/</guid>
       <description>&lt;h1 id=&#34;code-information&#34;&gt;Code information&lt;/h1&gt;
 &lt;p&gt;Github link: 
@@ -181,7 +181,7 @@
     <item>
       <title>MultidimFlowPython</title>
       <link>https://prashjha.github.io/software/multidimflowpython/</link>
-      <pubDate>Tue, 09 Feb 2021 00:00:03 -0600</pubDate>
+      <pubDate>Tue, 09 Feb 2021 00:00:03 +0000</pubDate>
       <guid>https://prashjha.github.io/software/multidimflowpython/</guid>
       <description>&lt;h1 id=&#34;code-information&#34;&gt;Code information&lt;/h1&gt;
 &lt;p&gt;Github link: 
@@ -201,7 +201,7 @@
     <item>
       <title>nonlocalheatequation</title>
       <link>https://prashjha.github.io/software/nonlocalheatequation/</link>
-      <pubDate>Tue, 09 Feb 2021 00:00:02 -0600</pubDate>
+      <pubDate>Tue, 09 Feb 2021 00:00:02 +0000</pubDate>
       <guid>https://prashjha.github.io/software/nonlocalheatequation/</guid>
       <description>&lt;h1 id=&#34;code-information&#34;&gt;Code information&lt;/h1&gt;
 &lt;p&gt;Github link: 
@@ -277,7 +277,7 @@
     <item>
       <title>Computational methods for nonlocal models</title>
       <link>https://prashjha.github.io/project/computational-peridynamics/</link>
-      <pubDate>Tue, 08 Sep 2020 00:00:00 -0500</pubDate>
+      <pubDate>Tue, 08 Sep 2020 00:00:00 +0000</pubDate>
       <guid>https://prashjha.github.io/project/computational-peridynamics/</guid>
       <description>&lt;p&gt;Develop efficient and parallel computational methods for class of nonlocal models such as Peridynamics and nonlocal diffusion equations&lt;/p&gt;
 &lt;h1 id=&#34;activities&#34;&gt;Activities&lt;/h1&gt;
@@ -314,7 +314,7 @@
     <item>
       <title>Analysis and application of peridynamics</title>
       <link>https://prashjha.github.io/project/fracture-mechanics/</link>
-      <pubDate>Sat, 18 Jul 2020 00:00:00 -0500</pubDate>
+      <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>
       <guid>https://prashjha.github.io/project/fracture-mechanics/</guid>
       <description>&lt;h1 id=&#34;activities&#34;&gt;Activities&lt;/h1&gt;
 &lt;h2 id=&#34;1-kinetic-relations-and-local-energy-balance-for-lefm-from-a-nonlocal-peridynamic-model&#34;&gt;1. Kinetic relations and local energy balance for LEFM from a nonlocal peridynamic model&lt;/h2&gt;
@@ -390,7 +390,7 @@
     <item>
       <title>Modeling tumor growth, angiogenesis, drug-therapy, metastasis</title>
       <link>https://prashjha.github.io/project/tumor-modeling/</link>
-      <pubDate>Sat, 18 Jul 2020 00:00:00 -0500</pubDate>
+      <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>
       <guid>https://prashjha.github.io/project/tumor-modeling/</guid>
       <description>&lt;h1 id=&#34;activities&#34;&gt;Activities&lt;/h1&gt;
 &lt;h2 id=&#34;1-analysis-of-a-new-multispecies-tumor-growth-model-coupling-3d-phase-fields-with-a-1d-vascular-network&#34;&gt;1. Analysis of a new multispecies tumor growth model coupling 3D phase-fields with a 1D vascular network&lt;/h2&gt;
@@ -478,7 +478,7 @@
     <item>
       <title>Signal recovery from MRI</title>
       <link>https://prashjha.github.io/project/signal-recovery-tumor-modeling/</link>
-      <pubDate>Sat, 18 Jul 2020 00:00:00 -0500</pubDate>
+      <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>
       <guid>https://prashjha.github.io/project/signal-recovery-tumor-modeling/</guid>
       <description>&lt;h1 id=&#34;activities&#34;&gt;Activities&lt;/h1&gt;
 &lt;h2 id=&#34;1-a-mechanistic-tumor-growth-model-for-hp-mri&#34;&gt;1. A mechanistic tumor growth model for HP MRI&lt;/h2&gt;
@@ -490,7 +490,7 @@
     <item>
       <title>Study of granular media</title>
       <link>https://prashjha.github.io/project/granular-media/</link>
-      <pubDate>Sat, 18 Jul 2020 00:00:00 -0500</pubDate>
+      <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>
       <guid>https://prashjha.github.io/project/granular-media/</guid>
       <description>&lt;h1 id=&#34;activities&#34;&gt;Activities&lt;/h1&gt;
 &lt;h2 id=&#34;1-development-of-a-high-fidelity-model-for-granular-media&#34;&gt;1. Development of a high-fidelity model for granular media&lt;/h2&gt;
