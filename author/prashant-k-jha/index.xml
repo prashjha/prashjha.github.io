@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Prashant K Jha | Prashant K. Jha</title>
+    <link>https://prashjha.github.io/author/prashant-k-jha/</link>
+      <atom:link href="https://prashjha.github.io/author/prashant-k-jha/index.xml" rel="self" type="application/rss+xml" />
+    <description>Prashant K Jha</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 [Prashant K. Jha](https://prashjha.github.io/)</copyright><lastBuildDate>Fri, 18 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://prashjha.github.io/images/logo_hu1c9a7bdcb0202df981fee96563257bac_112200_300x300_fit_lanczos_3.png</url>
+      <title>Prashant K Jha</title>
+      <link>https://prashjha.github.io/author/prashant-k-jha/</link>
+    </image>
+    
+    <item>
+      <title>Modeling and simulation of vascular tumors embedded in evolving capillary networks</title>
+      <link>https://prashjha.github.io/publication/fritz-2021-angiogenesis/</link>
+      <pubDate>Fri, 18 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/fritz-2021-angiogenesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Load balancing for distributed nonlocal models within asynchronous many-task systems</title>
+      <link>https://prashjha.github.io/publication/gadikar-2021-nonlocal/</link>
+      <pubDate>Thu, 21 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/gadikar-2021-nonlocal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Analysis of a new multispecies tumor growth model coupling 3D phase-fields with a 1D vascular network</title>
+      <link>https://prashjha.github.io/publication/fritz-2020-analysis/</link>
+      <pubDate>Sat, 31 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/fritz-2020-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Peridynamics-based discrete element method (PeriDEM) model of granular systems involving breakage of arbitrarily shaped particles</title>
+      <link>https://prashjha.github.io/publication/jha-2020-peridem/</link>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/jha-2020-peridem/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bayesian-based predictions of COVID-19 evolution in Texas using multispecies mixture-theoretic continuum models</title>
+      <link>https://prashjha.github.io/publication/jha-2020-seird/</link>
+      <pubDate>Fri, 31 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/jha-2020-seird/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nonlocal elastodynamics and fracture</title>
+      <link>https://prashjha.github.io/publication/lipton-2020-plane/</link>
+      <pubDate>Fri, 17 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/lipton-2020-plane/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Discrete-to-Continuum Limits of Long-Range Electrical Interactions in Nanostructures</title>
+      <link>https://prashjha.github.io/publication/jha-2020-continuum/</link>
+      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/jha-2020-continuum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Finite element approximation of nonlocal dynamic fracture models</title>
+      <link>https://prashjha.github.io/publication/jha-2017-finite/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/jha-2017-finite/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Oden Institute REPORT 20-10</title>
+      <link>https://prashjha.github.io/publication/oden-2020-oden/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/oden-2020-oden/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kinetic relations and local energy balance for LEFM from a nonlocal peridynamic model</title>
+      <link>https://prashjha.github.io/publication/jha-2020-peri/</link>
+      <pubDate>Sun, 22 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/jha-2020-peri/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Finite element convergence for state-based peridynamic fracture models</title>
+      <link>https://prashjha.github.io/publication/jha-2020-finite/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/jha-2020-finite/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Complex fracture nucleation and evolution with nonlocal elastodynamics</title>
+      <link>https://prashjha.github.io/publication/lipton-2019-complex/</link>
+      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/lipton-2019-complex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Numerical convergence of finite difference approximations for state based peridynamic fracture models</title>
+      <link>https://prashjha.github.io/publication/jha-2019-numerical/</link>
+      <pubDate>Thu, 25 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/jha-2019-numerical/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An asynchronous and task-based implementation of peridynamics utilizing HPX—the C&#43;&#43; standard library for parallelism and concurrency</title>
+      <link>https://prashjha.github.io/publication/diehl-2018-perihpx/</link>
+      <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/diehl-2018-perihpx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Numerical convergence of nonlinear nonlocal continuum models to local elastodynamics</title>
+      <link>https://prashjha.github.io/publication/jha-2018-numerical-2/</link>
+      <pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/jha-2018-numerical-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Finite Differences and Finite Elements in Nonlocal Fracture Modeling: A Priori Convergence Rates</title>
+      <link>https://prashjha.github.io/publication/jha-2018-2/</link>
+      <pubDate>Fri, 18 May 2018 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/jha-2018-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Well-Posed Nonlinear Nonlocal Fracture Models Associated with Double-Well Potentials</title>
+      <link>https://prashjha.github.io/publication/jha-2018/</link>
+      <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/jha-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Numerical analysis of nonlocal fracture models in Holder space</title>
+      <link>https://prashjha.github.io/publication/jha-2018-numerical/</link>
+      <pubDate>Tue, 10 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/jha-2018-numerical/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamic Brittle Fracture from Nonlocal Double-Well Potentials: A State-Based Model</title>
+      <link>https://prashjha.github.io/publication/lipton-2018-book-memory/</link>
+      <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/lipton-2018-book-memory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Free damage propagation with memory</title>
+      <link>https://prashjha.github.io/publication/lipton-2018-free/</link>
+      <pubDate>Wed, 14 Mar 2018 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/lipton-2018-free/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamic Brittle Fracture from Nonlocal Double-Well Potentials: A State-Based Model</title>
+      <link>https://prashjha.github.io/publication/lipton-2018/</link>
+      <pubDate>Mon, 12 Mar 2018 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/lipton-2018/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

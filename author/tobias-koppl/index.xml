@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tobias Köppl | Prashant K. Jha</title>
+    <link>https://prashjha.github.io/author/tobias-koppl/</link>
+      <atom:link href="https://prashjha.github.io/author/tobias-koppl/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tobias Köppl</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 [Prashant K. Jha](https://prashjha.github.io/)</copyright><lastBuildDate>Fri, 18 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://prashjha.github.io/images/logo_hu1c9a7bdcb0202df981fee96563257bac_112200_300x300_fit_lanczos_3.png</url>
+      <title>Tobias Köppl</title>
+      <link>https://prashjha.github.io/author/tobias-koppl/</link>
+    </image>
+    
+    <item>
+      <title>Modeling and simulation of vascular tumors embedded in evolving capillary networks</title>
+      <link>https://prashjha.github.io/publication/fritz-2021-angiogenesis/</link>
+      <pubDate>Fri, 18 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/fritz-2021-angiogenesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Analysis of a new multispecies tumor growth model coupling 3D phase-fields with a 1D vascular network</title>
+      <link>https://prashjha.github.io/publication/fritz-2020-analysis/</link>
+      <pubDate>Sat, 31 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/fritz-2020-analysis/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

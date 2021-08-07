@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Courses | Prashant K. Jha</title>
+    <link>https://prashjha.github.io/course/</link>
+      <atom:link href="https://prashjha.github.io/course/index.xml" rel="self" type="application/rss+xml" />
+    <description>Courses</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 [Prashant K. Jha](https://prashjha.github.io/)</copyright><lastBuildDate>Thu, 29 Jul 2021 00:00:00 -0500</lastBuildDate>
+    <image>
+      <url>https://prashjha.github.io/images/logo_hu1c9a7bdcb0202df981fee96563257bac_112200_300x300_fit_lanczos_3.png</url>
+      <title>Courses</title>
+      <link>https://prashjha.github.io/course/</link>
+    </image>
+    
+    <item>
+      <title>COE 311K - Engineering Computation (Fall 2021)</title>
+      <link>https://prashjha.github.io/course/coe-311k/</link>
+      <pubDate>Thu, 29 Jul 2021 00:00:00 -0500</pubDate>
+      <guid>https://prashjha.github.io/course/coe-311k/</guid>
+      <description>&lt;h1 id=&#34;course-websitehttpsprashjhagithubiocoe-311k-website&#34;&gt;
+&lt;a href=&#34;https://prashjha.github.io/COE-311K-website/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;Course website&lt;/strong&gt;&lt;/a&gt;&lt;/h1&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

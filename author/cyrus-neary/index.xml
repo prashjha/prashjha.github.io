@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cyrus Neary | Prashant K. Jha</title>
+    <link>https://prashjha.github.io/author/cyrus-neary/</link>
+      <atom:link href="https://prashjha.github.io/author/cyrus-neary/index.xml" rel="self" type="application/rss+xml" />
+    <description>Cyrus Neary</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 [Prashant K. Jha](https://prashjha.github.io/)</copyright><lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://prashjha.github.io/images/logo_hu1c9a7bdcb0202df981fee96563257bac_112200_300x300_fit_lanczos_3.png</url>
+      <title>Cyrus Neary</title>
+      <link>https://prashjha.github.io/author/cyrus-neary/</link>
+    </image>
+    
+    <item>
+      <title>Oden Institute REPORT 20-10</title>
+      <link>https://prashjha.github.io/publication/oden-2020-oden/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/oden-2020-oden/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
