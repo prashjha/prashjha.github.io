@@ -5,7 +5,7 @@
     <link>https://prashjha.github.io/tag/hp-mri/</link>
       <atom:link href="https://prashjha.github.io/tag/hp-mri/index.xml" rel="self" type="application/rss+xml" />
     <description>HP MRI</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021 [Prashant K. Jha](https://prashjha.github.io/)</copyright><lastBuildDate>Sat, 18 Jul 2020 00:00:00 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021 [Prashant K. Jha](https://prashjha.github.io/)</copyright><lastBuildDate>Sat, 18 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://prashjha.github.io/images/logo_hu1c9a7bdcb0202df981fee96563257bac_112200_300x300_fit_lanczos_3.png</url>
       <title>HP MRI</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Signal recovery from MRI</title>
       <link>https://prashjha.github.io/project/signal-recovery-tumor-modeling/</link>
-      <pubDate>Sat, 18 Jul 2020 00:00:00 -0500</pubDate>
+      <pubDate>Sat, 18 Jul 2020 00:00:00 +0000</pubDate>
       <guid>https://prashjha.github.io/project/signal-recovery-tumor-modeling/</guid>
       <description>&lt;h1 id=&#34;activities&#34;&gt;Activities&lt;/h1&gt;
 &lt;h2 id=&#34;1-a-mechanistic-tumor-growth-model-for-hp-mri&#34;&gt;1. A mechanistic tumor growth model for HP MRI&lt;/h2&gt;
