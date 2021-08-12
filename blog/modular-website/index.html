@@ -27,8 +27,8 @@
   
     
   
-  <meta name="description" content="Recording the steps I went through to setup a separate website for class COE 311K within my own personal website.
-Hugo basic commands Follow hugo quickstart tutorial to create the directory with basic website files.">
+  <meta name="description" content="I am currently using hugo to create website. I found the process to be overall simple and straightforward. The process of setting up a new website includes:
+ selecting an appropriate theme from hugo themes list use the example website files that come with a theme (usually themes are hosted in the github and from the github you can grab the corresponding example website files) customize the example website files as required test the website by first building in your computer using hugo server command:  hugo server -D  this spins up the website in the localhost http://localhost:1313/.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://prashjha.github.io/blog/modular-website/">
@@ -276,14 +276,14 @@ Hugo basic commands Follow hugo quickstart tutorial to create the directory with
   <meta property="og:site_name" content="Prashant K. Jha">
   <meta property="og:url" content="https://prashjha.github.io/blog/modular-website/">
   <meta property="og:title" content="Modular website - Separating kernel files and static files | Prashant K. Jha">
-  <meta property="og:description" content="Recording the steps I went through to setup a separate website for class COE 311K within my own personal website.
-Hugo basic commands Follow hugo quickstart tutorial to create the directory with basic website files."><meta property="og:image" content="https://prashjha.github.io/images/logo_hu1c9a7bdcb0202df981fee96563257bac_112200_300x300_fit_lanczos_3.png">
+  <meta property="og:description" content="I am currently using hugo to create website. I found the process to be overall simple and straightforward. The process of setting up a new website includes:
+ selecting an appropriate theme from hugo themes list use the example website files that come with a theme (usually themes are hosted in the github and from the github you can grab the corresponding example website files) customize the example website files as required test the website by first building in your computer using hugo server command:  hugo server -D  this spins up the website in the localhost http://localhost:1313/."><meta property="og:image" content="https://prashjha.github.io/images/logo_hu1c9a7bdcb0202df981fee96563257bac_112200_300x300_fit_lanczos_3.png">
   <meta property="twitter:image" content="https://prashjha.github.io/images/logo_hu1c9a7bdcb0202df981fee96563257bac_112200_300x300_fit_lanczos_3.png"><meta property="og:locale" content="en-us">
   
     
       <meta property="article:published_time" content="2021-08-06T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2021-08-06T20:31:43-05:00">
+    <meta property="article:modified_time" content="2021-08-12T00:07:43-05:00">
   
 
   
@@ -695,7 +695,7 @@ Hugo basic commands Follow hugo quickstart tutorial to create the directory with
           Last updated on
       
     
-    Aug 6, 2021
+    Aug 12, 2021
   </span>
   
 
@@ -738,92 +738,189 @@ Hugo basic commands Follow hugo quickstart tutorial to create the directory with
   <div class="article-container">
 
     <div class="article-style">
-      <p>Recording the steps I went through to setup a separate website for class <strong>COE 311K</strong> within my own personal website.</p>
-<h2 id="hugo-basic-commands">Hugo basic commands</h2>
-<p>Follow 
-<a href="https://gohugo.io/getting-started/quick-start/" target="_blank" rel="noopener">hugo quickstart</a> tutorial to create the directory with basic website files. The key steps are</p>
-<pre><code class="language-sh"># create a directory named quickstart
-hugo new site quickstart
-
-# initialize git
-cd quickstart
-git init
-
-# get theme
-git submodule add &lt;github theme repo&gt; themes/&lt;theme name&gt;
-</code></pre>
-<p>The key steps in above tutorial is finding a right theme for the website. In my case, I selected 
-<a href="https://hugo-book-demo.netlify.app/" target="_blank" rel="noopener">Book theme</a> which can be cloned from github from this 
-<a href="https://github.com/alex-shpak/hugo-book" target="_blank" rel="noopener">link</a>.</p>
-<p>Themes are added as git submodule. For example, I added <strong>book</strong> theme as follows</p>
-<pre><code class="language-sh">git submodule add https://github.com/alex-shpak/hugo-book.git themes/book
-</code></pre>
-<h2 id="use-example-files-from-the-theme-to-start">Use example files from the theme to start</h2>
-<p>Next step is to create a basic website. It is easier to start with the <strong>example</strong> website from the theme you have selected.</p>
-<p>In my case, I copied the relevant files in 
-<a href="https://github.com/alex-shpak/hugo-book/tree/master/exampleSite" target="_blank" rel="noopener">exampleSite</a> to start the website. I considered</p>
-<pre><code class="language-sh"># clear the content directory
-rm -r content
-
-cp -a themes/book/exampleSite/content ./
-</code></pre>
-<p>Next, I modified the <code>config.toml</code> with only things I needed from <code>themes/book/exampleSite/config.toml</code>. My <code>config.toml</code> as of now has following:</p>
-<pre><code class="language-toml">baseURL = 'https://prashjha.github.io/'
-title = 'COE 311K'
-theme = 'book'
-
-[menu]
-# [[menu.after]]
-[[menu.before]]
-  name = &quot;Prashant's Homepage&quot;
-  url = &quot;https://prashjha.github.io/&quot;
-  weight = 1
-</code></pre>
-<p>In above, we have set up the name of website and theme. I have also added a menu to my homepage.</p>
-<h3 id="major-modifications-to-make-this-website-suitable-for-course">Major modifications to make this website suitable for course</h3>
-<p>I then modified the files in <code>content/menu</code>, <code>content/docs</code>, and <code>content/posts</code> as per my requirement. After you figure out what do you need in the website, modifying the example files are easy. In my case, I needed menus and contents for syllabus and lectures. For this I modified the <code>content/docs</code> to create two directories; one for syllabus and other for lectures.</p>
-<h2 id="test-the-website">Test the website</h2>
-<p>Run</p>
+      <p>I am currently using 
+<a href="https://gohugo.io" target="_blank" rel="noopener">hugo</a> to create website. I found the process to be overall simple and straightforward. The process of setting up a new website includes:</p>
+<ol>
+<li>selecting an appropriate theme from 
+<a href="https://themes.gohugo.io/" target="_blank" rel="noopener">hugo themes list</a></li>
+<li>use the example website files that come with a theme (usually themes are hosted in the github and from the github you can grab the corresponding example website files)</li>
+<li>customize the example website files as required</li>
+<li>test the website by first building in your computer using <code>hugo server</code> command:</li>
+</ol>
 <pre><code class="language-sh">hugo server -D
 </code></pre>
-<p>and observe the website in realtime by opening the link 
-<a href="http://localhost:1313/" target="_blank" rel="noopener">http://localhost:1313/</a>.</p>
-<p>Once satisfies, you can create the html files for website by running</p>
+<p>this spins up the website in the localhost 
+<a href="http://localhost:1313/" target="_blank" rel="noopener">http://localhost:1313/</a>. You can open a browser and go to this localhost and view your website
+5. create website html files using the hugo build command:</p>
 <pre><code class="language-sh">hugo -F
 </code></pre>
-<p>This command will create a <code>public</code> directly with all the necessary html files to render the website.</p>
-<p>Checkout the 
-<a href="https://gohugo.io/getting-started/quick-start/" target="_blank" rel="noopener">hugo tutorial</a>  for more details.</p>
-<h2 id="keeping-the-html-files-as-a-submodule">Keeping the html files as a submodule</h2>
-<p>In case you do not want to track the <code>html</code> files in <code>public</code> directory, you can</p>
-<ol>
-<li>Tell git to ignore <code>public</code> directory by creating .gitignore file and adding this line</li>
-</ol>
-<pre><code class="language-sh"># Hugo
-# ignore generated files
-resources/
-# ignore html files of the website (optional if want to track public directory separately)
-public/
+<p>or explicitly specify to hugo that the website is ready for production (note: this is required if you link google analytics tag with the website)</p>
+<pre><code class="language-sh">HUGO_ENV=&quot;production&quot;  hugo -F
 </code></pre>
-<ol start="2">
-<li>Create a github repository to host the <code>html</code> files. Suppose <quickstart-public-html> is the name of the github repo. In the beginning, initialize your repo as follows</li>
+<ol start="6">
+<li>finally, you need to push all the files in <code>public</code> directory to the corresponding github repository that you have created to host the website. You can also specify to hugo if you want to build the html files in directory other than <code>public</code> by adding below to the <code>config.toml</code> file:</li>
 </ol>
-<pre><code class="language-sh">cd public
+<pre><code class="language-toml">publishDir = 'docs'
+</code></pre>
+<blockquote>
+<p>This blog is also for my reference.</p>
+</blockquote>
+<blockquote>
+<p>Disclaimer: some of the steps may not be efficient!</p>
+</blockquote>
+<h1 id="separate-hugo-website-files-and-generated-html-files">Separate hugo website files and generated html files</h1>
+<p>I prefer to keep the generated html files to render the website and the website files that hugo used to generate html files <strong>separate</strong>. There are two ways to achieve this:</p>
+<h2 id="method-1">Method 1</h2>
+<p>Host the website files (files that hugo will use to create html files) in one github repo, say <code>WebsiteBase</code>, and host the html files in another repo, say <code>WebsiteStatic</code>.</p>
+<p>The steps are as follows:</p>
+<h3 id="step-1">Step 1</h3>
+<p>We first create a <code>WebsiteBase</code> containing your example website. Since we don&rsquo;t want to <strong>track</strong> <code>public</code> directory inside <code>WebsiteBase</code>, we add the following line to <code>.gitignore</code> file:</p>
+<pre><code class="language-sh">public
+</code></pre>
+<h3 id="step-2">Step 2</h3>
+<p>Next, we go to <code>public</code> directory inside <code>WebsiteBase</code> (public directory is not tracked and public directory will be <strong>created</strong> when you <strong>build</strong> the website using <code>hugo -F</code> command). Inside <code>public</code> directory, if this is a first time, create a git repo</p>
+<pre><code class="language-sh"># we assume that we are inside `public` directory
 git init
-git add .
-git commit -m &quot;first commit&quot;
-
-# add github repo to this git using
-git remote add origin  &lt;REMOTE_URL&gt; 
-
-# push the first commit
-git push origin master
+git add . &amp;&amp; git commit -m &quot;first commit&quot;
 </code></pre>
-<ol start="3">
-<li>Everytime <code>public</code> directory is modified, you can update the github repo as follows</li>
-</ol>
-<pre><code class="language-sh">git add . &amp;&amp; git commit -m &quot;your message&quot; &amp;&amp; git push origin master
+<p>Next, suppose you have already created a new repository called <code>WebsiteStatic</code> in github, you can add the remote url to your public directory as follows</p>
+<pre><code class="language-sh"># inside `public` directory
+git remote add origin https://github.com/&lt;your username&gt;/WebsiteStatic.git
 </code></pre>
+<p>and push the code to github</p>
+<pre><code class="language-sh">git branch -M main
+git push origin main
+
+# alternatively, if you prefer, you can keep the master as your `main` branch 
+# and push master to the remote
+# git push origin master
+</code></pre>
+<h3 id="step-3">Step 3</h3>
+<p>Modify the files of <code>WebsiteBase</code> as required and push the changes to <code>WebsiteBase</code> repository. Next, rebuild the website to take the modification in effect using <code>hugo -F</code> command. This will update <code>public</code> directory inside <code>WebsiteBase</code>. You then update the <code>WebsiteStatic</code> as follows:</p>
+<pre><code class="language-sh"># assuming that you are inside `WebsiteBase` repo root directory
+cd public
+git add . &amp;&amp; git commit -m &quot;update&quot;
+# we assume that `public` directory is initialized with `WebsiteStatic` repo (step 2)
+git push origin main -f
+</code></pre>
+<p>In above we have used flag <code>-f</code> (i.e. force push) because <code>public</code> repository may not have the same files as remote repo <code>WebsiteStatic</code> (this may happen if you use to different computers to update the website). And since we do not care much about the commit history of <code>WebsiteStatic</code>, we simply force push the updates to remote repo.</p>
+<h3 id="optional---automate-the-website-update-using-circle-ci">Optional - Automate the website update using circle-ci</h3>
+<p>In updating a website, the main part is updating the website files in <code>WebsiteBase</code> (for example, adding new blog, new publication, new project, etc.). After <code>WebsiteBase</code> is updated, the next step is to run hugo to rebuild the website and update the remote repo <code>WebsiteStatic</code> that hosts the html files. This second step can be automated using 
+<a href="https://circleci.com/" target="_blank" rel="noopener">circle-ci</a> in the github.</p>
+<p>The idea is that we update the files of <code>WebsiteBase</code> and push the code to github and let circle-ci do the rest. For example, I may want to update the blog file 
+<a href="https://github.com/prashjha/my-website/blob/main/content/blog/modular-website/index.md" target="_blank" rel="noopener">content/blog/modular-website/index.md</a>. Suppose you have modified the files and pushed the updates to <code>WebsiteBase</code> repo in github.</p>
+<p>Next, to trigger circle-ci to do the rest, you first need to create a circle-ci config file inside, i.e., <code>&lt;WebsiteBase root&gt;/.circleci/config.yml</code>, with the instruction to build the website using hugo. For example, 
+<a href="https://github.com/prashjha/my-website/blob/main/.circleci/config.yml" target="_blank" rel="noopener">my circle-ci config file</a> looks like this:</p>
+<pre><code class="language-yml">version: 2
+jobs:
+  build:
+    docker:
+      - image: klakegg/hugo:0.87.0-ext-ubuntu
+    steps:
+      - run:
+          name: &quot;Run Hugo&quot;
+          command: |
+            apt-get update
+            apt-get install -y git
+            # pull website repo
+            git clone https://github.com/prashjha/my-website.git
+            cd my-website
+            # within this repo, pull html file repo
+            git clone https://github.com/prashjha/prashjha.github.io.git public
+            # build website
+            HUGO_ENV=&quot;production&quot;  hugo -F
+            # commit to website repo
+            cd public
+            git config user.email &quot;pjha.sci@gmail.com&quot;
+            git config user.name &quot;Prashant K. Jha&quot;
+            git add .
+            git commit --allow-empty -m &quot;update&quot; 
+            # Push quietly to prevent showing the token in log
+            git push -q https://${G_TOKEN}@github.com/prashjha/prashjha.github.io.git main
+</code></pre>
+<p>In above, I use docker image that contains hugo <code>klakegg/hugo:0.87.0-ext-ubuntu</code>. Steps in <code>steps -&gt; run</code> should be obvious. We first clone <code>WebsiteBase</code> (which in my case is named <code>my-website</code>) and then clone the <code>WebsiteStatic</code> (which in my case is name <code>prashjha.github.io</code>) inside <code>public</code> directory. We then build the website using <code>hugo -F</code> command. This updates <code>public</code> directory. We then push the updates to <code>WebsiteStatic</code>.</p>
+<p>So far you have created <code>config.yml</code> that instructs circle-ci. Next, you need to go to your account in 
+<a href="https://circleci.com/" target="_blank" rel="noopener">circle-ci</a>. (Create account in circle ci using your github account). Inside circle-ci, you have to add the project <code>WebsiteBase</code> for continuous integration.</p>
+<blockquote>
+<p>With steps above, everytime you will update <code>WebsiteBase</code>, circle-ci will use the instructions in <code>config.yml</code> and update your <code>WebsiteStatic</code> automatically.</p>
+</blockquote>
+<h2 id="method-2-use-submodule">Method 2 (use submodule)</h2>
+<p>Alternatively, you could store the subset of the website files in a different repository and store the rest of the website files along with the hugo generated html files in one website.</p>
+<p>I opted for this method for the 
+<a href="https://prashjha.github.io/COE-311K-website/" target="_blank" rel="noopener">COE 311K course website</a>. I have created a github repo to store the class related files such as lecture notes, assignments, projects, syllabus, etc., see 
+<a href="https://github.com/prashjha/COE-311K" target="_blank" rel="noopener">COE 311K</a>. And, I host the website files and the html files in this repo: 
+<a href="https://github.com/prashjha/COE-311K-website" target="_blank" rel="noopener">COE 311K website</a>.</p>
+<p>The class repo 
+<a href="https://github.com/prashjha/COE-311K" target="_blank" rel="noopener">COE 311K</a> contains some of the website files needed to generate the website. For example, 
+<a href="https://prashjha.github.io/COE-311K-website/docs/syllabus/" target="_blank" rel="noopener">syllabus page</a> in the website is based on the markdown file 
+<a href="https://github.com/prashjha/COE-311K/blob/main/syllabus/_index.md" target="_blank" rel="noopener">_index.md</a> stored in the syllabus directory of the class repo 
+<a href="https://github.com/prashjha/COE-311K" target="_blank" rel="noopener">COE 311K</a>. Similarly, the lecture page of the website is based on the markdown files in the <code>lectures</code> directory of the class repo 
+<a href="https://github.com/prashjha/COE-311K" target="_blank" rel="noopener">COE 311K</a>.</p>
+<p>I am outlining the steps I used to create the class website (rough outline) with modular structure explained above:</p>
+<h3 id="step-1-1">Step 1</h3>
+<p>Except the files which I expect to change often, rest are contained in the website repo 
+<a href="https://github.com/prashjha/COE-311K-website" target="_blank" rel="noopener">COE 311K website</a>. To connect this repo with the class repo 
+<a href="https://github.com/prashjha/COE-311K" target="_blank" rel="noopener">COE 311K</a>, we use <code>submodule</code> command. We add repo 
+<a href="https://github.com/prashjha/COE-311K" target="_blank" rel="noopener">COE 311K</a> within a repo 
+<a href="https://github.com/prashjha/COE-311K-website" target="_blank" rel="noopener">COE 311K website</a> as follows:</p>
+<pre><code class="language-sh"># assuming inside the root of repo `COE 311K website`
+git submodule add https://github.com/prashjha/COE-311K.git
+</code></pre>
+<p>Next, I have created a symlink of files in syllabus, lectures, etc. of 
+<a href="https://github.com/prashjha/COE-311K" target="_blank" rel="noopener">COE 311K</a> inside the <code>content</code> directory of the repo 
+<a href="https://github.com/prashjha/COE-311K-website" target="_blank" rel="noopener">COE 311K website</a>.</p>
+<h3 id="step-2-1">Step 2</h3>
+<p>Now that 
+<a href="https://github.com/prashjha/COE-311K-website" target="_blank" rel="noopener">COE 311K website</a> repository has the correct submodule and the symlinks are created to connect the class repository files with the website files, we can build the website using <code>hugo -F</code>.</p>
+<p>In my case, since I already use <code>prashjha.github.io</code> repository to render my main website, the repository 
+<a href="https://github.com/prashjha/COE-311K-website" target="_blank" rel="noopener">COE 311K website</a> can only be used to render the <code>github pages</code>. And, last time I checked, <code>github pages</code> requires the html files either in the <code>root</code> directory of the repository or the <code>docs</code> directory. Since we do not want to corrupt the root directory of repo by generating html files in the root, the alternative is to ask <code>hugo</code> to generate the html files inside the <code>docs</code> directory. This can be done by adding the line below to the <code>config.toml</code> file:</p>
+<pre><code class="language-sh">publishDir = 'docs'
+</code></pre>
+<p>So, when we run <code>hugo -F</code>, the html files will be generated inside the <code>docs</code> directory.</p>
+<p>We rebuild the website and push it to the repository. In this case, the website repository will contain all the files (including the html files).</p>
+<h3 id="optional---automate-the-website-update-using-circle-ci-1">Optional - Automate the website update using circle-ci</h3>
+<p>Similar to the method 1, we can automate some of the steps. More often modified files are in the class repository 
+<a href="https://github.com/prashjha/COE-311K" target="_blank" rel="noopener">COE 311K</a> so when this is updated, we can use the circle-ci to update the class website repository 
+<a href="https://github.com/prashjha/COE-311K-website" target="_blank" rel="noopener">COE 311K website</a>. The circle-ci config file in 
+<a href="https://github.com/prashjha/COE-311K" target="_blank" rel="noopener">COE 311K</a> repository looks like:</p>
+<pre><code class="language-yml">
+version: 2
+jobs:
+  build:
+    docker:
+      - image: klakegg/hugo:0.87.0-ext-ubuntu
+    steps:
+      - run:
+          name: &quot;Run Hugo&quot;
+          command: |
+            apt-get update
+            apt-get install -y git
+            # pull website repo
+            git clone https://github.com/prashjha/COE-311K-website.git
+            cd COE-311K-website
+            # update course repo
+            git submodule update --init COE-311K
+            cd COE-311K
+            git checkout main
+            git pull 
+            # build website
+            cd ..
+            hugo -F
+            # commit to website repo
+            git config user.email &quot;pjha.sci@gmail.com&quot;
+            git config user.name &quot;Prashant K. Jha&quot;
+            git add .
+            git commit --allow-empty -m &quot;update&quot; 
+            # Push quietly to prevent showing the token in log
+            git push -q https://${G_TOKEN}@github.com/prashjha/COE-311K-website.git main
+</code></pre>
+<p>The steps are more or less similar to method 1 except now that we have submodule inside the website repository and we need to update the submodule before building the code. The submodule is updated in these steps:</p>
+<pre><code class="language-sh">git submodule update --init COE-311K
+cd COE-311K
+git checkout main
+git pull 
+</code></pre>
+<p>We then build the website and update the remote.</p>
 
     </div>
 
