@@ -2,11 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://prashjha.github.io/talk/conference-imece-2021/</loc>
-    <lastmod>2021-08-06T19:58:53-05:00</lastmod>
+    <loc>https://prashjha.github.io/publication-type/3/</loc>
+    <lastmod>2022-05-16T16:40:25-05:00</lastmod>
+  </url><url>
+    <loc>https://prashjha.github.io/authors/</loc>
+    <lastmod>2022-05-16T16:40:25-05:00</lastmod>
+  </url><url>
+    <loc>https://prashjha.github.io/publication/jha-2022-goal/</loc>
+    <lastmod>2022-05-16T16:40:25-05:00</lastmod>
+  </url><url>
+    <loc>https://prashjha.github.io/author/j.-tinsley-oden/</loc>
+    <lastmod>2022-05-16T16:40:25-05:00</lastmod>
+  </url><url>
+    <loc>https://prashjha.github.io/author/prashant-k-jha/</loc>
+    <lastmod>2022-05-16T16:40:25-05:00</lastmod>
   </url><url>
     <loc>https://prashjha.github.io/</loc>
-    <lastmod>2021-10-05T17:14:28-05:00</lastmod>
+    <lastmod>2022-05-16T16:40:25-05:00</lastmod>
+  </url><url>
+    <loc>https://prashjha.github.io/publication_types/</loc>
+    <lastmod>2022-05-16T16:40:25-05:00</lastmod>
+  </url><url>
+    <loc>https://prashjha.github.io/talk/conference-imece-2021/</loc>
+    <lastmod>2021-08-06T19:58:53-05:00</lastmod>
   </url><url>
     <loc>https://prashjha.github.io/news/computational-oncology-thematic-conference/</loc>
     <lastmod>2021-10-05T17:14:28-05:00</lastmod>
@@ -38,9 +56,6 @@
     <loc>https://prashjha.github.io/author/andreas-wagner/</loc>
     <lastmod>2021-08-06T19:58:53-05:00</lastmod>
   </url><url>
-    <loc>https://prashjha.github.io/authors/</loc>
-    <lastmod>2021-10-05T17:14:28-05:00</lastmod>
-  </url><url>
     <loc>https://prashjha.github.io/author/barbara-wohlmuth/</loc>
     <lastmod>2021-08-06T19:58:53-05:00</lastmod>
   </url><url>
@@ -51,12 +66,6 @@
     <lastmod>2021-08-06T19:58:53-05:00</lastmod>
   </url><url>
     <loc>https://prashjha.github.io/publication/fritz-2021-angiogenesis/</loc>
-    <lastmod>2021-08-06T19:58:53-05:00</lastmod>
-  </url><url>
-    <loc>https://prashjha.github.io/author/prashant-k-jha/</loc>
-    <lastmod>2021-08-06T19:58:53-05:00</lastmod>
-  </url><url>
-    <loc>https://prashjha.github.io/publication_types/</loc>
     <lastmod>2021-08-06T19:58:53-05:00</lastmod>
   </url><url>
     <loc>https://prashjha.github.io/author/tobias-koppl/</loc>
@@ -81,9 +90,6 @@
     <lastmod>2021-08-06T19:58:53-05:00</lastmod>
   </url><url>
     <loc>https://prashjha.github.io/author/guillermo-lorenzo/</loc>
-    <lastmod>2021-08-06T19:58:53-05:00</lastmod>
-  </url><url>
-    <loc>https://prashjha.github.io/author/j.-tinsley-oden/</loc>
     <lastmod>2021-08-06T19:58:53-05:00</lastmod>
   </url><url>
     <loc>https://prashjha.github.io/author/prashant-k.-jha/</loc>
@@ -243,9 +249,6 @@
     <lastmod>2021-08-06T19:58:53-05:00</lastmod>
   </url><url>
     <loc>https://prashjha.github.io/publication/lipton-2020-plane/</loc>
-    <lastmod>2021-08-06T19:58:53-05:00</lastmod>
-  </url><url>
-    <loc>https://prashjha.github.io/publication-type/3/</loc>
     <lastmod>2021-08-06T19:58:53-05:00</lastmod>
   </url><url>
     <loc>https://prashjha.github.io/publication/jha-2020-continuum/</loc>
