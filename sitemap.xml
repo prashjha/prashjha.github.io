@@ -3,25 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://prashjha.github.io/publication-type/3/</loc>
-    <lastmod>2022-05-31T10:29:19-05:00</lastmod>
+    <lastmod>2022-06-27T20:38:54-05:00</lastmod>
   </url><url>
     <loc>https://prashjha.github.io/authors/</loc>
-    <lastmod>2022-05-31T10:29:19-05:00</lastmod>
+    <lastmod>2022-06-27T20:38:54-05:00</lastmod>
   </url><url>
-    <loc>https://prashjha.github.io/publication/jha-2022-goal/</loc>
-    <lastmod>2022-05-31T10:29:19-05:00</lastmod>
+    <loc>https://prashjha.github.io/author/christopher-walker/</loc>
+    <lastmod>2022-06-27T20:38:54-05:00</lastmod>
+  </url><url>
+    <loc>https://prashjha.github.io/author/david-t.-fuentes/</loc>
+    <lastmod>2022-06-27T20:38:54-05:00</lastmod>
+  </url><url>
+    <loc>https://prashjha.github.io/author/dawid-schellingerhout/</loc>
+    <lastmod>2022-06-27T20:38:54-05:00</lastmod>
+  </url><url>
+    <loc>https://prashjha.github.io/author/drew-mitchell/</loc>
+    <lastmod>2022-06-27T20:38:54-05:00</lastmod>
   </url><url>
     <loc>https://prashjha.github.io/author/j.-tinsley-oden/</loc>
-    <lastmod>2022-05-31T10:29:19-05:00</lastmod>
+    <lastmod>2022-06-27T20:38:54-05:00</lastmod>
+  </url><url>
+    <loc>https://prashjha.github.io/author/james-a.-bankson/</loc>
+    <lastmod>2022-06-27T20:38:54-05:00</lastmod>
+  </url><url>
+    <loc>https://prashjha.github.io/publication/jha-2022-mutual/</loc>
+    <lastmod>2022-06-27T20:38:54-05:00</lastmod>
   </url><url>
     <loc>https://prashjha.github.io/author/prashant-k-jha/</loc>
-    <lastmod>2022-05-31T10:29:19-05:00</lastmod>
+    <lastmod>2022-06-27T20:38:54-05:00</lastmod>
   </url><url>
     <loc>https://prashjha.github.io/</loc>
-    <lastmod>2022-05-31T10:29:19-05:00</lastmod>
+    <lastmod>2022-06-27T20:38:54-05:00</lastmod>
   </url><url>
     <loc>https://prashjha.github.io/publication_types/</loc>
-    <lastmod>2022-05-31T10:29:19-05:00</lastmod>
+    <lastmod>2022-06-27T20:38:54-05:00</lastmod>
+  </url><url>
+    <loc>https://prashjha.github.io/publication/jha-2022-goal/</loc>
+    <lastmod>2022-06-27T20:38:54-05:00</lastmod>
   </url><url>
     <loc>https://prashjha.github.io/talk/conference-imece-2021/</loc>
     <lastmod>2021-08-06T19:58:53-05:00</lastmod>
@@ -39,7 +57,7 @@
     <lastmod>2021-08-12T00:07:43-05:00</lastmod>
   </url><url>
     <loc>https://prashjha.github.io/tags/</loc>
-    <lastmod>2021-08-07T17:07:31-05:00</lastmod>
+    <lastmod>2022-06-27T20:38:54-05:00</lastmod>
   </url><url>
     <loc>https://prashjha.github.io/tag/teaching/</loc>
     <lastmod>2021-08-07T17:07:31-05:00</lastmod>
@@ -108,7 +126,7 @@
     <lastmod>2021-08-06T19:58:53-05:00</lastmod>
   </url><url>
     <loc>https://prashjha.github.io/tag/computational-oncology/</loc>
-    <lastmod>2021-08-06T19:58:53-05:00</lastmod>
+    <lastmod>2022-06-27T20:38:54-05:00</lastmod>
   </url><url>
     <loc>https://prashjha.github.io/tag/tumor-growth/</loc>
     <lastmod>2021-08-06T19:58:53-05:00</lastmod>
@@ -150,7 +168,7 @@
     <lastmod>2021-08-06T19:58:53-05:00</lastmod>
   </url><url>
     <loc>https://prashjha.github.io/tag/model-inference/</loc>
-    <lastmod>2021-08-06T19:58:53-05:00</lastmod>
+    <lastmod>2022-06-27T20:38:54-05:00</lastmod>
   </url><url>
     <loc>https://prashjha.github.io/tag/python/</loc>
     <lastmod>2021-08-06T19:58:53-05:00</lastmod>
@@ -222,13 +240,13 @@
     <lastmod>2021-08-06T19:58:53-05:00</lastmod>
   </url><url>
     <loc>https://prashjha.github.io/tag/hp-mri/</loc>
-    <lastmod>2021-08-06T19:58:53-05:00</lastmod>
+    <lastmod>2022-06-27T20:38:54-05:00</lastmod>
   </url><url>
     <loc>https://prashjha.github.io/project/tumor-modeling/</loc>
     <lastmod>2021-08-06T19:58:53-05:00</lastmod>
   </url><url>
     <loc>https://prashjha.github.io/tag/mri-data/</loc>
-    <lastmod>2021-08-06T19:58:53-05:00</lastmod>
+    <lastmod>2022-06-27T20:38:54-05:00</lastmod>
   </url><url>
     <loc>https://prashjha.github.io/tag/multiphysics-modeling/</loc>
     <lastmod>2021-08-06T19:58:53-05:00</lastmod>
@@ -240,7 +258,7 @@
     <lastmod>2021-08-06T19:58:53-05:00</lastmod>
   </url><url>
     <loc>https://prashjha.github.io/project/signal-recovery-tumor-modeling/</loc>
-    <lastmod>2021-08-06T19:58:53-05:00</lastmod>
+    <lastmod>2022-06-27T20:38:54-05:00</lastmod>
   </url><url>
     <loc>https://prashjha.github.io/project/granular-media/</loc>
     <lastmod>2021-08-06T19:58:53-05:00</lastmod>
@@ -395,7 +413,7 @@
     <lastmod>2021-10-05T17:14:28-05:00</lastmod>
   </url><url>
     <loc>https://prashjha.github.io/author/prashant-k.-jha/</loc>
-    <lastmod>2021-10-05T17:14:28-05:00</lastmod>
+    <lastmod>2022-06-27T20:38:54-05:00</lastmod>
   </url><url>
     <loc>https://prashjha.github.io/project/</loc>
     <lastmod>2021-08-06T19:58:53-05:00</lastmod>
