@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Numerical Methods | Prashant K. Jha</title>
+    <link>https://prashjha.github.io/tag/numerical-methods/</link>
+      <atom:link href="https://prashjha.github.io/tag/numerical-methods/index.xml" rel="self" type="application/rss+xml" />
+    <description>Numerical Methods</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021 [Prashant K. Jha](https://prashjha.github.io/)</copyright><lastBuildDate>Mon, 01 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://prashjha.github.io/images/logo_hu1c9a7bdcb0202df981fee96563257bac_112200_300x300_fit_lanczos_3.png</url>
+      <title>Numerical Methods</title>
+      <link>https://prashjha.github.io/tag/numerical-methods/</link>
+    </image>
+    
+    <item>
+      <title>Finite element approximation of nonlocal dynamic fracture models</title>
+      <link>https://prashjha.github.io/publication/jha-2021-finite/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/jha-2021-finite/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Finite element convergence for state-based peridynamic fracture models</title>
+      <link>https://prashjha.github.io/publication/jha-2020-finite/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/jha-2020-finite/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Numerical convergence of finite difference approximations for state based peridynamic fracture models</title>
+      <link>https://prashjha.github.io/publication/jha-2019-numerical/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/jha-2019-numerical/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Finite Differences and Finite Elements in Nonlocal Fracture Modeling: A Priori Convergence Rates</title>
+      <link>https://prashjha.github.io/publication/jha-2018-finite/</link>
+      <pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/jha-2018-finite/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Well-Posed Nonlinear Nonlocal Fracture Models Associated with Double-Well Potentials</title>
+      <link>https://prashjha.github.io/publication/jha-2018-wellposed/</link>
+      <pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/jha-2018-wellposed/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Numerical convergence of nonlinear nonlocal continuum models to local elastodynamics</title>
+      <link>https://prashjha.github.io/publication/jha-2018-numerical-2/</link>
+      <pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/jha-2018-numerical-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Numerical analysis of nonlocal fracture models in Holder space</title>
+      <link>https://prashjha.github.io/publication/jha-2018-numerical/</link>
+      <pubDate>Tue, 10 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/jha-2018-numerical/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

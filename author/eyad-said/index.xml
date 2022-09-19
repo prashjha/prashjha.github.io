@@ -5,7 +5,7 @@
     <link>https://prashjha.github.io/author/eyad-said/</link>
       <atom:link href="https://prashjha.github.io/author/eyad-said/index.xml" rel="self" type="application/rss+xml" />
     <description>Eyad Said</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021 [Prashant K. Jha](https://prashjha.github.io/)</copyright><lastBuildDate>Fri, 16 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021 [Prashant K. Jha](https://prashjha.github.io/)</copyright><lastBuildDate>Fri, 11 Jan 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://prashjha.github.io/images/logo_hu1c9a7bdcb0202df981fee96563257bac_112200_300x300_fit_lanczos_3.png</url>
       <title>Eyad Said</title>
@@ -14,8 +14,16 @@
     
     <item>
       <title>Dynamic Brittle Fracture from Nonlocal Double-Well Potentials: A State-Based Model</title>
+      <link>https://prashjha.github.io/publication/lipton-2018/</link>
+      <pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/lipton-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamic Damage Propagation with Memory: A State-Based Model</title>
       <link>https://prashjha.github.io/publication/lipton-2018-book-memory/</link>
-      <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://prashjha.github.io/publication/lipton-2018-book-memory/</guid>
       <description></description>
     </item>
@@ -23,16 +31,8 @@
     <item>
       <title>Free damage propagation with memory</title>
       <link>https://prashjha.github.io/publication/lipton-2018-free/</link>
-      <pubDate>Wed, 14 Mar 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
       <guid>https://prashjha.github.io/publication/lipton-2018-free/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dynamic Brittle Fracture from Nonlocal Double-Well Potentials: A State-Based Model</title>
-      <link>https://prashjha.github.io/publication/lipton-2018/</link>
-      <pubDate>Mon, 12 Mar 2018 00:00:00 +0000</pubDate>
-      <guid>https://prashjha.github.io/publication/lipton-2018/</guid>
       <description></description>
     </item>
     

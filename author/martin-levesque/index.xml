@@ -5,7 +5,7 @@
     <link>https://prashjha.github.io/author/martin-levesque/</link>
       <atom:link href="https://prashjha.github.io/author/martin-levesque/index.xml" rel="self" type="application/rss+xml" />
     <description>Martin Levesque</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021 [Prashant K. Jha](https://prashjha.github.io/)</copyright><lastBuildDate>Tue, 04 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021 [Prashant K. Jha](https://prashjha.github.io/)</copyright><lastBuildDate>Fri, 04 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://prashjha.github.io/images/logo_hu1c9a7bdcb0202df981fee96563257bac_112200_300x300_fit_lanczos_3.png</url>
       <title>Martin Levesque</title>
@@ -15,7 +15,7 @@
     <item>
       <title>An asynchronous and task-based implementation of peridynamics utilizing HPX—the C&#43;&#43; standard library for parallelism and concurrency</title>
       <link>https://prashjha.github.io/publication/diehl-2018-perihpx/</link>
-      <pubDate>Tue, 04 Dec 2018 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 04 Dec 2020 00:00:00 +0000</pubDate>
       <guid>https://prashjha.github.io/publication/diehl-2018-perihpx/</guid>
       <description></description>
     </item>

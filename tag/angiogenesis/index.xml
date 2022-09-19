@@ -5,12 +5,28 @@
     <link>https://prashjha.github.io/tag/angiogenesis/</link>
       <atom:link href="https://prashjha.github.io/tag/angiogenesis/index.xml" rel="self" type="application/rss+xml" />
     <description>angiogenesis</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021 [Prashant K. Jha](https://prashjha.github.io/)</copyright><lastBuildDate>Mon, 14 Jun 2021 00:00:10 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021 [Prashant K. Jha](https://prashjha.github.io/)</copyright><lastBuildDate>Fri, 01 Oct 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://prashjha.github.io/images/logo_hu1c9a7bdcb0202df981fee96563257bac_112200_300x300_fit_lanczos_3.png</url>
       <title>angiogenesis</title>
       <link>https://prashjha.github.io/tag/angiogenesis/</link>
     </image>
+    
+    <item>
+      <title>Modeling and simulation of vascular tumors embedded in evolving capillary networks</title>
+      <link>https://prashjha.github.io/publication/fritz-2021-angiogenesis/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/fritz-2021-angiogenesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Biologically-based mathematical modeling of tumor vasculature and angiogenesis via time-resolved imaging data</title>
+      <link>https://prashjha.github.io/publication/david-2021-review/</link>
+      <pubDate>Wed, 16 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/david-2021-review/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Angiogenesis3D1D</title>
