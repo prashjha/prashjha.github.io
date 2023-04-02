@@ -5,12 +5,20 @@
     <link>https://prashjha.github.io/author/prashant-k-jha/</link>
       <atom:link href="https://prashjha.github.io/author/prashant-k-jha/index.xml" rel="self" type="application/rss+xml" />
     <description>Prashant K Jha</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021 [Prashant K. Jha](https://prashjha.github.io/)</copyright><lastBuildDate>Thu, 01 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021 [Prashant K. Jha](https://prashjha.github.io/)</copyright><lastBuildDate>Sat, 01 Apr 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://prashjha.github.io/images/logo_hu1c9a7bdcb0202df981fee96563257bac_112200_300x300_fit_lanczos_3.png</url>
       <title>Prashant K Jha</title>
       <link>https://prashjha.github.io/author/prashant-k-jha/</link>
     </image>
+    
+    <item>
+      <title>Discrete-to-Continuum Limits of Long-Range Electrical Interactions in Nanostructures</title>
+      <link>https://prashjha.github.io/publication/jha-2020-continuum/</link>
+      <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/jha-2020-continuum/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Goal-Oriented A-Posteriori Estimation of Model Error as an Aid to Parameter Estimation</title>
@@ -105,14 +113,6 @@
       <link>https://prashjha.github.io/publication/jha-2020-peri/</link>
       <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
       <guid>https://prashjha.github.io/publication/jha-2020-peri/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Discrete-to-Continuum Limits of Long-Range Electrical Interactions in Nanostructures</title>
-      <link>https://prashjha.github.io/publication/jha-2020-continuum/</link>
-      <pubDate>Wed, 01 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>https://prashjha.github.io/publication/jha-2020-continuum/</guid>
       <description></description>
     </item>
     
