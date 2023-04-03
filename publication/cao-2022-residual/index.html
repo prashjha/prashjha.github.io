@@ -27,7 +27,7 @@
   
     
   
-  <meta name="description" content="We explore using neural operators, or neural network representations of nonlinear maps between function spaces, to accelerate infinite-dimensional Bayesian inverse problems (BIPs) with models governed by nonlinear parametric partial differential equations (PDEs). Neural operators have gained significant attention in recent years for their ability to approximate the parameter-to-solution maps defined by PDEs using as training data solutions of PDEs at a limited number of parameter samples. The computational cost of BIPs can be drastically reduced if the large number of PDE solves required for posterior characterization are replaced with evaluations of trained neural operators. However, reducing error in the resulting BIP solutions via reducing the approximation error of the neural operators in training can be challenging and unreliable. We provide an 	extit{a priori} error bound result that implies certain BIPs can be ill-conditioned to the approximation error of neural operators, thus leading to inaccessible accuracy requirements in training. To reliably deploy neural operators in BIPs, we consider a strategy for enhancing the performance of neural operators, which is to correct the prediction of a trained neural operator by solving a linear variational problem based on the PDE residual. We show that a trained neural operator with error correction can achieve a quadratic reduction of its approximation error, all while retaining substantial computational speedups of posterior sampling when models are governed by highly nonlinear PDEs. The strategy is applied to two numerical examples of BIPs based on a nonlinear reaction--diffusion problem and deformation of hyperelastic materials. We demonstrate that posterior representations of the two BIPs produced using trained neural operators are greatly and consistently enhanced by error correction.">
+  <meta name="description" content="We explore using neural operators, or neural network representations of nonlinear maps between function spaces, to accelerate infinite-dimensional Bayesian inverse problems (BIPs) with models governed by nonlinear parametric partial differential equations (PDEs). Neural operators have gained significant attention in recent years for their ability to approximate the parameter-to-solution maps defined by PDEs using as training data solutions of PDEs at a limited number of parameter samples. The computational cost of BIPs can be drastically reduced if the large number of PDE solves required for posterior characterization are replaced with evaluations of trained neural operators. However, reducing error in the resulting BIP solutions via reducing the approximation error of the neural operators in training can be challenging and unreliable. We provide an a priori error bound result that implies certain BIPs can be ill-conditioned to the approximation error of neural operators, thus leading to inaccessible accuracy requirements in training. To reliably deploy neural operators in BIPs, we consider a strategy for enhancing the performance of neural operators: correcting the prediction of a trained neural operator by solving a linear variational problem based on the PDE residual. We show that a trained neural operator with error correction can achieve a quadratic reduction of its approximation error, all while retaining substantial computational speedups of posterior sampling when models are governed by highly nonlinear PDEs. The strategy is applied to two numerical examples of BIPs based on a nonlinear reaction–diffusion problem and deformation of hyperelastic materials. We demonstrate that posterior representations of the two BIPs produced using trained neural operators are greatly and consistently enhanced by error correction.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://prashjha.github.io/publication/cao-2022-residual/">
@@ -274,14 +274,14 @@
   
   <meta property="og:site_name" content="Prashant K. Jha">
   <meta property="og:url" content="https://prashjha.github.io/publication/cao-2022-residual/">
-  <meta property="og:title" content="Residual-based error correction for neural operator accelerated infinite-dimensional Bayesian inverse problems | Prashant K. Jha">
-  <meta property="og:description" content="We explore using neural operators, or neural network representations of nonlinear maps between function spaces, to accelerate infinite-dimensional Bayesian inverse problems (BIPs) with models governed by nonlinear parametric partial differential equations (PDEs). Neural operators have gained significant attention in recent years for their ability to approximate the parameter-to-solution maps defined by PDEs using as training data solutions of PDEs at a limited number of parameter samples. The computational cost of BIPs can be drastically reduced if the large number of PDE solves required for posterior characterization are replaced with evaluations of trained neural operators. However, reducing error in the resulting BIP solutions via reducing the approximation error of the neural operators in training can be challenging and unreliable. We provide an 	extit{a priori} error bound result that implies certain BIPs can be ill-conditioned to the approximation error of neural operators, thus leading to inaccessible accuracy requirements in training. To reliably deploy neural operators in BIPs, we consider a strategy for enhancing the performance of neural operators, which is to correct the prediction of a trained neural operator by solving a linear variational problem based on the PDE residual. We show that a trained neural operator with error correction can achieve a quadratic reduction of its approximation error, all while retaining substantial computational speedups of posterior sampling when models are governed by highly nonlinear PDEs. The strategy is applied to two numerical examples of BIPs based on a nonlinear reaction--diffusion problem and deformation of hyperelastic materials. We demonstrate that posterior representations of the two BIPs produced using trained neural operators are greatly and consistently enhanced by error correction."><meta property="og:image" content="https://prashjha.github.io/images/logo_hu1c9a7bdcb0202df981fee96563257bac_112200_300x300_fit_lanczos_3.png">
+  <meta property="og:title" content="Residual-Based Error Correction for Neural Operator Accelerated Infinite-Dimensional Bayesian Inverse Problems | Prashant K. Jha">
+  <meta property="og:description" content="We explore using neural operators, or neural network representations of nonlinear maps between function spaces, to accelerate infinite-dimensional Bayesian inverse problems (BIPs) with models governed by nonlinear parametric partial differential equations (PDEs). Neural operators have gained significant attention in recent years for their ability to approximate the parameter-to-solution maps defined by PDEs using as training data solutions of PDEs at a limited number of parameter samples. The computational cost of BIPs can be drastically reduced if the large number of PDE solves required for posterior characterization are replaced with evaluations of trained neural operators. However, reducing error in the resulting BIP solutions via reducing the approximation error of the neural operators in training can be challenging and unreliable. We provide an a priori error bound result that implies certain BIPs can be ill-conditioned to the approximation error of neural operators, thus leading to inaccessible accuracy requirements in training. To reliably deploy neural operators in BIPs, we consider a strategy for enhancing the performance of neural operators: correcting the prediction of a trained neural operator by solving a linear variational problem based on the PDE residual. We show that a trained neural operator with error correction can achieve a quadratic reduction of its approximation error, all while retaining substantial computational speedups of posterior sampling when models are governed by highly nonlinear PDEs. The strategy is applied to two numerical examples of BIPs based on a nonlinear reaction–diffusion problem and deformation of hyperelastic materials. We demonstrate that posterior representations of the two BIPs produced using trained neural operators are greatly and consistently enhanced by error correction."><meta property="og:image" content="https://prashjha.github.io/images/logo_hu1c9a7bdcb0202df981fee96563257bac_112200_300x300_fit_lanczos_3.png">
   <meta property="twitter:image" content="https://prashjha.github.io/images/logo_hu1c9a7bdcb0202df981fee96563257bac_112200_300x300_fit_lanczos_3.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2022-10-06T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2023-03-31T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2022-10-14T17:37:59-05:00">
+    <meta property="article:modified_time" content="2023-04-03T10:22:49-05:00">
   
 
   
@@ -305,10 +305,10 @@
     "@type": "WebPage",
     "@id": "https://prashjha.github.io/publication/cao-2022-residual/"
   },
-  "headline": "Residual-based error correction for neural operator accelerated infinite-dimensional Bayesian inverse problems",
+  "headline": "Residual-Based Error Correction for Neural Operator Accelerated Infinite-Dimensional Bayesian Inverse Problems",
   
-  "datePublished": "2022-10-06T00:00:00Z",
-  "dateModified": "2022-10-14T17:37:59-05:00",
+  "datePublished": "2023-03-31T00:00:00Z",
+  "dateModified": "2023-04-03T10:22:49-05:00",
   
   "author": {
     "@type": "Person",
@@ -323,7 +323,7 @@
       "url": "https://prashjha.github.io/images/logo_hu1c9a7bdcb0202df981fee96563257bac_112200_192x192_fit_lanczos_3.png"
     }
   },
-  "description": "We explore using neural operators, or neural network representations of nonlinear maps between function spaces, to accelerate infinite-dimensional Bayesian inverse problems (BIPs) with models governed by nonlinear parametric partial differential equations (PDEs). Neural operators have gained significant attention in recent years for their ability to approximate the parameter-to-solution maps defined by PDEs using as training data solutions of PDEs at a limited number of parameter samples. The computational cost of BIPs can be drastically reduced if the large number of PDE solves required for posterior characterization are replaced with evaluations of trained neural operators. However, reducing error in the resulting BIP solutions via reducing the approximation error of the neural operators in training can be challenging and unreliable. We provide an \textit{a priori} error bound result that implies certain BIPs can be ill-conditioned to the approximation error of neural operators, thus leading to inaccessible accuracy requirements in training. To reliably deploy neural operators in BIPs, we consider a strategy for enhancing the performance of neural operators, which is to correct the prediction of a trained neural operator by solving a linear variational problem based on the PDE residual. We show that a trained neural operator with error correction can achieve a quadratic reduction of its approximation error, all while retaining substantial computational speedups of posterior sampling when models are governed by highly nonlinear PDEs. The strategy is applied to two numerical examples of BIPs based on a nonlinear reaction--diffusion problem and deformation of hyperelastic materials. We demonstrate that posterior representations of the two BIPs produced using trained neural operators are greatly and consistently enhanced by error correction."
+  "description": "We explore using neural operators, or neural network representations of nonlinear maps between function spaces, to accelerate infinite-dimensional Bayesian inverse problems (BIPs) with models governed by nonlinear parametric partial differential equations (PDEs). Neural operators have gained significant attention in recent years for their ability to approximate the parameter-to-solution maps defined by PDEs using as training data solutions of PDEs at a limited number of parameter samples. The computational cost of BIPs can be drastically reduced if the large number of PDE solves required for posterior characterization are replaced with evaluations of trained neural operators. However, reducing error in the resulting BIP solutions via reducing the approximation error of the neural operators in training can be challenging and unreliable. We provide an a priori error bound result that implies certain BIPs can be ill-conditioned to the approximation error of neural operators, thus leading to inaccessible accuracy requirements in training. To reliably deploy neural operators in BIPs, we consider a strategy for enhancing the performance of neural operators: correcting the prediction of a trained neural operator by solving a linear variational problem based on the PDE residual. We show that a trained neural operator with error correction can achieve a quadratic reduction of its approximation error, all while retaining substantial computational speedups of posterior sampling when models are governed by highly nonlinear PDEs. The strategy is applied to two numerical examples of BIPs based on a nonlinear reaction–diffusion problem and deformation of hyperelastic materials. We demonstrate that posterior representations of the two BIPs produced using trained neural operators are greatly and consistently enhanced by error correction."
 }
 </script>
 
@@ -341,7 +341,7 @@
 
 
 
-  <title>Residual-based error correction for neural operator accelerated infinite-dimensional Bayesian inverse problems | Prashant K. Jha</title>
+  <title>Residual-Based Error Correction for Neural Operator Accelerated Infinite-Dimensional Bayesian Inverse Problems | Prashant K. Jha</title>
 
 </head>
 
@@ -735,7 +735,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Residual-based error correction for neural operator accelerated infinite-dimensional Bayesian inverse problems</h1>
+  <h1>Residual-Based Error Correction for Neural Operator Accelerated Infinite-Dimensional Bayesian Inverse Problems</h1>
 
   
 
@@ -843,10 +843,14 @@
   
     
   
-<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/2210.03008" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/10.1016/j.jcp.2023.112104" target="_blank" rel="noopener">
   Source Document
 </a>
 
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/10.1016/j.jcp.2023.112104" target="_blank" rel="noopener">
+  DOI
+</a>
 
 
 
@@ -862,7 +866,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">We explore using neural operators, or neural network representations of nonlinear maps between function spaces, to accelerate infinite-dimensional Bayesian inverse problems (BIPs) with models governed by nonlinear parametric partial differential equations (PDEs). Neural operators have gained significant attention in recent years for their ability to approximate the parameter-to-solution maps defined by PDEs using as training data solutions of PDEs at a limited number of parameter samples. The computational cost of BIPs can be drastically reduced if the large number of PDE solves required for posterior characterization are replaced with evaluations of trained neural operators. However, reducing error in the resulting BIP solutions via reducing the approximation error of the neural operators in training can be challenging and unreliable. We provide an 	extit{a priori} error bound result that implies certain BIPs can be ill-conditioned to the approximation error of neural operators, thus leading to inaccessible accuracy requirements in training. To reliably deploy neural operators in BIPs, we consider a strategy for enhancing the performance of neural operators, which is to correct the prediction of a trained neural operator by solving a linear variational problem based on the PDE residual. We show that a trained neural operator with error correction can achieve a quadratic reduction of its approximation error, all while retaining substantial computational speedups of posterior sampling when models are governed by highly nonlinear PDEs. The strategy is applied to two numerical examples of BIPs based on a nonlinear reaction&ndash;diffusion problem and deformation of hyperelastic materials. We demonstrate that posterior representations of the two BIPs produced using trained neural operators are greatly and consistently enhanced by error correction.</p>
+    <p class="pub-abstract">We explore using neural operators, or neural network representations of nonlinear maps between function spaces, to accelerate infinite-dimensional Bayesian inverse problems (BIPs) with models governed by nonlinear parametric partial differential equations (PDEs). Neural operators have gained significant attention in recent years for their ability to approximate the parameter-to-solution maps defined by PDEs using as training data solutions of PDEs at a limited number of parameter samples. The computational cost of BIPs can be drastically reduced if the large number of PDE solves required for posterior characterization are replaced with evaluations of trained neural operators. However, reducing error in the resulting BIP solutions via reducing the approximation error of the neural operators in training can be challenging and unreliable. We provide an a priori error bound result that implies certain BIPs can be ill-conditioned to the approximation error of neural operators, thus leading to inaccessible accuracy requirements in training. To reliably deploy neural operators in BIPs, we consider a strategy for enhancing the performance of neural operators: correcting the prediction of a trained neural operator by solving a linear variational problem based on the PDE residual. We show that a trained neural operator with error correction can achieve a quadratic reduction of its approximation error, all while retaining substantial computational speedups of posterior sampling when models are governed by highly nonlinear PDEs. The strategy is applied to two numerical examples of BIPs based on a nonlinear reaction–diffusion problem and deformation of hyperelastic materials. We demonstrate that posterior representations of the two BIPs produced using trained neural operators are greatly and consistently enhanced by error correction.</p>
     
 
     
@@ -874,8 +878,8 @@
           <div class="col-12 col-md-9">
             
             
-            <a href="/publication/#3">
-              Preprint
+            <a href="/publication/#2">
+              Journal article
             </a>
             
           </div>
@@ -892,7 +896,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9"><em>arXiv preprint arXiv:2210.03008</em></div>
+          <div class="col-12 col-md-9"><em>Journal of Computational Physics</em></div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -936,7 +940,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://prashjha.github.io/publication/cao-2022-residual/&amp;text=Residual-based%20error%20correction%20for%20neural%20operator%20accelerated%20infinite-dimensional%20Bayesian%20inverse%20problems" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://prashjha.github.io/publication/cao-2022-residual/&amp;text=Residual-Based%20Error%20Correction%20for%20Neural%20Operator%20Accelerated%20Infinite-Dimensional%20Bayesian%20Inverse%20Problems" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -949,7 +953,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://prashjha.github.io/publication/cao-2022-residual/&amp;t=Residual-based%20error%20correction%20for%20neural%20operator%20accelerated%20infinite-dimensional%20Bayesian%20inverse%20problems" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://prashjha.github.io/publication/cao-2022-residual/&amp;t=Residual-Based%20Error%20Correction%20for%20Neural%20Operator%20Accelerated%20Infinite-Dimensional%20Bayesian%20Inverse%20Problems" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -962,7 +966,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Residual-based%20error%20correction%20for%20neural%20operator%20accelerated%20infinite-dimensional%20Bayesian%20inverse%20problems&amp;body=https://prashjha.github.io/publication/cao-2022-residual/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Residual-Based%20Error%20Correction%20for%20Neural%20Operator%20Accelerated%20Infinite-Dimensional%20Bayesian%20Inverse%20Problems&amp;body=https://prashjha.github.io/publication/cao-2022-residual/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -975,7 +979,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://prashjha.github.io/publication/cao-2022-residual/&amp;title=Residual-based%20error%20correction%20for%20neural%20operator%20accelerated%20infinite-dimensional%20Bayesian%20inverse%20problems" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://prashjha.github.io/publication/cao-2022-residual/&amp;title=Residual-Based%20Error%20Correction%20for%20Neural%20Operator%20Accelerated%20Infinite-Dimensional%20Bayesian%20Inverse%20Problems" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -988,7 +992,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Residual-based%20error%20correction%20for%20neural%20operator%20accelerated%20infinite-dimensional%20Bayesian%20inverse%20problems%20https://prashjha.github.io/publication/cao-2022-residual/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Residual-Based%20Error%20Correction%20for%20Neural%20Operator%20Accelerated%20Infinite-Dimensional%20Bayesian%20Inverse%20Problems%20https://prashjha.github.io/publication/cao-2022-residual/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
