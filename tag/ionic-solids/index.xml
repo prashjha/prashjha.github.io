@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ionic Solids | Prashant K. Jha</title>
+    <link>https://prashjha.github.io/tag/ionic-solids/</link>
+      <atom:link href="https://prashjha.github.io/tag/ionic-solids/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ionic Solids</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021 [Prashant K. Jha](https://prashjha.github.io/)</copyright><lastBuildDate>Sun, 09 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://prashjha.github.io/images/logo_hu1c9a7bdcb0202df981fee96563257bac_112200_300x300_fit_lanczos_3.png</url>
+      <title>Ionic Solids</title>
+      <link>https://prashjha.github.io/tag/ionic-solids/</link>
+    </image>
+    
+    <item>
+      <title>Atomic-to-Continuum Multiscale Modeling of Defects in Crystals with Nonlocal Electrostatic Interactions</title>
+      <link>https://prashjha.github.io/publication/jha-2022-atomic/</link>
+      <pubDate>Sun, 09 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/jha-2022-atomic/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
