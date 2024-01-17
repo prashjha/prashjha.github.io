@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Professional Activities | Prashant K. Jha</title>
+    <link>https://prashjha.github.io/activities/</link>
+      <atom:link href="https://prashjha.github.io/activities/index.xml" rel="self" type="application/rss+xml" />
+    <description>Professional Activities</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021 [Prashant K. Jha](https://prashjha.github.io/)</copyright>
+    <image>
+      <url>https://prashjha.github.io/images/logo_hu1c9a7bdcb0202df981fee96563257bac_112200_300x300_fit_lanczos_3.png</url>
+      <title>Professional Activities</title>
+      <link>https://prashjha.github.io/activities/</link>
+    </image>
+    
+    <item>
+      <title>Virtual Thematic Conference (January 10 - 11, 2022) on Computational Oncology</title>
+      <link>https://prashjha.github.io/activities/computational-oncology-thematic-conference/</link>
+      <pubDate>Tue, 05 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/activities/computational-oncology-thematic-conference/</guid>
+      <description>&lt;p&gt;With colleagues, Ernesto Lima and Chengyue Wu, at Oden Institute, we are organizing a virtual thematic conference on computational oncology. The event is supported by Biological Systems TTA in &lt;strong&gt;USACM&lt;/strong&gt;. We have a greate lineup of speakers and very excited to bring experts in one platform to discuss the modeling and data related issues in modeling cancer.&lt;/p&gt;
+&lt;p&gt;We are seeking abstract for speakers. Abstract is due &lt;strong&gt;November 15&lt;/strong&gt;! The link for the registration and other details about the conference is 
+&lt;a href=&#34;https://sites.google.com/usacm.org/bio-mcr/home&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. The screenshot of flyer is attached below. PDF file of flyer can be downloaded from this 
+&lt;a href=&#34;flyer_USACM_onco.pdf&#34;&gt;link&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;flyer_USACM_onco.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
