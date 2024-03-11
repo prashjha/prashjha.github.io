@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>programming | Prashant K. Jha</title>
+    <link>https://prashjha.github.io/tag/programming/</link>
+      <atom:link href="https://prashjha.github.io/tag/programming/index.xml" rel="self" type="application/rss+xml" />
+    <description>programming</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021 [Prashant K. Jha](https://prashjha.github.io/)</copyright><lastBuildDate>Tue, 09 Feb 2021 00:00:10 +0000</lastBuildDate>
+    <image>
+      <url>https://prashjha.github.io/images/logo_hu1c9a7bdcb0202df981fee96563257bac_112200_300x300_fit_lanczos_3.png</url>
+      <title>programming</title>
+      <link>https://prashjha.github.io/tag/programming/</link>
+    </image>
+    
+    <item>
+      <title>PeriDEM</title>
+      <link>https://prashjha.github.io/software/peridem/</link>
+      <pubDate>Tue, 09 Feb 2021 00:00:10 +0000</pubDate>
+      <guid>https://prashjha.github.io/software/peridem/</guid>
+      <description>&lt;h1 id=&#34;code-information&#34;&gt;Code information&lt;/h1&gt;
+&lt;p&gt;Github link: 
+&lt;a href=&#34;https://github.com/prashjha/PeriDEM&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PeriDEM&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Documentation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://github.com/prashjha/PeriDEM/blob/main/README.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Readme&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://prashjha.github.io/PeriDEM/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Doxygen documentation&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Developers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Prashant K. Jha&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>NLMech</title>
+      <link>https://prashjha.github.io/software/nlmech/</link>
+      <pubDate>Tue, 09 Feb 2021 00:00:05 +0000</pubDate>
+      <guid>https://prashjha.github.io/software/nlmech/</guid>
+      <description>&lt;h1 id=&#34;code-information&#34;&gt;Code information&lt;/h1&gt;
+&lt;p&gt;Github link: 
+&lt;a href=&#34;https://github.com/nonlocalmodels/NLMech&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NLMech&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Documentation: 
+&lt;a href=&#34;https://nonlocalmodels.github.io/documentation/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NLMech documentation&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Contributors:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Prashant K. Jha&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Patrick Diehl (Louisiana State University)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Computational methods for nonlocal models</title>
+      <link>https://prashjha.github.io/project/computational-peridynamics/</link>
+      <pubDate>Tue, 08 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/project/computational-peridynamics/</guid>
+      <description>&lt;p&gt;Develop efficient and parallel computational methods for class of nonlocal models such as Peridynamics and nonlocal diffusion equations&lt;/p&gt;
+&lt;h1 id=&#34;activities&#34;&gt;Activities&lt;/h1&gt;
+&lt;h2 id=&#34;1-google-summer-of-code-2020&#34;&gt;1. Google Summer of Code 2020&lt;/h2&gt;
+&lt;p&gt;Towards the development of a massively parallel computational library for peridynamics and other nonlocal models, together with P. Diehl, we prepared a computational problem where the goal was to develop a massively parallel library for the simple 2D nonlocal heat equation. See the rough description of the 
+&lt;a href=&#34;https://github.com/nonlocalmodels/nonlocalheatequation/blob/master/description/problem_description.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;problem&lt;/a&gt;. This project was sponsored by Google in Google Summer of Code 2020 and was assigned to student P. Gadikar (IIT Madras). Pranav&amp;rsquo;s work is open source and can be found 
+&lt;a href=&#34;https://github.com/nonlocalmodels/nonlocalheatequation&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. Conference paper on proposed load balancing algorithm is in this link 
+&lt;a href=&#34;https://prashjha.github.io/publication/gadikar-2021-nonlocal/&#34;&gt;GSoC 2020 conference paper&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;2-nlmech-library&#34;&gt;2. NLMech library&lt;/h2&gt;
+&lt;p&gt;We have launched peridynamics code 
+&lt;a href=&#34;https://github.com/nonlocalmodels/NLMech&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NLMech&lt;/a&gt; that utilizes 
+&lt;a href=&#34;https://github.com/STEllAR-GROUP/hpx&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HPX&lt;/a&gt; library for efficient multi-threading computation. We aim to make the NLMech library more user-friendly and easily extensible in the coming days. Our future goals are to&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;develop a fully parallel library following some of the key ideas and algorithms from our GSoC 2020 work&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;implement Quasistatic discretization&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The paper with P. Diehl briefly describing the open-source library is currently under review in JOSS (Journal of Open Source Software). The review of the code and paper is open and can be seen live 
+&lt;a href=&#34;https://github.com/openjournals/joss-reviews/issues/2898&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
