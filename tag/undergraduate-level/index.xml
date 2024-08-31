@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>undergraduate level | Prashant K. Jha</title>
+    <link>https://prashjha.github.io/tag/undergraduate-level/</link>
+      <atom:link href="https://prashjha.github.io/tag/undergraduate-level/index.xml" rel="self" type="application/rss+xml" />
+    <description>undergraduate level</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021 [Prashant K. Jha](https://prashjha.github.io/)</copyright><lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://prashjha.github.io/images/logo_hu1c9a7bdcb0202df981fee96563257bac_112200_300x300_fit_lanczos_3.png</url>
+      <title>undergraduate level</title>
+      <link>https://prashjha.github.io/tag/undergraduate-level/</link>
+    </image>
+    
+    <item>
+      <title>ME 322 - Machine Design I (Fall 2024)</title>
+      <link>https://prashjha.github.io/teaching/m322-fall2024/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/teaching/m322-fall2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>M21946 - Engineering Principles (Spring 2024)</title>
+      <link>https://prashjha.github.io/teaching/m21946-spring2024/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/teaching/m21946-spring2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>M21967 - Technology Concepts (Spring 2024)</title>
+      <link>https://prashjha.github.io/teaching/m21967-spring2024/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/teaching/m21967-spring2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BME 313L - Introduction to Numerical Methods in Biomedical Engineering (Fall 2021)</title>
+      <link>https://prashjha.github.io/teaching/bme-313l-fall2021/</link>
+      <pubDate>Fri, 06 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/teaching/bme-313l-fall2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>COE 311K - Engineering Computation (Fall 2021)</title>
+      <link>https://prashjha.github.io/teaching/coe-311k-fall2021/</link>
+      <pubDate>Fri, 06 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/teaching/coe-311k-fall2021/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
