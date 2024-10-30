@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Robert Lipton | Prashant K. Jha</title>
+    <link>https://prashjha.github.io/author/robert-lipton/</link>
+      <atom:link href="https://prashjha.github.io/author/robert-lipton/index.xml" rel="self" type="application/rss+xml" />
+    <description>Robert Lipton</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2021 [Prashant K. Jha](https://prashjha.github.io/)</copyright><lastBuildDate>Mon, 11 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://prashjha.github.io/images/logo_hu1c9a7bdcb0202df981fee96563257bac_112200_300x300_fit_lanczos_3.png</url>
+      <title>Robert Lipton</title>
+      <link>https://prashjha.github.io/author/robert-lipton/</link>
+    </image>
+    
+    <item>
+      <title>Nodal finite element approximation of peridynamics</title>
+      <link>https://prashjha.github.io/publication/jha-2024-nodal/</link>
+      <pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/jha-2024-nodal/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Accepted for publication in Computer Methods in Applied Mechanics and Engineering (CMAME)!!&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Finite Element Approximation of Nonlocal Dynamic Fracture Models</title>
+      <link>https://prashjha.github.io/publication/jha-2021-finite/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/jha-2021-finite/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An Asynchronous and Task-Based Implementation of Peridynamics Utilizing HPX—the C&#43;&#43; Standard Library for Parallelism and Concurrency</title>
+      <link>https://prashjha.github.io/publication/diehl-2018-perihpx/</link>
+      <pubDate>Fri, 04 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/diehl-2018-perihpx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Finite Element Convergence for State-Based Peridynamic Fracture Models</title>
+      <link>https://prashjha.github.io/publication/jha-2020-finite/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/jha-2020-finite/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Numerical Convergence of Finite Difference Approximations for State-Based Peridynamic Fracture Models</title>
+      <link>https://prashjha.github.io/publication/jha-2019-numerical/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/jha-2019-numerical/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamic Brittle Fracture from Nonlocal Double-Well Potentials: A State-Based Model</title>
+      <link>https://prashjha.github.io/publication/lipton-2018/</link>
+      <pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/lipton-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamic Damage Propagation with Memory: A State-Based Model</title>
+      <link>https://prashjha.github.io/publication/lipton-2018-book-memory/</link>
+      <pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/lipton-2018-book-memory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Finite Differences and Finite Elements in Nonlocal Fracture Modeling: A Priori Convergence Rates</title>
+      <link>https://prashjha.github.io/publication/jha-2018-finite/</link>
+      <pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/jha-2018-finite/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Well-Posed Nonlinear Nonlocal Fracture Models Associated with Double-Well Potentials</title>
+      <link>https://prashjha.github.io/publication/jha-2018-wellposed/</link>
+      <pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/jha-2018-wellposed/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Free Damage Propagation With Memory</title>
+      <link>https://prashjha.github.io/publication/lipton-2018-free/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/lipton-2018-free/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Numerical Convergence of Nonlinear Nonlocal Continuum Models to Local Elastodynamics</title>
+      <link>https://prashjha.github.io/publication/jha-2018-numerical-2/</link>
+      <pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/jha-2018-numerical-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Numerical Analysis of Nonlocal Fracture Models in Holder Space</title>
+      <link>https://prashjha.github.io/publication/jha-2018-numerical/</link>
+      <pubDate>Tue, 10 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/jha-2018-numerical/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
