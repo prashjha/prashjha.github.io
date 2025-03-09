@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Latest News | Prashant K. Jha</title>
+    <link>https://prashjha.github.io/post/</link>
+      <atom:link href="https://prashjha.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Latest News</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 26 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://prashjha.github.io/media/icon_hu_deecf9032289658b.png</url>
+      <title>Latest News</title>
+      <link>https://prashjha.github.io/post/</link>
+    </image>
+    
+    <item>
+      <title>Ian was selected for 2025 REU Summary Research Position award to work on design of functional materials</title>
+      <link>https://prashjha.github.io/post/25-02-26-reu-summer-position-award-ian/</link>
+      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/post/25-02-26-reu-summer-position-award-ian/</guid>
+      <description>&lt;p&gt;Congratulations to Ian. This award will allow Ian to work on the design of functional materials during the summer 2025.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Virtual Thematic Conference (January 10 - 11, 2022) on Computational Oncology</title>
+      <link>https://prashjha.github.io/post/22-01-10-computational-oncology-thematic-conference/</link>
+      <pubDate>Tue, 05 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/post/22-01-10-computational-oncology-thematic-conference/</guid>
+      <description>&lt;p&gt;With colleagues, Ernesto Lima and Chengyue Wu, at Oden Institute, we are organizing a virtual thematic conference on computational oncology. The event is supported by Biological Systems TTA in &lt;strong&gt;USACM&lt;/strong&gt;. We have a greate lineup of speakers and very excited to bring experts in one platform to discuss the modeling and data related issues in modeling cancer.&lt;/p&gt;
+&lt;p&gt;We are seeking abstract for speakers. Abstract is due &lt;strong&gt;November 15&lt;/strong&gt;! The link for the registration and other details about the conference is &lt;a href=&#34;https://sites.google.com/usacm.org/bio-mcr/home&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. The screenshot of flyer is attached below. PDF file of flyer can be downloaded from this &lt;a href=&#34;flyer_USACM_onco.pdf&#34;&gt;link&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/22-01-10-computational-oncology-thematic-conference/flyer_USACM_onco_hu_23f505243394cf0e.webp 400w,
+               /post/22-01-10-computational-oncology-thematic-conference/flyer_USACM_onco_hu_6aac83d082443f10.webp 760w,
+               /post/22-01-10-computational-oncology-thematic-conference/flyer_USACM_onco_hu_1ab2806adf260ef6.webp 1200w&#34;
+               src=&#34;https://prashjha.github.io/post/22-01-10-computational-oncology-thematic-conference/flyer_USACM_onco_hu_23f505243394cf0e.webp&#34;
+               width=&#34;688&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
