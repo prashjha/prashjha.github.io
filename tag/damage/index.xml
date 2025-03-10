@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Damage | Prashant K. Jha</title>
+    <link>https://prashjha.github.io/tag/damage/</link>
+      <atom:link href="https://prashjha.github.io/tag/damage/index.xml" rel="self" type="application/rss+xml" />
+    <description>Damage</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 25 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://prashjha.github.io/media/icon_hu_deecf9032289658b.png</url>
+      <title>Damage</title>
+      <link>https://prashjha.github.io/tag/damage/</link>
+    </image>
+    
+    <item>
+      <title>Conference talk: Free damage propagation with memory</title>
+      <link>https://prashjha.github.io/event/conference-wccm-13-2018/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/event/conference-wccm-13-2018/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

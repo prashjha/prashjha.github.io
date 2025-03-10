@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PCANet | Prashant K. Jha</title>
+    <link>https://prashjha.github.io/tag/pcanet/</link>
+      <atom:link href="https://prashjha.github.io/tag/pcanet/index.xml" rel="self" type="application/rss+xml" />
+    <description>PCANet</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 08 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://prashjha.github.io/media/icon_hu_deecf9032289658b.png</url>
+      <title>PCANet</title>
+      <link>https://prashjha.github.io/tag/pcanet/</link>
+    </image>
+    
+    <item>
+      <title>neural_operator</title>
+      <link>https://prashjha.github.io/software/neural_operator/</link>
+      <pubDate>Sat, 08 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/software/neural_operator/</guid>
+      <description>&lt;h1 id=&#34;code-information&#34;&gt;Code information&lt;/h1&gt;
+&lt;p&gt;Github link: &lt;a href=&#34;https://github.com/CEADpx/neural_operators&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;neural_operator&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Documentation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/CEADpx/neural_operators/blob/main/README.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Readme&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Developers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Prashant K. Jha&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

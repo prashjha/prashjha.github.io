@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Events | Prashant K. Jha</title>
+    <link>https://prashjha.github.io/event/</link>
+      <atom:link href="https://prashjha.github.io/event/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent &amp; Upcoming Events</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 27 May 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://prashjha.github.io/media/icon_hu_deecf9032289658b.png</url>
+      <title>Recent &amp; Upcoming Events</title>
+      <link>https://prashjha.github.io/event/</link>
+    </image>
+    
+    <item>
+      <title>Conference talk: Application of peridynamics to granular media</title>
+      <link>https://prashjha.github.io/event/conference-emi-2025/</link>
+      <pubDate>Tue, 27 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/event/conference-emi-2025/</guid>
+      <description>&lt;!-- Slides can be added in a few ways:
+
+- **Create** slides using Wowchemy&#39;s [_Slides_](https://docs.hugoblox.com/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
+- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
+- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://docs.hugoblox.com/writing-markdown-latex/).
+
+Further event details, including page elements such as image galleries, can be added to the body of this page. --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Conference talk: Seamless multiphysics coupling with peridynamics enabled by nodal finite element approximation</title>
+      <link>https://prashjha.github.io/event/conference-midwest-na-2025/</link>
+      <pubDate>Sat, 05 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/event/conference-midwest-na-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conference talk: Analysis and application of peridynamics to fracture in solids and granular media</title>
+      <link>https://prashjha.github.io/event/conference-usnccm-16-2021/</link>
+      <pubDate>Sun, 25 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/event/conference-usnccm-16-2021/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;This talk is in honor of Dr. J. Tinsley Oden&amp;rsquo;s monumental contributions to computational mechanics (mini-symposium 103 organized by Dr. Romesh Batra).&lt;/p&gt;&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Conference talk: Phase Field Models of the Growth of Tumors Embedded in an Evolving Vascular Network: Dynamic 1D-3D Models of Angiogenesis</title>
+      <link>https://prashjha.github.io/event/conference-usnccm-16-2021-2/</link>
+      <pubDate>Sun, 25 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/event/conference-usnccm-16-2021-2/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;This work will be presented by a co-author Marvin Fritz (TUM, Germany).&lt;/p&gt;&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Conference talk: Analysis and application of peridynamics to fracture in solids and granular media</title>
+      <link>https://prashjha.github.io/event/conference-emi-pmc-2021/</link>
+      <pubDate>Tue, 25 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/event/conference-emi-pmc-2021/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=QbjoU9pPC1g&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Youtube link&lt;/a&gt; of the presentation.&lt;/p&gt;&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Departmental seminar: Application of peridynamics to fracture in solids and granular media</title>
+      <link>https://prashjha.github.io/event/seminar-uh-2020/</link>
+      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/event/seminar-uh-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Departmental seminar: A mechanistic tumor growth model for HP MRI</title>
+      <link>https://prashjha.github.io/event/seminar-cmu-2020/</link>
+      <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/event/seminar-cmu-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Departmental seminar: A mechanistic tumor growth model for HP MRI</title>
+      <link>https://prashjha.github.io/event/seminar-utaustin-2020/</link>
+      <pubDate>Wed, 16 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/event/seminar-utaustin-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conference talk: Numerical fracture experiments using nonlinear nonlocal models</title>
+      <link>https://prashjha.github.io/event/conference-usnccm-15-2019/</link>
+      <pubDate>Tue, 30 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/event/conference-usnccm-15-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conference talk: Convergence results for finite element and finite difference approximation of nonlocal fracture</title>
+      <link>https://prashjha.github.io/event/conference-iciam-2019/</link>
+      <pubDate>Wed, 17 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/event/conference-iciam-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Departmental seminar: Modelling fracture in solids using nonlocal interaction: A brief overview of Peridynamics</title>
+      <link>https://prashjha.github.io/event/seminar-iitd-2019/</link>
+      <pubDate>Fri, 12 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/event/seminar-iitd-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conference talk: Convergence results for finite element and finite difference approximation of nonlocal fracture models</title>
+      <link>https://prashjha.github.io/event/conference-siam-la-tx-2018/</link>
+      <pubDate>Sat, 06 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/event/conference-siam-la-tx-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conference talk: Free damage propagation with memory</title>
+      <link>https://prashjha.github.io/event/conference-wccm-13-2018/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/event/conference-wccm-13-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Departmental seminar: Well-posedness of nonlocal fracture models and apriori error estimates of numerical approximations</title>
+      <link>https://prashjha.github.io/event/seminar-iisc-2018/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/event/seminar-iisc-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Departmental seminar: Finite element approximation of nonlocal fracture models</title>
+      <link>https://prashjha.github.io/event/seminar-lsu-2018/</link>
+      <pubDate>Mon, 19 Mar 2018 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/event/seminar-lsu-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conference talk: Numerical Analysis of Nonlocal Fracture Models</title>
+      <link>https://prashjha.github.io/event/conference-usnccm-14-2017/</link>
+      <pubDate>Wed, 19 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/event/conference-usnccm-14-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Departmental seminar: Numerical Analysis of Nonlocal Fracture Models</title>
+      <link>https://prashjha.github.io/event/seminar-umn-2017-2/</link>
+      <pubDate>Tue, 04 Apr 2017 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/event/seminar-umn-2017-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Departmental seminar: Coarse Graining of Electric Field Interactions with Materials</title>
+      <link>https://prashjha.github.io/event/seminar-umn-2017/</link>
+      <pubDate>Tue, 21 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/event/seminar-umn-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Departmental seminar: Coarse Graining of Electric Field Interactions with Materials</title>
+      <link>https://prashjha.github.io/event/seminar-iitm-2016/</link>
+      <pubDate>Mon, 22 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/event/seminar-iitm-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Departmental seminar: Coarse Graining of Electric Field Interactions with Materials</title>
+      <link>https://prashjha.github.io/event/seminar-iisc-2016/</link>
+      <pubDate>Fri, 19 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/event/seminar-iisc-2016/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
