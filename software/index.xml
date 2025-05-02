@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software | Prashant K. Jha</title>
+    <link>https://prashjha.github.io/software/</link>
+      <atom:link href="https://prashjha.github.io/software/index.xml" rel="self" type="application/rss+xml" />
+    <description>Software</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 08 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://prashjha.github.io/media/icon_hu_deecf9032289658b.png</url>
+      <title>Software</title>
+      <link>https://prashjha.github.io/software/</link>
+    </image>
+    
+    <item>
+      <title>neural_operator</title>
+      <link>https://prashjha.github.io/software/neural_operator/</link>
+      <pubDate>Sat, 08 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/software/neural_operator/</guid>
+      <description>&lt;h1 id=&#34;code-information&#34;&gt;Code information&lt;/h1&gt;
+&lt;p&gt;Github link: &lt;a href=&#34;https://github.com/CEADpx/neural_operators&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;neural_operator&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Documentation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/CEADpx/neural_operators/blob/main/README.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Readme&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Developers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Prashant K. Jha&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Angiogenesis3D1D</title>
+      <link>https://prashjha.github.io/software/angiogenesis3d1d/</link>
+      <pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/software/angiogenesis3d1d/</guid>
+      <description>&lt;h1 id=&#34;code-information&#34;&gt;Code information&lt;/h1&gt;
+&lt;p&gt;Github link: &lt;a href=&#34;https://github.com/CancerModeling/Angiogenesis3D1D&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Angiogenesis3D1D&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Documentation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/CancerModeling/Angiogenesis3D1D/blob/main/README.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Readme&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Developers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Prashant K. Jha&lt;/li&gt;
+&lt;li&gt;Tobias Koppl (Technical University of Munich)&lt;/li&gt;
+&lt;li&gt;Andreas Wagner (Technical University of Munich)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>BayesForSEIRD</title>
+      <link>https://prashjha.github.io/software/bayesforseird/</link>
+      <pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/software/bayesforseird/</guid>
+      <description>&lt;h1 id=&#34;code-information&#34;&gt;Code information&lt;/h1&gt;
+&lt;p&gt;Github link: &lt;a href=&#34;https://github.com/prashjha/BayesForSEIRD&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BayesForSEIRD&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Documentation: &lt;a href=&#34;https://github.com/prashjha/BayesForSEIRD/blob/master/README.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BayesForSEIRD documentation&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Contributors:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Prashant K. Jha&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Lianghao Cao (University of Texas at Austin)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>NLMech</title>
+      <link>https://prashjha.github.io/software/nlmech/</link>
+      <pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/software/nlmech/</guid>
+      <description>&lt;h1 id=&#34;code-information&#34;&gt;Code information&lt;/h1&gt;
+&lt;p&gt;Github link: &lt;a href=&#34;https://github.com/nonlocalmodels/NLMech&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NLMech&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Documentation: &lt;a href=&#34;https://nonlocalmodels.github.io/documentation/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;NLMech documentation&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Contributors:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Prashant K. Jha&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Patrick Diehl (Louisiana State University)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>nonlocalheatequation</title>
+      <link>https://prashjha.github.io/software/nonlocalheatequation/</link>
+      <pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/software/nonlocalheatequation/</guid>
+      <description>&lt;h1 id=&#34;code-information&#34;&gt;Code information&lt;/h1&gt;
+&lt;p&gt;Github link: &lt;a href=&#34;https://github.com/nonlocalmodels/nonlocalheatequation&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;nonlocalheatequation&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Documentation: &lt;a href=&#34;https://nonlocalmodels.github.io/nonlocalheatequation/documentation/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;nonlocalheatequation documentation&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Contributors:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Pranav Gadikar (Indian Institute of Technology Madras)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Patrick Diehl (Louisiana State University)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Prashant K. Jha&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;notes&#34;&gt;Notes&lt;/h1&gt;
+&lt;p&gt;This is a &lt;strong&gt;Google Summer of Code 2020&lt;/strong&gt; project. In this work, we carefully looked the challenges in development of distributed solvers for nonlocal interaction based models such as nonlocal diffusion equation and peridynamics. We propose methods to efficiently handle the increased data dependency (due to large-scale interaction) and balancing the load to minimize cpu idle time. For more details, see &lt;a href=&#34;https://prashjha.github.io/publication/gadikar-2021-nonlocal/&#34;&gt;arXiv preprint&lt;/a&gt;. Lead developer of the project is Pranav Gadikar.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>PeriDEM</title>
+      <link>https://prashjha.github.io/software/peridem/</link>
+      <pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/software/peridem/</guid>
+      <description>&lt;h1 id=&#34;code-information&#34;&gt;Code information&lt;/h1&gt;
+&lt;p&gt;Github link: &lt;a href=&#34;https://github.com/prashjha/PeriDEM&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PeriDEM&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Documentation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/prashjha/PeriDEM/blob/main/README.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Readme&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://prashjha.github.io/PeriDEM/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Doxygen documentation&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Developers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Prashant K. Jha&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
