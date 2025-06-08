@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Neural Operators | Prashant K. Jha</title>
+    <link>https://prashjha.github.io/tag/neural-operators/</link>
+      <atom:link href="https://prashjha.github.io/tag/neural-operators/index.xml" rel="self" type="application/rss+xml" />
+    <description>Neural Operators</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 24 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://prashjha.github.io/media/icon_hu_deecf9032289658b.png</url>
+      <title>Neural Operators</title>
+      <link>https://prashjha.github.io/tag/neural-operators/</link>
+    </image>
+    
+    <item>
+      <title>Workshop invited talk: Reliable Neural Operators: Error Control through Residual Correction and Beyond</title>
+      <link>https://prashjha.github.io/event/conference-workshop-on-scientific-ml-montreal-canada-2025/</link>
+      <pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/event/conference-workshop-on-scientific-ml-montreal-canada-2025/</guid>
+      <description>&lt;!-- Slides can be added in a few ways:
+
+- **Create** slides using Wowchemy&#39;s [_Slides_](https://docs.hugoblox.com/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
+- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
+- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://docs.hugoblox.com/writing-markdown-latex/).
+
+Further event details, including page elements such as image galleries, can be added to the body of this page. --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>neural_operator</title>
+      <link>https://prashjha.github.io/software/neural_operator/</link>
+      <pubDate>Sat, 08 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/software/neural_operator/</guid>
+      <description>&lt;h1 id=&#34;code-information&#34;&gt;Code information&lt;/h1&gt;
+&lt;p&gt;Github link: &lt;a href=&#34;https://github.com/CEADpx/neural_operators&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;neural_operator&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Documentation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/CEADpx/neural_operators/blob/main/README.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Readme&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Developers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Prashant K. Jha&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>From Theory to Application: A Practical Introduction to Neural Operators in Scientific Computing</title>
+      <link>https://prashjha.github.io/publication/jha-2025-neuraloperator/</link>
+      <pubDate>Fri, 07 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/jha-2025-neuraloperator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Neural Networks to Accelerate Scientific Computing</title>
+      <link>https://prashjha.github.io/project/neural-networks-scientific-computing/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/project/neural-networks-scientific-computing/</guid>
+      <description>&lt;h1 id=&#34;activities&#34;&gt;Activities&lt;/h1&gt;
+&lt;h2 id=&#34;1-goal-oriented-a-posteriori-estimation-of-model-error-as-an-aid-to-parameter-estimation-with-dr-oden&#34;&gt;1. Goal-Oriented A-Posteriori Estimation of Model Error as an Aid to Parameter Estimation (with Dr. Oden)&lt;/h2&gt;
+&lt;p&gt;We consider the problem of estimating modeling error in boundary – and initial–value problems characterized by partial differential equations (PDEs), with the understanding that the purpose of the prediction, the ultimate goal of the simulation, is to compute specific quantities of interest: the “QoIs”. Mathematically the QoIs are functionals of solutions to the so-called primal or forward problem. We review the theory of goal-oriented a-posteriori estimation of modeling error “Oden and Prudhomme, JCP 182.2 (2002): 496-515”. Here we add to this theory a new ingredient: we explore the question of can such a-posterior estimates of error between a high-fidelity model of a physical system in which parameters are not known with precision, and a surrogate, low-fidelity models with known parameters, be used to infer properties and parameters of the high-fidelity system? We developed a Bayesian framework for studying such issues based on goal-oriented QoI-error estimates, and we give examples in which this approach is very successful.&lt;/p&gt;
+&lt;p&gt;This work is published in JCP and can be found in this link: &lt;a href=&#34;https://prashjha.github.io/publication/jha-2022-goal/&#34;&gt;Jha and Oden (2022)&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;2-residual-based-error-correction-for-neural-operator-accelerated-infinite-dimensional-bayesian-inverse-problems-with-lianghao-thomas-dr-oden-and-omar&#34;&gt;2. Residual-based error correction for neural operator accelerated infinite-dimensional Bayesian inverse problems (with Lianghao, Thomas, Dr. Oden, and Omar)&lt;/h2&gt;
+&lt;p&gt;We explore using neural operators, or neural network representations of nonlinear maps between function spaces, to accelerate infinite-dimensional Bayesian inverse problems (BIPs) with models governed by nonlinear parametric partial differential equations (PDEs). The computational cost of BIPs can be drastically reduced if the large number of PDE solves required for posterior characterization are replaced with evaluations of trained neural operators. However, reducing error in the resulting BIP solutions via reducing the approximation error of the neural operators in training can be challenging and unreliable. To reliably deploy neural operators in BIPs, we consider a strategy for enhancing the performance of neural operators: correcting the prediction of a trained neural operator by solving a linear variational problem based on the PDE residual. We show that a trained neural operator with error correction can achieve a quadratic reduction of its approximation error, all while retaining substantial computational speedups of posterior sampling when models are governed by highly nonlinear PDEs. The strategy is applied to two numerical examples of BIPs based on a nonlinear reaction–diffusion problem and deformation of hyperelastic materials.&lt;/p&gt;
+&lt;p&gt;This work is published in JCP and can be found in this link: &lt;a href=&#34;https://prashjha.github.io/publication/cao-2022-residual/&#34;&gt;Cao et al. (2023)&lt;/a&gt;.&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/neural-networks-scientific-computing/files/bip/hyper-nop_hu_894b38f08c6050bc.webp 400w,
+               /project/neural-networks-scientific-computing/files/bip/hyper-nop_hu_aa5d6b9b3cbbe4a6.webp 760w,
+               /project/neural-networks-scientific-computing/files/bip/hyper-nop_hu_f0d3513d37624d79.webp 1200w&#34;
+               src=&#34;https://prashjha.github.io/project/neural-networks-scientific-computing/files/bip/hyper-nop_hu_894b38f08c6050bc.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;201&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;em&gt;Mean of posterior samples of Young&amp;rsquo;s modulus field in a neo-Hookean hyperelastic material model. Left: Results with &amp;ldquo;true&amp;rdquo; forward model. Right: Results with neural operators as surrogates of the forward model.&lt;/em&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/neural-networks-scientific-computing/files/bip/hyper-nop-corr_hu_279dd21152ca6d71.webp 400w,
+               /project/neural-networks-scientific-computing/files/bip/hyper-nop-corr_hu_6e71fe74c1425776.webp 760w,
+               /project/neural-networks-scientific-computing/files/bip/hyper-nop-corr_hu_bb3621042e9feb6e.webp 1200w&#34;
+               src=&#34;https://prashjha.github.io/project/neural-networks-scientific-computing/files/bip/hyper-nop-corr_hu_279dd21152ca6d71.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;201&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;em&gt;Mean of posterior samples of Young&amp;rsquo;s modulus field in a neo-Hookean hyperelastic material model. Left: Results with &amp;ldquo;true&amp;rdquo; forward model. Right: Results with neural operators with corrector as surrogates of the forward model. See Section 5.4 in &lt;a href=&#34;https://prashjha.github.io/publication/cao-2022-residual/&#34;&gt;Cao et al. (2023)&lt;/a&gt;.&lt;/em&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;3-corrector-operator-to-enhance-accuracy-and-reliability-of-neural-operator-surrogates-of-nonlinear-variational-boundary-value-problems-with-dr-oden&#34;&gt;3. Corrector operator to enhance accuracy and reliability of neural operator surrogates of nonlinear variational boundary-value problems (with Dr. Oden)&lt;/h2&gt;
+&lt;p&gt;This work focuses on developing methods for approximating the solution operators of a class of parametric partial differential equations via neural operators. Neural operators have several challenges, including the issue of generating appropriate training data, cost-accuracy trade-offs, and nontrivial hyperparameter tuning. The unpredictability of the accuracy of neural operators impacts their applications in downstream problems of inference, optimization, and control. A framework is proposed based on the linear variational problem that gives the correction to the prediction furnished by neural operators. The operator associated with the corrector problem is referred to as the corrector operator. Numerical results involving a nonlinear diffusion model in two dimensions with PCANet-type neural operators show almost two orders of increase in the accuracy of approximations when neural operators are corrected using the proposed scheme. Further, topology optimization involving a nonlinear diffusion model is considered to highlight the limitations of neural operators and the efficacy of the correction scheme. Optimizers with neural operator surrogates are seen to make significant errors (as high as 80 percent). However, the errors are much lower (below 7 percent) when neural operators are corrected following the proposed method.&lt;/p&gt;
+&lt;p&gt;Preprint of the work can be found in this link: &lt;a href=&#34;https://prashjha.github.io/publication/jha-2023-corrector/&#34;&gt;Jha and Oden (2023)&lt;/a&gt;. This work is a culmination of our efforts in using goal-oriented a-posteriori error estimates in Bayesian inference in &lt;a href=&#34;https://prashjha.github.io/publication/jha-2022-goal/&#34;&gt;Jha and Oden (2022)&lt;/a&gt; and &lt;a href=&#34;https://prashjha.github.io/publication/cao-2022-residual/&#34;&gt;Cao et al. (2023)&lt;/a&gt;.&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34;
+           src=&#34;https://prashjha.github.io/project/neural-networks-scientific-computing/files/corr/movie.gif&#34;
+           loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;em&gt;Topology optimization of the diffusivity field in a nonlinear diffusion model. Neural operator and neural operator with corrector employed as a surrogate of the forward model.&lt;/em&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/neural-networks-scientific-computing/files/corr/result_hu_75f5d1adff5ae1c8.webp 400w,
+               /project/neural-networks-scientific-computing/files/corr/result_hu_3f59626cc137bdec.webp 760w,
+               /project/neural-networks-scientific-computing/files/corr/result_hu_85f0b3e09e326e90.webp 1200w&#34;
+               src=&#34;https://prashjha.github.io/project/neural-networks-scientific-computing/files/corr/result_hu_75f5d1adff5ae1c8.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;399&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;em&gt;Comparing the optimizers of the topology optimization problem for different cases (1) true forward model, (2) neural operator surrogate of the forward model, and (3) neural operator with corrector. See Section 4.3 in &lt;a href=&#34;https://prashjha.github.io/publication/jha-2023-corrector/&#34;&gt;Jha and Oden (2023)&lt;/a&gt;.&lt;/em&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Residual-based error corrector operator to enhance accuracy and reliability of neural operator surrogates of nonlinear variational boundary-value problems</title>
+      <link>https://prashjha.github.io/publication/jha-2023-corrector/</link>
+      <pubDate>Wed, 21 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/jha-2023-corrector/</guid>
+      <description>&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34;
+           src=&#34;https://prashjha.github.io/publication/jha-2023-corrector/files/movie.gif&#34;
+           loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;em&gt;Topology optimization of the diffusivity field in a nonlinear diffusion model. Neural operator and neural operator with corrector employed as a surrogate of the forward model.&lt;/em&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /publication/jha-2023-corrector/files/result_hu_75f5d1adff5ae1c8.webp 400w,
+               /publication/jha-2023-corrector/files/result_hu_3f59626cc137bdec.webp 760w,
+               /publication/jha-2023-corrector/files/result_hu_85f0b3e09e326e90.webp 1200w&#34;
+               src=&#34;https://prashjha.github.io/publication/jha-2023-corrector/files/result_hu_75f5d1adff5ae1c8.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;399&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;em&gt;Comparing the optimizers of the topology optimization problem for different cases (1) true forward model, (2) neural operator surrogate of the forward model, and (3) neural operator with corrector.&lt;/em&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Residual-Based Error Correction for Neural Operator Accelerated Infinite-Dimensional Bayesian Inverse Problems</title>
+      <link>https://prashjha.github.io/publication/cao-2022-residual/</link>
+      <pubDate>Fri, 31 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/cao-2022-residual/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
