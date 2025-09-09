@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Particle Fracture | Prashant K. Jha</title>
+    <link>https://prashjha.github.io/tag/particle-fracture/</link>
+      <atom:link href="https://prashjha.github.io/tag/particle-fracture/index.xml" rel="self" type="application/rss+xml" />
+    <description>Particle Fracture</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 09 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://prashjha.github.io/media/icon_hu_deecf9032289658b.png</url>
+      <title>Particle Fracture</title>
+      <link>https://prashjha.github.io/tag/particle-fracture/</link>
+    </image>
+    
+    <item>
+      <title>PeriDEM</title>
+      <link>https://prashjha.github.io/software/peridem/</link>
+      <pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/software/peridem/</guid>
+      <description>&lt;h1 id=&#34;code-information&#34;&gt;Code information&lt;/h1&gt;
+&lt;p&gt;Github link: &lt;a href=&#34;https://github.com/prashjha/PeriDEM&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PeriDEM&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Documentation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/prashjha/PeriDEM/blob/main/README.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Readme&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://prashjha.github.io/PeriDEM/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Doxygen documentation&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Developers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Prashant K. Jha&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34;
+           src=&#34;https://prashjha.github.io/software/peridem/sim.gif&#34;
+           loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;em&gt;PeriDEM simulation collection&lt;/em&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
