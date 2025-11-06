@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fracture Mechanics | Prashant K. Jha</title>
+    <link>https://prashjha.github.io/tag/fracture-mechanics/</link>
+      <atom:link href="https://prashjha.github.io/tag/fracture-mechanics/index.xml" rel="self" type="application/rss+xml" />
+    <description>Fracture Mechanics</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 04 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://prashjha.github.io/media/icon_hu_deecf9032289658b.png</url>
+      <title>Fracture Mechanics</title>
+      <link>https://prashjha.github.io/tag/fracture-mechanics/</link>
+    </image>
+    
+    <item>
+      <title>Departmental seminar: Peridynamics for Solids and Granular Media: From Fracture to Computational Frameworks</title>
+      <link>https://prashjha.github.io/event/seminar-me-uofwyoming-2025/</link>
+      <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/event/seminar-me-uofwyoming-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Analysis and application of peridynamics</title>
+      <link>https://prashjha.github.io/project/fracture-mechanics/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/project/fracture-mechanics/</guid>
+      <description>&lt;h1 id=&#34;activities&#34;&gt;Activities&lt;/h1&gt;
+&lt;h2 id=&#34;1-kinetic-relations-and-local-energy-balance-for-lefm-from-a-nonlocal-peridynamic-model&#34;&gt;1. Kinetic relations and local energy balance for LEFM from a nonlocal peridynamic model&lt;/h2&gt;
+&lt;p&gt;In this work, we carefully looked at the peridynamic energy associated with the process zone. We recovered the kinetic relation for crack tip velocity for the mode-I crack problem. It is based on more theoretical work; see &lt;a href=&#34;https://prashjha.github.io/publication/lipton-2020-plane/&#34;&gt;Lipton and Jha 2021&lt;/a&gt;, &lt;a href=&#34;https://prashjha.github.io/publication/jha-2020-peri/&#34;&gt;Jha and Lipton 2020&lt;/a&gt;. This is joint work with Dr. R. Lipton.&lt;/p&gt;
+&lt;p&gt;Some interesting simulations are shown next.&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34;
+           src=&#34;https://prashjha.github.io/project/fracture-mechanics/files/mode-I_IntJFra.gif&#34;
+           loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;em&gt;Simulation of Mode-I propagation. We apply vertically outward displacement boundary conditions on the small layer in the top and bottom. Material has initial pre-crack. Simulation from &lt;a href=&#34;https://link.springer.com/article/10.1007/s10704-020-00480-0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;article&lt;/a&gt;&lt;/em&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34;
+           src=&#34;https://prashjha.github.io/project/fracture-mechanics/files/mixed_mode_alex.gif&#34;
+           loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34;
+           src=&#34;https://prashjha.github.io/project/fracture-mechanics/files/crack_and_void_alex.gif&#34;
+           loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;em&gt;Inclined crack propagation. We apply diagonally outward force in small regions near the right-top and left-bottom corner. Simulation from &lt;a href=&#34;https://link.springer.com/article/10.1007/s42102-019-00010-0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;article&lt;/a&gt;. Here red indicates a node with one or more broken bonds in its neighborhood.&lt;/em&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;em&gt;Crack propagation in the presence of the void. We see that void deflects the crack moving straight.&lt;/em&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;2-a-priori-error-analysis-and-well-posedness-of-nonlinear-peridynamic-models&#34;&gt;2. A priori error analysis and well-posedness of nonlinear peridynamic models&lt;/h2&gt;
+&lt;p&gt;At Louisiana State University, I had spent a good amount of time working on &lt;em&gt;a priori&lt;/em&gt; error estimates for finite-difference and finite-element discretization of and well-posedness of nonlinear peridynamic models. This was under the guidance of my adviser Dr. R. Lipton. On this topic, we have published several journal articles and few book chapters, see &lt;a href=&#34;https://prashjha.github.io/publication/&#34;&gt;publication page&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We know that peridynamics regularizes the discontinuity; the sharp edge of discontinuity is replaced with the softening zone containing material points with large strains (classical strain). Away from the softening zone, the strains are smaller. Typically the size of the softening zone is proportional to the nonlocal length scale. As the nonlocal length scale goes to zero, the softening zone localizes to a sharp crack. To demonstrate this, we consider a setup shown in Figure 1. In Figure 2, we plot the damage for three different nonlocal length scales at two times. We see that for a smaller nonlocal length scale, the softening zone indicated by the red region is smaller than that of a bigger nonlocal length scale. In Figure 3, we put the plots of three horizons on top of each other, and we see the localization of the softening zone.&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/fracture-mechanics/files/localization/setup_hu_f48c4a9647f4d155.webp 400w,
+               /project/fracture-mechanics/files/localization/setup_hu_b4494f106ba00ec5.webp 760w,
+               /project/fracture-mechanics/files/localization/setup_hu_970e00f0cf62f0f8.webp 1200w&#34;
+               src=&#34;https://prashjha.github.io/project/fracture-mechanics/files/localization/setup_hu_f48c4a9647f4d155.webp&#34;
+               width=&#34;269&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/th&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/fracture-mechanics/files/localization/Z_plots_hu_71fb502b9c0fc6bb.webp 400w,
+               /project/fracture-mechanics/files/localization/Z_plots_hu_d2096fc5f8c1e9c8.webp 760w,
+               /project/fracture-mechanics/files/localization/Z_plots_hu_b32c8abea83af1fd.webp 1200w&#34;
+               src=&#34;https://prashjha.github.io/project/fracture-mechanics/files/localization/Z_plots_hu_71fb502b9c0fc6bb.webp&#34;
+               width=&#34;410&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;em&gt;Figure 1: Setup for localization of softening zone. More details &lt;a href=&#34;https://arxiv.org/abs/1908.07589&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;preprint, section 6&lt;/a&gt;&lt;/em&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;em&gt;Figure 2: Damage in material with three horizons at two times.&lt;/em&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/fracture-mechanics/files/localization/Z_plots_overlap_hu_28ea368ac63f2b6f.webp 400w,
+               /project/fracture-mechanics/files/localization/Z_plots_overlap_hu_5e9bdc4ef561865a.webp 760w,
+               /project/fracture-mechanics/files/localization/Z_plots_overlap_hu_9ee05b22019601a3.webp 1200w&#34;
+               src=&#34;https://prashjha.github.io/project/fracture-mechanics/files/localization/Z_plots_overlap_hu_28ea368ac63f2b6f.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;733&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;em&gt;Figure 3: Softening zone of three horizons when placed on top of each other. Light yellow, light orange, and red correspond to smaller, intermediate, and larger horizons. As the horizon is getting smaller softening zone is shrinking to a very thin region, and ultimately in the limit, it will tend to sharp crack.&lt;/em&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;3-model-development&#34;&gt;3. Model development&lt;/h2&gt;
+&lt;p&gt;In this &lt;a href=&#34;https://prashjha.github.io/publication/lipton-2018-free/&#34;&gt;article&lt;/a&gt;, we proposed a bond-based peridynamic model with memory effect. If the material is subjected to cyclic loading, with each cycle deforming the material beyond some critical strain, it will continue to lose stiffness in every loading cycle. This effect is simulated using the temporal nonlocal force (material strength at a current time depends on the history) in the proposed model.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Nodal finite element approximation of peridynamics</title>
+      <link>https://prashjha.github.io/publication/jha-2024-nodal/</link>
+      <pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/jha-2024-nodal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NLMech: Implementation of Finite Difference/Meshfree Discretization of Nonlocal Fracture Models</title>
+      <link>https://prashjha.github.io/publication/jha-2021-nlmech/</link>
+      <pubDate>Wed, 29 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/jha-2021-nlmech/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Peridynamics-Based Discrete Element Method (PeriDEM) Model of Granular Systems Involving Breakage of Arbitrarily Shaped Particles</title>
+      <link>https://prashjha.github.io/publication/jha-2020-peridem/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/jha-2020-peridem/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nonlocal Elastodynamics and Fracture</title>
+      <link>https://prashjha.github.io/publication/lipton-2020-plane/</link>
+      <pubDate>Wed, 17 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/lipton-2020-plane/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Finite Element Approximation of Nonlocal Dynamic Fracture Models</title>
+      <link>https://prashjha.github.io/publication/jha-2021-finite/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/jha-2021-finite/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An Asynchronous and Task-Based Implementation of Peridynamics Utilizing HPX—the C&#43;&#43; Standard Library for Parallelism and Concurrency</title>
+      <link>https://prashjha.github.io/publication/diehl-2018-perihpx/</link>
+      <pubDate>Fri, 04 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/diehl-2018-perihpx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kinetic Relations and Local Energy Balance for LEFM from a Nonlocal Peridynamic Model</title>
+      <link>https://prashjha.github.io/publication/jha-2020-peri/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/jha-2020-peri/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Finite Element Convergence for State-Based Peridynamic Fracture Models</title>
+      <link>https://prashjha.github.io/publication/jha-2020-finite/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/jha-2020-finite/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Complex Fracture Nucleation and Evolution With Nonlocal Elastodynamics</title>
+      <link>https://prashjha.github.io/publication/lipton-2019-complex/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/lipton-2019-complex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Numerical Convergence of Finite Difference Approximations for State-Based Peridynamic Fracture Models</title>
+      <link>https://prashjha.github.io/publication/jha-2019-numerical/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/jha-2019-numerical/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamic Brittle Fracture from Nonlocal Double-Well Potentials: A State-Based Model</title>
+      <link>https://prashjha.github.io/publication/lipton-2018/</link>
+      <pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/lipton-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dynamic Damage Propagation with Memory: A State-Based Model</title>
+      <link>https://prashjha.github.io/publication/lipton-2018-book-memory/</link>
+      <pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/lipton-2018-book-memory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Finite Differences and Finite Elements in Nonlocal Fracture Modeling: A Priori Convergence Rates</title>
+      <link>https://prashjha.github.io/publication/jha-2018-finite/</link>
+      <pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/jha-2018-finite/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Well-Posed Nonlinear Nonlocal Fracture Models Associated with Double-Well Potentials</title>
+      <link>https://prashjha.github.io/publication/jha-2018-wellposed/</link>
+      <pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/jha-2018-wellposed/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Free Damage Propagation With Memory</title>
+      <link>https://prashjha.github.io/publication/lipton-2018-free/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/lipton-2018-free/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conference talk: Free damage propagation with memory</title>
+      <link>https://prashjha.github.io/event/conference-wccm-13-2018/</link>
+      <pubDate>Wed, 25 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/event/conference-wccm-13-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Numerical Convergence of Nonlinear Nonlocal Continuum Models to Local Elastodynamics</title>
+      <link>https://prashjha.github.io/publication/jha-2018-numerical-2/</link>
+      <pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/jha-2018-numerical-2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Numerical Analysis of Nonlocal Fracture Models in Holder Space</title>
+      <link>https://prashjha.github.io/publication/jha-2018-numerical/</link>
+      <pubDate>Tue, 10 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/jha-2018-numerical/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

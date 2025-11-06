@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Memory Effects | Prashant K. Jha</title>
+    <link>https://prashjha.github.io/tag/memory-effects/</link>
+      <atom:link href="https://prashjha.github.io/tag/memory-effects/index.xml" rel="self" type="application/rss+xml" />
+    <description>Memory Effects</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 11 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://prashjha.github.io/media/icon_hu_deecf9032289658b.png</url>
+      <title>Memory Effects</title>
+      <link>https://prashjha.github.io/tag/memory-effects/</link>
+    </image>
+    
+    <item>
+      <title>Dynamic Damage Propagation with Memory: A State-Based Model</title>
+      <link>https://prashjha.github.io/publication/lipton-2018-book-memory/</link>
+      <pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/lipton-2018-book-memory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Free Damage Propagation With Memory</title>
+      <link>https://prashjha.github.io/publication/lipton-2018-free/</link>
+      <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/lipton-2018-free/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
