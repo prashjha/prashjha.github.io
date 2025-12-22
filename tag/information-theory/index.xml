@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Information Theory | Prashant K. Jha</title>
+    <link>https://prashjha.github.io/tag/information-theory/</link>
+      <atom:link href="https://prashjha.github.io/tag/information-theory/index.xml" rel="self" type="application/rss+xml" />
+    <description>Information Theory</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 31 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://prashjha.github.io/media/icon_hu_deecf9032289658b.png</url>
+      <title>Information Theory</title>
+      <link>https://prashjha.github.io/tag/information-theory/</link>
+    </image>
+    
+    <item>
+      <title>An Information-Theoretic Framework for Optimal Experimental Design in Magnetic Nanoparticle Hyperthermia</title>
+      <link>https://prashjha.github.io/publication/nandyala-2025-oed/</link>
+      <pubDate>Mon, 31 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/nandyala-2025-oed/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
