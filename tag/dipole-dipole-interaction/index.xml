@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dipole-Dipole Interaction | Prashant K. Jha</title>
+    <link>https://prashjha.github.io/tag/dipole-dipole-interaction/</link>
+      <atom:link href="https://prashjha.github.io/tag/dipole-dipole-interaction/index.xml" rel="self" type="application/rss+xml" />
+    <description>Dipole-Dipole Interaction</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://prashjha.github.io/media/icon_hu_deecf9032289658b.png</url>
+      <title>Dipole-Dipole Interaction</title>
+      <link>https://prashjha.github.io/tag/dipole-dipole-interaction/</link>
+    </image>
+    
+    <item>
+      <title>Discrete-to-Continuum Limits of Long-Range Electrical Interactions in Nanostructures</title>
+      <link>https://prashjha.github.io/publication/jha-2020-continuum/</link>
+      <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/jha-2020-continuum/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
