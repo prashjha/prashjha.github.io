@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Latest News | Prashant K. Jha</title>
+    <link>https://prashjha.github.io/post/</link>
+      <atom:link href="https://prashjha.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Latest News</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 09 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://prashjha.github.io/media/icon_hu_deecf9032289658b.png</url>
+      <title>Latest News</title>
+      <link>https://prashjha.github.io/post/</link>
+    </image>
+    
+    <item>
+      <title>PhD position available in CEAD Lab</title>
+      <link>https://prashjha.github.io/post/25-09-09-cead-phd-flyer/</link>
+      <pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/post/25-09-09-cead-phd-flyer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NSF research grant awarded to work on multi-fidelity modeling using PeriDEM</title>
+      <link>https://prashjha.github.io/post/25-06-06-nsf-award/</link>
+      <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/post/25-06-06-nsf-award/</guid>
+      <description>&lt;p&gt;A huge thank you to the National Science Foundation (NSF) for the ERI award (&lt;a href=&#34;https://www.nsf.gov/awardsearch/showAward?AWD_ID=2502279&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt;)! The awarded amount is $200k over two years.&lt;/p&gt;
+&lt;p&gt;This project will focus on developing an &lt;strong&gt;Adaptive Multi-Fidelity Framework for Modeling Heterogeneous Materials Under Extreme Conditions.&lt;/strong&gt; We will be pushing the boundaries of how we simulate granular media like sand and rocks under intense stress. The attached video shows a glimpse of our work with the PeriDEM model!&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We are actively seeking enthusiastic undergraduate and graduate students interested in computational mechanics and applying advanced numerical and machine learning-based methods to problems in fracture mechanics, functional soft materials, and granular materials. &lt;a href=&#34;mailto:prashant.jha@sdsmt.edu&#34;&gt;Interested candidates should email me here!&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: center&#34;&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34;
+           src=&#34;https://prashjha.github.io/post/25-06-06-nsf-award/sim.gif&#34;
+           loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: center&#34;&gt;&lt;em&gt;Simulation of particle-particle interaction and damage using PeriDEM&lt;/em&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SDBOR Competitive Research Grant (CRG) award on modeling and design of magnetic soft materials</title>
+      <link>https://prashjha.github.io/post/25-06-06-sdbor-crg-award/</link>
+      <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/post/25-06-06-sdbor-crg-award/</guid>
+      <description>&lt;p&gt;Thrilled to share some exciting news! Our lab at the South Dakota School of Mines and Technology has been awarded two new grants to pursue cutting-edge research in computational materials science. The first one is from NSF; see &lt;a href=&#34;https://prashjha.github.io/post/25-06-06-nsf-award/&#34;&gt;NSF award news&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The second award is a South Dakota Board of Regents Competitive Research Grant (CRG), which includes $90k over one and half year.&lt;/p&gt;
+&lt;p&gt;The title of this project is &lt;strong&gt;Modeling and Design of Magnetic Soft Materials Accelerated by Neural Operators.&lt;/strong&gt; We will focus on developing capabilities for sustainable research on topic of modeling, analysis, and design of functional materials, specifically focusing on magnetic soft materials. The objectives of this project include comparing different models of effective material properties in magnetic soft materials, develop topology optimization solvers, and leverage neural operators to accelerate the computation.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;We are actively seeking enthusiastic undergraduate and graduate students interested in computational mechanics and applying advanced numerical and machine learning-based methods to problems in fracture mechanics, functional soft materials, and granular materials. &lt;a href=&#34;mailto:prashant.jha@sdsmt.edu&#34;&gt;Interested candidates should email me here!&lt;/a&gt;&lt;/p&gt;&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ian was selected for 2025 REU Summary Research Position award to work on design of functional materials</title>
+      <link>https://prashjha.github.io/post/25-02-26-reu-summer-position-award-ian/</link>
+      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/post/25-02-26-reu-summer-position-award-ian/</guid>
+      <description>&lt;p&gt;Congratulations to Ian. This award will allow Ian to work on the design of functional materials during the summer 2025.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Virtual Thematic Conference (January 10 - 11, 2022) on Computational Oncology</title>
+      <link>https://prashjha.github.io/post/22-01-10-computational-oncology-thematic-conference/</link>
+      <pubDate>Tue, 05 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/post/22-01-10-computational-oncology-thematic-conference/</guid>
+      <description>&lt;p&gt;With colleagues, Ernesto Lima and Chengyue Wu, at Oden Institute, we are organizing a virtual thematic conference on computational oncology. The event is supported by Biological Systems TTA in &lt;strong&gt;USACM&lt;/strong&gt;. We have a greate lineup of speakers and very excited to bring experts in one platform to discuss the modeling and data related issues in modeling cancer.&lt;/p&gt;
+&lt;p&gt;We are seeking abstract for speakers. Abstract is due &lt;strong&gt;November 15&lt;/strong&gt;! The link for the registration and other details about the conference is &lt;a href=&#34;https://sites.google.com/usacm.org/bio-mcr/home&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. The screenshot of flyer is attached below. PDF file of flyer can be downloaded from this &lt;a href=&#34;flyer_USACM_onco.pdf&#34;&gt;link&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/22-01-10-computational-oncology-thematic-conference/flyer_USACM_onco_hu_23f505243394cf0e.webp 400w,
+               /post/22-01-10-computational-oncology-thematic-conference/flyer_USACM_onco_hu_6aac83d082443f10.webp 760w,
+               /post/22-01-10-computational-oncology-thematic-conference/flyer_USACM_onco_hu_1ab2806adf260ef6.webp 1200w&#34;
+               src=&#34;https://prashjha.github.io/post/22-01-10-computational-oncology-thematic-conference/flyer_USACM_onco_hu_23f505243394cf0e.webp&#34;
+               width=&#34;688&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
