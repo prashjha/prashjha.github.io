@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Undergraduate | Prashant K. Jha</title>
+    <link>https://prashjha.github.io/tag/undergraduate/</link>
+      <atom:link href="https://prashjha.github.io/tag/undergraduate/index.xml" rel="self" type="application/rss+xml" />
+    <description>Undergraduate</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://prashjha.github.io/media/icon_hu_deecf9032289658b.png</url>
+      <title>Undergraduate</title>
+      <link>https://prashjha.github.io/tag/undergraduate/</link>
+    </image>
+    
+    <item>
+      <title>ME 322 - Machine Design I (Fall 2026)</title>
+      <link>https://prashjha.github.io/teaching/m322-fall2026/</link>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/teaching/m322-fall2026/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ME 316 - Solid Mechanics (Spring 2026)</title>
+      <link>https://prashjha.github.io/teaching/me316-spring2026/</link>
+      <pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/teaching/me316-spring2026/</guid>
+      <description>&lt;p&gt;An undergraduate course in the mechanics of deformable solids, providing the
+stress, strain, constitutive, and structural foundations used in later design and
+finite element courses.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

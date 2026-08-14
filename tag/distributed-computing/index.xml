@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Distributed Computing | Prashant K. Jha</title>
+    <link>https://prashjha.github.io/tag/distributed-computing/</link>
+      <atom:link href="https://prashjha.github.io/tag/distributed-computing/index.xml" rel="self" type="application/rss+xml" />
+    <description>Distributed Computing</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 09 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://prashjha.github.io/media/icon_hu_deecf9032289658b.png</url>
+      <title>Distributed Computing</title>
+      <link>https://prashjha.github.io/tag/distributed-computing/</link>
+    </image>
+    
+    <item>
+      <title>nonlocalheatequation</title>
+      <link>https://prashjha.github.io/software/nonlocalheatequation/</link>
+      <pubDate>Tue, 09 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/software/nonlocalheatequation/</guid>
+      <description>&lt;h1 id=&#34;code-information&#34;&gt;Code information&lt;/h1&gt;
+&lt;p&gt;Github link: &lt;a href=&#34;https://github.com/nonlocalmodels/nonlocalheatequation&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;nonlocalheatequation&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Documentation: &lt;a href=&#34;https://nonlocalmodels.github.io/nonlocalheatequation/documentation/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;nonlocalheatequation documentation&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Contributors:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Pranav Gadikar (Indian Institute of Technology Madras)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Patrick Diehl (Louisiana State University)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Prashant K. Jha&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;notes&#34;&gt;Notes&lt;/h1&gt;
+&lt;p&gt;This is a &lt;strong&gt;Google Summer of Code 2020&lt;/strong&gt; project. In this work, we carefully looked the challenges in development of distributed solvers for nonlocal interaction based models such as nonlocal diffusion equation and peridynamics. We propose methods to efficiently handle the increased data dependency (due to large-scale interaction) and balancing the load to minimize cpu idle time. For more details, see &lt;a href=&#34;https://prashjha.github.io/publication/gadikar-2021-nonlocal/&#34;&gt;arXiv preprint&lt;/a&gt;. Lead developer of the project is Pranav Gadikar.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
