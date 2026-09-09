@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Electrostatics | Prashant K. Jha</title>
+    <link>https://prashjha.github.io/tag/electrostatics/</link>
+      <atom:link href="https://prashjha.github.io/tag/electrostatics/index.xml" rel="self" type="application/rss+xml" />
+    <description>Electrostatics</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://prashjha.github.io/media/icon_hu_deecf9032289658b.png</url>
+      <title>Electrostatics</title>
+      <link>https://prashjha.github.io/tag/electrostatics/</link>
+    </image>
+    
+    <item>
+      <title>Discrete-to-Continuum Limits of Long-Range Electrical Interactions in Nanostructures</title>
+      <link>https://prashjha.github.io/publication/jha-2020-continuum/</link>
+      <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/jha-2020-continuum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Atomic-to-Continuum Multiscale Modeling of Defects in Crystals with Nonlocal Electrostatic Interactions</title>
+      <link>https://prashjha.github.io/publication/jha-2022-atomic/</link>
+      <pubDate>Sun, 09 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/jha-2022-atomic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Departmental seminar: Coarse Graining of Electric Field Interactions with Materials</title>
+      <link>https://prashjha.github.io/event/seminar-umn-2017/</link>
+      <pubDate>Tue, 21 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/event/seminar-umn-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Departmental seminar: Coarse Graining of Electric Field Interactions with Materials</title>
+      <link>https://prashjha.github.io/event/seminar-iitm-2016/</link>
+      <pubDate>Mon, 22 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/event/seminar-iitm-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Departmental seminar: Coarse Graining of Electric Field Interactions with Materials</title>
+      <link>https://prashjha.github.io/event/seminar-iisc-2016/</link>
+      <pubDate>Fri, 19 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/event/seminar-iisc-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Coarse Graining of Electric Field Interactions With Materials</title>
+      <link>https://prashjha.github.io/publication/jha-2016-phdthesis/</link>
+      <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
+      <guid>https://prashjha.github.io/publication/jha-2016-phdthesis/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
