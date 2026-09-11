@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>People on Prashant K. Jha</title><link>https://prashjha.github.io/people/</link><description>Recent content in People on Prashant K. Jha</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://prashjha.github.io/people/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://prashjha.github.io/people/prashant-jha/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prashjha.github.io/people/prashant-jha/</guid><description>&lt;p>Prashant leads the CEAD Lab. His work asks how much physics and computational
+fidelity a model needs to make a reliable engineering prediction. That question
+has led from mathematical analysis of fracture, through particle-resolved and
+multiphysics modeling of heterogeneous materials, to multiscale design and
+scientific-AI methods whose errors can be quantified and acted upon.&lt;/p>
+&lt;p>The mechanics came first: a master&amp;rsquo;s at the Indian Institute of Science with
+Chandrashekhar S. Jog, on monolithic compressible fluid–structure interaction,
+where much of the nonlinear continuum mechanics and finite element method that
+the rest of this rests on was learned.&lt;/p></description></item><item><title/><link>https://prashjha.github.io/people/alison/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prashjha.github.io/people/alison/</guid><description>&lt;p>Alison worked on how a crack crosses the boundary between a particle and the
+matrix holding it, comparing phase-field, diffuse-interface and cohesive-zone
+descriptions of interface fracture, which disagree about exactly the case that
+matters. She also looked at whether a double-cantilever-beam test could supply
+fracture energies consistent enough to tell them apart.&lt;/p></description></item><item><title/><link>https://prashjha.github.io/people/caleb/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prashjha.github.io/people/caleb/</guid><description>&lt;p>An optimized design is a field of numbers until something is made
+from it. Caleb works on the step between: taking designs that come out of the
+material-and-structure optimization and getting them printed, which means
+confronting what a printer can actually resolve, what the cured material
+actually is, and how far a fabricated specimen departs from the geometry that
+was optimized.&lt;/p>
+&lt;p>That gap is the useful measurement. It is what will say which parts of a design
+are worth optimizing to three decimal places and which are being erased in
+fabrication anyway.&lt;/p></description></item><item><title/><link>https://prashjha.github.io/people/henry/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prashjha.github.io/people/henry/</guid><description>&lt;p>Between a stiff particle and the soft matrix around it there is an interface,
+and under load that interface is a likely place for things to go wrong first. It can
+carry load, or it can slip, or it can debond and unload the particle entirely,
+and which of those happens changes the composite&amp;rsquo;s stiffness and its strength
+together.&lt;/p>
+&lt;p>Henry models that interface with cohesive-zone descriptions, in the setting of
+magnetic soft materials, where the particles are also what the material responds
+with. Get the interface wrong and the actuation prediction can be wrong for reasons
+that have nothing to do with the magnetics.&lt;/p></description></item><item><title/><link>https://prashjha.github.io/people/ian/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prashjha.github.io/people/ian/</guid><description>&lt;p>Ian works on designing hard-magnetic soft materials where the geometry and the
+material are chosen together: where to put material, how much magnetic particle
+it should carry, and which way its remanent magnetization should point.
+Optimizing any one of those against fixed values of the others finds a worse
+design than optimizing them jointly, and doing it honestly means settling first
+on which constitutive description to trust.&lt;/p>
+&lt;p>That is the order the 2026 manuscript works in: twenty-one pairings of
+effective shear-modulus relation and strain-energy function, compared first on
+the actuation problems themselves; then experimental stress-strain data to
+settle which shear-modulus relation is worth carrying forward; only then the
+joint optimization. He is its first author, and came to it from undergraduate
+research in the group.&lt;/p></description></item></channel></rss>

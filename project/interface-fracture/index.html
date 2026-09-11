@@ -1,0 +1,90 @@
+<!doctype html><html lang=en data-site=personal><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=theme-color content="#06080c"><title>Interface fracture in particle composites · Prashant K. Jha</title>
+<meta name=description content="Effective properties for a composite have to come from somewhere. This project derives them from resolved micro-scale fracture simulations, after first settling …"><meta property="og:title" content="Interface fracture in particle composites"><meta property="og:type" content="article"><meta property="og:url" content="https://prashjha.github.io/project/interface-fracture/"><meta property="og:image" content="https://prashjha.github.io/project/interface-fracture/sim.jpg"><meta name=twitter:card content="summary_large_image"><link rel=canonical href=https://prashjha.github.io/project/interface-fracture/><script async src="https://www.googletagmanager.com/gtag/js?id=G-V5T8QXH1L9"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-V5T8QXH1L9")</script><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,300;6..72,400;6..72,500&family=Inter:wght@400;450;550;650&family=IBM+Plex+Mono:wght@400;500&display=swap"><link rel=stylesheet href=/css/main.css><script>(function(){try{var e=localStorage.getItem("theme");e||(e=matchMedia("(prefers-color-scheme: light)").matches?"light":"dark"),document.documentElement.setAttribute("data-theme",e)}catch{document.documentElement.setAttribute("data-theme","dark")}})()</script></head><body><a class=skip-link href=#main>Skip to content</a><header class=site-header><div class="container container--wide"><a class=site-brand href=/>Prashant K. Jha
+<em>CEAD Lab</em>
+</a><button class=nav-toggle type=button data-nav-toggle aria-expanded=false aria-controls=site-nav aria-label=Menu>
+<span></span><span></span><span></span></button><nav class=site-nav id=site-nav aria-label=Primary><a href=/research/>Research</a>
+<a href=/project/>Projects</a>
+<a href=/program/>Program</a>
+<a href=/publication/>Publications</a>
+<a href=/software/>Software</a>
+<a href=/grant/>Funding</a>
+<a href=/education/>Education</a>
+<a href=/post/>News</a>
+<a href=/event/>Talks</a>
+<a href=/about/>About</a>
+<a href=/cv/>CV</a>
+<a href=https://ceadpx.github.io/ class=is-cta>CEAD Lab</a>
+<button class=theme-toggle type=button data-theme-toggle aria-label="Switch between light and dark theme"><svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2m16 0h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg></button></nav></div></header><main id=main><section class="page-head page-head--record"><div class="container container--wide"><p class="eyebrow crumbs"><a href=/>Home</a>
+<span class=crumbs-sep aria-hidden=true>/</span>
+<a href=/project/>Projects</a></p><h1>Interface fracture in particle composites</h1><p class=lede>Effective properties for a composite have to come from somewhere. This project derives them from resolved micro-scale fracture simulations, after first settling which description of the interface to trust.</p><div class=badges style=margin-top:1.25rem><span class=badge>active</span><span class=badge>2026–</span></div><div class=record-links style=margin-top:1.1rem></div></div></section><section class="slabs slabs--hero" style=margin-top:0><figure class="slab slab--bleed" style="--media-ar:1920 / 1240"><div class="slab-media media-theme media-theme--dark" style="--media-ar:1920 / 1240"><video autoplay muted loop playsinline preload=none poster=/project/interface-fracture/sim.jpg aria-hidden=true tabindex=-1>
+<source src=/project/interface-fracture/sim.webm type=video/webm><source src=/project/interface-fracture/sim.mp4 type=video/mp4></video></div><div class="slab-media media-theme media-theme--light" style="--media-ar:1920 / 1240"><video autoplay muted loop playsinline preload=none poster=/project/interface-fracture/sim-light.jpg aria-hidden=true tabindex=-1>
+<source src=/project/interface-fracture/sim-light.webm type=video/webm><source src=/project/interface-fracture/sim-light.mp4 type=video/mp4></video></div></figure></section><section class="section section--tight"><div class="container container--wide"><div class=recordbody><div class=expertise><div class=expertise-row><span class=expertise-label>Mechanics</span><ul class=expertise-tags><li>Interfacial fracture</li><li>Damage mechanics</li><li>Composite mechanics</li><li>Multiscale homogenization</li></ul></div><div class=expertise-row><span class=expertise-label>Methods</span><ul class="expertise-tags expertise-tags--method"><li>Phase-field fracture</li><li>Diffuse-interface phase field</li><li>Cohesive zone models</li><li>Nonlinear finite elements</li><li>FEniCSx</li><li>Sparse regression (SINDy)</li></ul></div></div><div class=work-lede><p>A ceramic matrix with ductile particles in it can be tougher than either
+constituent alone, and the reason is what happens at the boundaries between
+them. A crack meeting a particle can go around the interface or through the
+material, and which it does decides the toughness of the composite. That
+behavior lives at the scale of individual particles, and a simulation of a whole
+component cannot afford to resolve every one of them, least of all thousands of
+times over inside a design loop.</p><p><strong>So the target is a component-scale description that remembers the
+interfaces.</strong> If effective properties, a Young&rsquo;s modulus or a fracture
+toughness, could be written as functions of particle volume fraction, a
+component-scale model could use them and never resolve a particle. Those
+functions have to come <em>from</em> micro-scale simulations that do resolve
+interfaces: sparse or symbolic regression over simulation output, with the
+training range and the validation cases stated, rather than a curve picked
+because it happens to fit. That is the goal this project is working toward, and
+everything below is the groundwork for it.</p><h2 id=first-which-description-of-the-interface-can-be-trusted>First: which description of the interface can be trusted?</h2><p>The image above is one of those runs: a phase-field calculation in which the
+crack is not tracked but emerges as a band of high damage, bright where the
+material is fully broken and dark where it is intact, deflecting as it goes
+rather than running straight.</p><p>Four formulations were implemented and run on the same problems, so differences
+could be attributed to the formulation rather than to the test case:</p><ul><li>a <strong>standard phase-field model</strong>, which smears the crack and finds it by
+minimizing total energy;</li><li>a <strong>diffuse-interface phase-field model</strong>, which additionally represents the
+particle–matrix interface itself;</li><li>a <strong>standard cohesive-zone model</strong>, with a traction–separation law throughout;</li><li>an <strong>interface-only cohesive-zone model</strong>.</li></ul><p>They are not interchangeable. In the cases run so far the standard phase-field
+model was the cheapest, but it does not acknowledge the interface: material
+properties change abruptly across it, so cracks tend to nucleate in the bulk
+rather than along the boundary where the physics puts them. The standard
+cohesive-zone model represents the interface explicitly, at a higher cost. The
+diffuse-interface phase-field model has lower computational cost than the full
+cohesive-zone calculation in the cases tested. It is therefore the current
+candidate for generating the microscale dataset, subject to further validation.</p><h2 id=then-calibrating-it-against-something-with-an-answer>Then: calibrating it against something with an answer</h2><p>A model that represents an interface needs a number for how much energy that
+interface costs to separate. Alison Reeves calibrated the critical energy release
+rate in the diffuse-interface model by simulating the peeling of lamellae, a
+configuration whose answer is known independently, so the value carried into the
+composite simulations is one the model has been made to reproduce rather than one
+assumed.</p><p>The double-cantilever-beam configuration served the same purpose for the
+cohesive-zone side, where modified beam theory gives an analytical energy release
+rate. In one verification case the computed value came back at 10.2 N/m against a
+10 N/m reference.</p><p>It is worth being precise about what that establishes. Recovering the fracture
+energy you supplied confirms the implementation is doing its arithmetic
+correctly. It says nothing about whether that value describes a real interface;
+identifying that from experiment is a separate and harder problem.</p><h2 id=from-microscale-simulations-to-effective-properties>From microscale simulations to effective properties</h2><p>The next stage asks how effective elastic and fracture properties emerge from microstructure, using validated high-fidelity models to connect particle and interface behavior to the response observed at larger scales.</p><p>Alison Reeves carried out the model comparison and the calibration as an
+undergraduate researcher in the group; she has since moved on. The interface
+machinery she built is in use in
+<a href=/project/hmsm-failure/>failure and fatigue in magnetic soft materials</a>, where
+the same question, what happens at a stiff particle&rsquo;s boundary, is asked of a
+different composite.</p></div></div></div></section><section class="section section--tight"><div class="container container--wide"><div class=whoblock><span class=expertise-label>Who</span><ul class=whorow><li><span>Alison Reeves</span>
+<em>Undergraduate Researcher</em></li></ul></div></div></section><section class="section section--tight section--edge"><div class="container container--wide"><div class=section-head><h2>Related work</h2></div><div class="grid grid--3"><article class=card><div class="card-media media-theme media-theme--dark" style="--media-ar:1920 / 1082"><video autoplay muted loop playsinline preload=none poster=/media/granular-dark.jpg aria-hidden=true tabindex=-1>
+<source src=/media/granular-dark.webm type=video/webm><source src=/media/granular-dark.mp4 type=video/mp4></video></div><div class="card-media media-theme media-theme--light" style="--media-ar:1920 / 1082"><video autoplay muted loop playsinline preload=none poster=/media/granular-light.jpg aria-hidden=true tabindex=-1>
+<source src=/media/granular-light.webm type=video/webm><source src=/media/granular-light.mp4 type=video/mp4></video></div><div class=card-body><div class=badges><span class="badge badge--active">active</span>
+<span class="badge badge--funded">NSF ERI</span></div><h3 class=card-title><a class=card-link href=/project/granular-media/>Mechanics of granular media</a></h3><p class=card-desc>Particle-resolved and multifidelity modeling of granular assemblies whose particles deform, break and rearrange under load.</p><div class=card-foot><span>Fracture & failure</span></div></div></article><article class=card><div class="card-media media-theme media-theme--dark" style="--media-ar:658 / 504"><video autoplay muted loop playsinline preload=none poster=/project/hmsm-failure/sim.jpg aria-hidden=true tabindex=-1>
+<source src=/project/hmsm-failure/sim.webm type=video/webm><source src=/project/hmsm-failure/sim.mp4 type=video/mp4></video></div><div class="card-media media-theme media-theme--light" style="--media-ar:658 / 504"><video autoplay muted loop playsinline preload=none poster=/project/hmsm-failure/sim-light.jpg aria-hidden=true tabindex=-1>
+<source src=/project/hmsm-failure/sim-light.webm type=video/webm><source src=/project/hmsm-failure/sim-light.mp4 type=video/mp4></video></div><div class=card-body><div class=badges><span class="badge badge--active">active</span></div><h3 class=card-title><a class=card-link href=/project/hmsm-failure/>Failure and fatigue in magnetic soft materials</a></h3><p class=card-desc>Magnetic soft composites are designed as if the particle–matrix interface were perfect. This project asks what changes when it is not, and whether that is what sets how long the material keeps working.</p><div class=card-foot><span>Field-responsive materials · Fracture & failure</span></div></div></article><article class=card><div class="card-media is-wide-media media-theme media-theme--dark" style="--media-ar:1920 / 570"><video autoplay muted loop playsinline preload=none poster=/project/fracture-mechanics/sim.jpg aria-hidden=true tabindex=-1>
+<source src=/project/fracture-mechanics/sim.webm type=video/webm><source src=/project/fracture-mechanics/sim.mp4 type=video/mp4></video></div><div class="card-media is-wide-media media-theme media-theme--light" style="--media-ar:1920 / 570"><video autoplay muted loop playsinline preload=none poster=/project/fracture-mechanics/sim-light.jpg aria-hidden=true tabindex=-1>
+<source src=/project/fracture-mechanics/sim-light.webm type=video/webm><source src=/project/fracture-mechanics/sim-light.mp4 type=video/mp4></video></div><div class=card-body><div class=badges><span class=badge>past</span></div><h3 class=card-title><a class=card-link href=/project/fracture-mechanics/>Mathematical foundations of fracture</a></h3><p class=card-desc>Well-posedness, kinetic relations and convergence rates for models of dynamic fracture, and the crack behavior they predict around voids, inclusions and interfaces.</p><div class=card-foot><span>Fracture & failure</span></div></div></article><article class=card><div class="card-media media-theme media-theme--dark" style="--media-ar:836 / 476"><video autoplay muted loop playsinline preload=none poster=/media/fracture-dark.jpg aria-hidden=true tabindex=-1>
+<source src=/media/fracture-dark.webm type=video/webm><source src=/media/fracture-dark.mp4 type=video/mp4></video></div><div class="card-media media-theme media-theme--light" style="--media-ar:836 / 476"><video autoplay muted loop playsinline preload=none poster=/media/fracture-light.jpg aria-hidden=true tabindex=-1>
+<source src=/media/fracture-light.webm type=video/webm><source src=/media/fracture-light.mp4 type=video/mp4></video></div><div class=card-body><div class=badges><span class=badge>past</span></div><h3 class=card-title><a class=card-link href=/project/computational-peridynamics/>Scalable solvers for computational mechanics</a></h3><p class=card-desc>Parallel and asynchronous solvers, load balancing and distributed data structures for large mechanics and transport problems.</p><div class=card-foot><span>Fracture & failure</span></div></div></article></div><div class="swlist related-sw" style=margin-top:var(--s4)><article class="swrow swrow--thumbed"><div class=swrow-thumb><img src=/media/granular-dark.jpg alt decoding=async></div><div class=swrow-main><h3 class=swrow-title><a class=card-link href=/software/peridem/>PeriDEM</a></h3><p class=swrow-desc>Peridynamics-based discrete element method for granular media with deformable, complex-shaped particles.</p></div><div class=swrow-meta><div class=swrow-tags><span class=swrow-lang>C++</span>
+<span class=swrow-maturity>BSL-1.0</span></div><div class=swrow-links><a href=https://github.com/prashjha/PeriDEM>Repo</a>
+<a href=https://prashjha.github.io/PeriDEM/>Docs</a>
+<a href=https://doi.org/10.21105/joss.07525>DOI</a>
+<a href=/software/peridem/#papers>2 papers</a></div></div></article><article class="swrow swrow--thumbed"><div class=swrow-thumb><img src=/media/fracture-dark.jpg alt decoding=async></div><div class=swrow-main><h3 class=swrow-title><a class=card-link href=/software/nlmech/>NLMech</a></h3><p class=swrow-desc>C++ library for finite-difference and meshfree discretizations of nonlocal deformation and fracture models.</p></div><div class=swrow-meta><div class=swrow-tags><span class=swrow-lang>C++</span>
+<span class="swrow-state swrow-state--archived">archived</span></div><div class=swrow-links><a href=https://github.com/nonlocalmodels/NLMech>Repo</a>
+<a href=/software/nlmech/#papers>1 paper</a></div></div></article></div></div></section></main><footer class=site-footer><div class="container container--wide"><div><p style="margin:0 0 .35rem;color:var(--text-dim)">Prashant K. Jha</p><p style=margin:0>Assistant Professor of Mechanical Engineering · South Dakota Mines</p><p style="margin:.5rem 0 0"><a href=mailto:prashant.jha@sdsmt.edu>prashant.jha@sdsmt.edu</a></p><p style="margin:.75rem 0 0">&copy; 2026 Prashant K. Jha</p></div><nav class=footer-links aria-label=Elsewhere><a href=https://ceadpx.github.io/>CEAD Lab</a>
+<a href="https://scholar.google.com/citations?user=XvQBKlwAAAAJ&amp;hl=en">Scholar</a>
+<a href=https://orcid.org/0000-0003-2158-364X>ORCID</a>
+<a href=https://www.researchgate.net/profile/Prashant_Jha20>ResearchGate</a>
+<a href=https://www.linkedin.com/in/prashjha/>LinkedIn</a>
+<a href=https://github.com/prashjha>GitHub</a>
+<a href=https://twitter.com/prashant_jha16>X</a>
+<a href=/uploads/cv.pdf>CV (PDF)</a></nav></div></footer><button type=button class=totop data-totop hidden aria-label="Back to top">
+<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5"/><path d="M5 12l7-7 7 7"/></svg>
+</button>
+<script src=/js/site.js defer></script></body></html>
