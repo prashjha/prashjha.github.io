@@ -409,32 +409,91 @@
 })();
 
 
-/* Mobile navigation. The panel is CSS-hidden below the breakpoint until
-   `is-open`, so with JS off the links are simply not reachable there — hence
-   the button is only useful with JS, and it lives in the markup regardless so
-   `aria-expanded` is never a lie. */
-(function () {
-  var btn = document.querySelector("[data-nav-toggle]");
-  var nav = document.getElementById("site-nav");
-  if (!btn || !nav) return;
+/* ---------- Nav overflow ----------
+   In glyph mode the row is a line of fixed squares, so whether they fit is
+   arithmetic the browser can answer: `nav-items` is allowed to shrink below
+   its content and hide the excess, which makes scrollWidth > clientWidth the
+   signal that something has been pushed out. Rather than let it wrap onto a
+   second line and double the height of a sticky header, the tail moves into
+   the More menu, where the names come back.
 
-  function set(open) {
-    nav.classList.toggle("is-open", open);
+   Every pass starts by putting all of them back in the row, so growing the
+   window is handled by the same code path as shrinking it. The call to action
+   and the theme control live outside `nav-items` and are never moved. With JS
+   off the menu stays hidden and the row simply carries everything, which is
+   the pre-existing behaviour, not a broken one. */
+(function () {
+  var row = document.querySelector("[data-nav-items]");
+  var more = document.querySelector("[data-nav-more]");
+  var panel = document.querySelector("[data-nav-more-panel]");
+  var btn = document.querySelector("[data-nav-more-btn]");
+  if (!row || !more || !panel || !btn) return;
+
+  var links = [].slice.call(row.children).filter(function (el) {
+    return el.tagName === "A";
+  });
+  if (!links.length) return;
+
+  function setOpen(open) {
+    panel.hidden = !open;
     btn.setAttribute("aria-expanded", open ? "true" : "false");
-    // the panel is absolutely positioned, so without this it scrolls away with
-    // the page behind it
-    document.documentElement.classList.toggle("nav-open", open);
   }
-  btn.addEventListener("click", function () {
-    set(btn.getAttribute("aria-expanded") !== "true");
+
+  function fits() {
+    // a sub-pixel slack: fractional layout widths otherwise read as overflow
+    return row.scrollWidth <= row.clientWidth + 1;
+  }
+
+  function layout() {
+    setOpen(false);
+    // Clip for the duration of the measurement only. The row has to overflow
+    // its box for scrollWidth to mean anything, but leaving it clipped would
+    // cut off the hover chips and the More panel, both of which hang outside.
+    row.style.overflow = "hidden";
+    links.forEach(function (a) { row.insertBefore(a, more); });
+    more.hidden = true;
+
+    if (!fits()) {
+      more.hidden = false;
+      // keep at least one destination in the row; past that, take from the end
+      for (var i = links.length - 1; i >= 1 && !fits(); i--) {
+        panel.insertBefore(links[i], panel.firstChild);
+      }
+      if (!panel.children.length) more.hidden = true;
+    }
+    row.style.overflow = "visible";
+  }
+
+  var queued = false;
+  function schedule() {
+    if (queued) return;
+    queued = true;
+    requestAnimationFrame(function () { queued = false; layout(); });
+  }
+
+  btn.addEventListener("click", function (e) {
+    e.stopPropagation();
+    setOpen(panel.hidden);
   });
-  // a tap on a link, Escape, or growing past the breakpoint all close it
-  nav.addEventListener("click", function (e) { if (e.target.closest("a")) set(false); });
-  document.addEventListener("keydown", function (e) { if (e.key === "Escape") set(false); });
-  var mq = window.matchMedia("(min-width: 901px)")  /* matches the CSS breakpoint */;
-  (mq.addEventListener ? mq.addEventListener.bind(mq, "change") : mq.addListener.bind(mq))(function (e) {
-    if (e.matches) set(false);
+  panel.addEventListener("click", function (e) {
+    if (e.target.closest("a")) setOpen(false);
   });
+  document.addEventListener("click", function (e) {
+    if (!more.contains(e.target)) setOpen(false);
+  });
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape") setOpen(false);
+  });
+
+  if (window.ResizeObserver) {
+    new ResizeObserver(schedule).observe(row.parentNode);
+  } else {
+    window.addEventListener("resize", schedule);
+  }
+  // the row is measured in whatever face is loaded, so measure it again once
+  // the real one arrives and the names change width
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(schedule);
+  layout();
 })();
 
 /* ---------- Back to top ----------
