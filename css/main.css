@@ -457,6 +457,9 @@ strong { font-weight: 600; color: var(--text); }
   font-weight: 650;
 }
 .btn--primary:hover { background: #fff; border-color: #fff; color: var(--ink); }
+:root[data-theme="light"] .btn--primary:hover {
+  background: var(--accent); border-color: var(--accent); filter: brightness(.88);
+}
 
 /* ---------- 8. Metrics ---------- */
 .metrics {
