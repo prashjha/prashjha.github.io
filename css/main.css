@@ -1908,6 +1908,7 @@ main > .showcase:first-child { padding-top: var(--s2); }
 }
 .record-links a { color: var(--text-faint); }
 .record-links a:hover { color: var(--accent); }
+.course-links { display: flex; flex-wrap: wrap; gap: .6rem; margin-top: 1.25rem; }
 
 /* inline citation from the {{< cite >}} shortcode */
 .cite { white-space: nowrap; border-bottom: 1px solid var(--line); }
@@ -2925,3 +2926,45 @@ main > .showcase:first-child { padding-top: var(--s2); }
   .standing-row { flex-direction: column; gap: .2rem; }
   .standing-label { flex: none; }
 }
+
+/* Action links (PDF, DOI, Code, arXiv, Repository, Slides, ...). They were
+   11px grey capitals at 3.7:1 contrast, the faintest text on the page, on the
+   links a visitor most wants. They are now small outlined buttons in body
+   text colour. */
+.pub-links, .record-links, .swrow-links, .matcard-links {
+  display: flex; flex-wrap: wrap; gap: .45rem;
+  font-family: var(--font-sans); font-size: .8rem;
+  letter-spacing: .01em; text-transform: none;
+}
+.pub-links { margin-top: .6rem; }
+.pub-links a, .record-links a, .swrow-links a, .matcard-links a {
+  display: inline-block;
+  color: var(--text);
+  font-family: var(--font-sans); font-size: .8rem;
+  letter-spacing: .01em; text-transform: none;
+  font-weight: 550;
+  padding: .3rem .62rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  line-height: 1.2;
+  transition: border-color .18s var(--ease), color .18s var(--ease), background .18s var(--ease);
+}
+.pub-links a:hover, .record-links a:hover, .swrow-links a:hover, .matcard-links a:hover {
+  color: var(--accent); border-color: var(--accent); background: var(--accent-glow);
+}
+.recordrail .record-links { flex-direction: row; align-items: center; gap: .45rem; }
+.record-links a[href^="mailto:"] { text-transform: none; letter-spacing: .01em; }
+
+/* "All research", "Full roster", "Overview": readable size. */
+.more { font-size: .86rem; font-weight: 550; }
+/* On the thrust bands the link sits on a moving picture; give it a ground. */
+.band-links .more {
+  color: var(--text);
+  padding: .45rem .85rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+.band-links .more:hover { color: var(--accent); border-color: var(--accent); }
+.band-links span { align-self: center; color: var(--text-dim) !important; }

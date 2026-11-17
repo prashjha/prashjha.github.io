@@ -10,15 +10,13 @@ the rest of this rests on was learned.&lt;/p></description></item><item><title/>
 matrix holding it, comparing phase-field, diffuse-interface and cohesive-zone
 descriptions of interface fracture, which disagree about exactly the case that
 matters. She also looked at whether a double-cantilever-beam test could supply
-fracture energies consistent enough to tell them apart.&lt;/p></description></item><item><title/><link>https://prashjha.github.io/people/caleb/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prashjha.github.io/people/caleb/</guid><description>&lt;p>An optimized design is a field of numbers until something is made
-from it. Caleb works on the step between: taking designs that come out of the
-material-and-structure optimization and getting them printed, which means
-confronting what a printer can actually resolve, what the cured material
-actually is, and how far a fabricated specimen departs from the geometry that
-was optimized.&lt;/p>
-&lt;p>That gap is the useful measurement. It is what will say which parts of a design
-are worth optimizing to three decimal places and which are being erased in
-fabrication anyway.&lt;/p></description></item><item><title/><link>https://prashjha.github.io/people/henry/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prashjha.github.io/people/henry/</guid><description>&lt;p>Between a stiff particle and the soft matrix around it there is an interface,
+fracture energies consistent enough to tell them apart.&lt;/p></description></item><item><title/><link>https://prashjha.github.io/people/caleb/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prashjha.github.io/people/caleb/</guid><description>&lt;p>Caleb is continuing Alison Reeves&amp;rsquo;s work on fracture at the boundary between
+stiff particles and the surrounding matrix. He starts from single- and multiparticle
+studies: how particle placement, size and volume fraction change the path a
+crack takes. From there he fits interface parameters that can be carried into
+simulations of representative volume elements (RVEs).&lt;/p>
+&lt;p>A later goal is to infer fracture toughness from descriptors of the
+microstructure, using sparse regression (SINDy).&lt;/p></description></item><item><title/><link>https://prashjha.github.io/people/henry/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://prashjha.github.io/people/henry/</guid><description>&lt;p>Between a stiff particle and the soft matrix around it there is an interface,
 and under load that interface is a likely place for things to go wrong first. It can
 carry load, or it can slip, or it can debond and unload the particle entirely,
 and which of those happens changes the composite&amp;rsquo;s stiffness and its strength
@@ -32,9 +30,10 @@ it should carry, and which way its remanent magnetization should point.
 Optimizing any one of those against fixed values of the others finds a worse
 design than optimizing them jointly, and doing it honestly means settling first
 on which constitutive description to trust.&lt;/p>
-&lt;p>That is the order the 2026 manuscript works in: twenty-one pairings of
+&lt;p>That is the order his 2026 article in the &lt;em>Journal of the Mechanics and Physics of Solids&lt;/em> works in: twenty-one pairings of
 effective shear-modulus relation and strain-energy function, compared first on
 the actuation problems themselves; then experimental stress-strain data to
 settle which shear-modulus relation is worth carrying forward; only then the
-joint optimization. He is its first author, and came to it from undergraduate
-research in the group.&lt;/p></description></item></channel></rss>
+joint optimization. He is its first author, and also first author of the MatTO
+framework article in the &lt;em>Journal of Applied Mechanics&lt;/em>, both accepted for
+publication. He came to this work from undergraduate research in the group.&lt;/p></description></item></channel></rss>
